@@ -1,0 +1,7147 @@
+{
+  "U+1B300": [
+    {
+      "syllable": "QYED7-A",
+      "sounds": [
+        "Q",
+        "Y",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B301": [
+    {
+      "syllable": "BYEENG3",
+      "sounds": [
+        "BY",
+        "eeng"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B302": [
+    {
+      "syllable": "HNGAAN5",
+      "sounds": [
+        "HNG",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "HNGOU1",
+      "sounds": [
+        "HNG",
+        "ou"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B303": [
+    {
+      "syllable": "DAI6",
+      "sounds": [
+        "D",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B304": [
+    {
+      "syllable": "BI2",
+      "sounds": [
+        "B",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "KU1",
+      "sounds": [
+        "K",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B305": [
+    {
+      "syllable": "QYUM5-A",
+      "sounds": [
+        "Q",
+        "Y",
+        "um"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B306": [
+    {
+      "syllable": "DI6-A",
+      "sounds": [
+        "D",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B307": [
+    {
+      "syllable": "DYUM1",
+      "sounds": [
+        "DY",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "FONG2",
+      "sounds": [
+        "F",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "HU3",
+      "sounds": [
+        "H",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B308": [
+    {
+      "syllable": "YU4",
+      "sounds": [
+        "Y",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B309": [
+    {
+      "syllable": "HED7",
+      "sounds": [
+        "H",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B30A": [
+    {
+      "syllable": "XGO3",
+      "sounds": [
+        "XG",
+        "o"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B30B": [
+    {
+      "syllable": "DOI6",
+      "sounds": [
+        "D",
+        "oi"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B30C": [
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B30D": [
+    {
+      "syllable": "DYOU3",
+      "sounds": [
+        "DY",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "DYED7",
+      "sounds": [
+        "DY",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B30E": [
+    {
+      "syllable": "KAAM3",
+      "sounds": [
+        "K",
+        "aam"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B30F": [
+    {
+      "syllable": "ZAM2",
+      "sounds": [
+        "Z",
+        "am"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B310": [
+    {
+      "syllable": "BA2",
+      "sounds": [
+        "B",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B311": [
+    {
+      "syllable": "NDEN1",
+      "sounds": [
+        "ND",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B312": [
+    {
+      "syllable": "LYEEU2",
+      "sounds": [
+        "LY",
+        "eeu"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B313": [
+    {
+      "syllable": "FAI4",
+      "sounds": [
+        "F",
+        "ai"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "NU4",
+      "sounds": [
+        "N",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B314": [
+    {
+      "syllable": "ZING3",
+      "sounds": [
+        "Z",
+        "ing"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B315": [
+    {
+      "syllable": "XGAAN2",
+      "sounds": [
+        "XG",
+        "aan"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "FU5",
+      "sounds": [
+        "F",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B316": [
+    {
+      "syllable": "KAANG5",
+      "sounds": [
+        "K",
+        "aang"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B317": [
+    {
+      "syllable": "DI6-B",
+      "sounds": [
+        "D",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B318": [
+    {
+      "syllable": "GGAM4",
+      "sounds": [
+        "GG",
+        "am"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B319": [
+    {
+      "syllable": "LUNG5",
+      "sounds": [
+        "L",
+        "ung"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B31A": [
+    {
+      "syllable": "NNI6",
+      "sounds": [
+        "NN",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B31B": [
+    {
+      "syllable": "GGUI5-A",
+      "sounds": [
+        "GG",
+        "ui"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B31C": [
+    {
+      "syllable": "XAM3",
+      "sounds": [
+        "X",
+        "am"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B31D": [
+    {
+      "syllable": "HAAM1",
+      "sounds": [
+        "H",
+        "aam"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B31E": [
+    {
+      "syllable": "NYEEM6",
+      "sounds": [
+        "NY",
+        "eem"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "YU5",
+      "sounds": [
+        "Y",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B31F": [
+    {
+      "syllable": "UN1",
+      "sounds": [
+        "un"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "DANG5",
+      "sounds": [
+        "D",
+        "ang"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B320": [
+    {
+      "syllable": "DYAB8",
+      "sounds": [
+        "DY",
+        "ab"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B321": [
+    {
+      "syllable": "XEN1-A",
+      "sounds": [
+        "X",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B322": [
+    {
+      "syllable": "QDONG1",
+      "sounds": [
+        "QD",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B323": [
+    {
+      "syllable": "SYAANG6",
+      "sounds": [
+        "SY",
+        "aang"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B324": [
+    {
+      "syllable": "REN1-A",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B325": [
+    {
+      "syllable": "YAD8",
+      "sounds": [
+        "Y",
+        "ad"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "MYA1",
+      "sounds": [
+        "MY",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B326": [
+    {
+      "syllable": "UN1",
+      "sounds": [
+        "un"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "DANG5",
+      "sounds": [
+        "D",
+        "ang"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "QNING3",
+      "sounds": [
+        "QN",
+        "ing"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B327": [
+    {
+      "syllable": "QDONG1",
+      "sounds": [
+        "QD",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "LAO4",
+      "sounds": [
+        "L",
+        "ao"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B328": [
+    {
+      "syllable": "BAAN2",
+      "sounds": [
+        "B",
+        "aan"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B329": [
+    {
+      "syllable": "BIG7",
+      "sounds": [
+        "B",
+        "ig"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "JEN1",
+      "sounds": [
+        "J",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B32A": [
+    {
+      "syllable": "MYEED8",
+      "sounds": [
+        "MY",
+        "eed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "MEN2",
+      "sounds": [
+        "M",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B32B": [
+    {
+      "syllable": "DONG2",
+      "sounds": [
+        "D",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "SEI5",
+      "sounds": [
+        "S",
+        "ei"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "DANG1",
+      "sounds": [
+        "D",
+        "ang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B32C": [
+    {
+      "syllable": "GWE1",
+      "sounds": [
+        "GW",
+        "e"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B32D": [
+    {
+      "syllable": "DYEEN6",
+      "sounds": [
+        "DY",
+        "een"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B32E": [
+    {
+      "syllable": "ZAB8",
+      "sounds": [
+        "Z",
+        "ab"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B32F": [
+    {
+      "syllable": "SAAN1",
+      "sounds": [
+        "S",
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B330": [
+    {
+      "syllable": "MBEE1",
+      "sounds": [
+        "MB",
+        "ee"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B331": [
+    {
+      "syllable": "NNAO6-A",
+      "sounds": [
+        "NN",
+        "ao"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B332": [
+    {
+      "syllable": "GGAG7",
+      "sounds": [
+        "GG",
+        "ag"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B333": [
+    {
+      "syllable": "MYEED8",
+      "sounds": [
+        "MY",
+        "eed"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B334": [
+    {
+      "syllable": "QDEE3",
+      "sounds": [
+        "QD",
+        "ee"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B335": [
+    {
+      "syllable": "AAN1",
+      "sounds": [
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "QWON5",
+      "sounds": [
+        "QW",
+        "on"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B336": [
+    {
+      "syllable": "XGGAI3",
+      "sounds": [
+        "XGG",
+        "ai"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B337": [
+    {
+      "syllable": "MAN6-A",
+      "sounds": [
+        "M",
+        "an"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B338": [
+    {
+      "syllable": "ZEN5",
+      "sounds": [
+        "Z",
+        "en"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B339": [
+    {
+      "syllable": "YEN2",
+      "sounds": [
+        "Y",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "YUI2",
+      "sounds": [
+        "Y",
+        "ui"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B33A": [
+    {
+      "syllable": "MYO3",
+      "sounds": [
+        "MY",
+        "o"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B33B": [
+    {
+      "syllable": "JOD8",
+      "sounds": [
+        "J",
+        "od"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B33C": [
+    {
+      "syllable": "DYUM1-A",
+      "sounds": [
+        "DY",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B33D": [
+    {
+      "syllable": "QBYAAG7",
+      "sounds": [
+        "QB",
+        "Y",
+        "aag"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B33E": [
+    {
+      "syllable": "HMAAG7",
+      "sounds": [
+        "HM",
+        "aag"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B33F": [
+    {
+      "syllable": "DOI5",
+      "sounds": [
+        "D",
+        "oi"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B340": [
+    {
+      "syllable": "MEE2",
+      "sounds": [
+        "M",
+        "ee"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B341": [
+    {
+      "syllable": "JAN3",
+      "sounds": [
+        "J",
+        "an"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B342": [
+    {
+      "syllable": "HED8",
+      "sounds": [
+        "H",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B343": [
+    {
+      "syllable": "FEN1",
+      "sounds": [
+        "F",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B344": [
+    {
+      "syllable": "KKOU3-A",
+      "sounds": [
+        "KK",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B345": [
+    {
+      "syllable": "LA1",
+      "sounds": [
+        "L",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B346": [
+    {
+      "syllable": "QYAM1",
+      "sounds": [
+        "Q",
+        "Y",
+        "am"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B347": [
+    {
+      "syllable": "DYU5",
+      "sounds": [
+        "DY",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B348": [
+    {
+      "syllable": "DOI5",
+      "sounds": [
+        "D",
+        "oi"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "DOU2",
+      "sounds": [
+        "D",
+        "ou"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B349": [
+    {
+      "syllable": "SO1",
+      "sounds": [
+        "S",
+        "o"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B34A": [
+    {
+      "syllable": "FAANG1",
+      "sounds": [
+        "F",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B34B": [
+    {
+      "syllable": "JUI5",
+      "sounds": [
+        "J",
+        "ui"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B34C": [
+    {
+      "syllable": "NYEEN2",
+      "sounds": [
+        "NY",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B34D": [
+    {
+      "syllable": "YAANG2",
+      "sounds": [
+        "Y",
+        "aang"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B34E": [
+    {
+      "syllable": "ZI3",
+      "sounds": [
+        "Z",
+        "i"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B34F": [
+    {
+      "syllable": "YUM1-A",
+      "sounds": [
+        "Y",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B350": [
+    {
+      "syllable": "BYONG4",
+      "sounds": [
+        "BY",
+        "ong"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B351": [
+    {
+      "syllable": "PYEI5",
+      "sounds": [
+        "PY",
+        "ei"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B352": [
+    {
+      "syllable": "QYED7-B",
+      "sounds": [
+        "Q",
+        "Y",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B353": [
+    {
+      "syllable": "FU4",
+      "sounds": [
+        "F",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B354": [
+    {
+      "syllable": "EI3",
+      "sounds": [
+        "ei"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SOU3",
+      "sounds": [
+        "S",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B355": [
+    {
+      "syllable": "NDOU5",
+      "sounds": [
+        "ND",
+        "ou"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B356": [
+    {
+      "syllable": "BANG6",
+      "sounds": [
+        "B",
+        "ang"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B357": [
+    {
+      "syllable": "LYU2",
+      "sounds": [
+        "LY",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "LI2",
+      "sounds": [
+        "L",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B358": [
+    {
+      "syllable": "XONG1",
+      "sounds": [
+        "X",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "XEEB7",
+      "sounds": [
+        "X",
+        "eeb"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B359": [
+    {
+      "syllable": "SA1",
+      "sounds": [
+        "S",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "BONG2",
+      "sounds": [
+        "B",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B35A": [
+    {
+      "syllable": "DI6",
+      "sounds": [
+        "D",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "HAANG1",
+      "sounds": [
+        "H",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "FAN1",
+      "sounds": [
+        "F",
+        "an"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B35B": [
+    {
+      "syllable": "XA3",
+      "sounds": [
+        "X",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B35C": [
+    {
+      "syllable": "VYEN3",
+      "sounds": [
+        "VY",
+        "en"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B35D": [
+    {
+      "syllable": "BYED8",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "XONG1",
+      "sounds": [
+        "X",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B35E": [
+    {
+      "syllable": "DEE5",
+      "sounds": [
+        "D",
+        "ee"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B35F": [
+    {
+      "syllable": "SO3",
+      "sounds": [
+        "S",
+        "o"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SYEEN1",
+      "sounds": [
+        "SY",
+        "een"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B360": [
+    {
+      "syllable": "GA1",
+      "sounds": [
+        "G",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B361": [
+    {
+      "syllable": "ZAANG1",
+      "sounds": [
+        "Z",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NNOD8",
+      "sounds": [
+        "NN",
+        "od"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "LOG8",
+      "sounds": [
+        "L",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B362": [
+    {
+      "syllable": "JAAB7",
+      "sounds": [
+        "J",
+        "aab"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B363": [
+    {
+      "syllable": "QNA3",
+      "sounds": [
+        "QN",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B364": [
+    {
+      "syllable": "MAO4",
+      "sounds": [
+        "M",
+        "ao"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B365": [
+    {
+      "syllable": "NI4",
+      "sounds": [
+        "N",
+        "i"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B366": [
+    {
+      "syllable": "YUM1-B",
+      "sounds": [
+        "Y",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B367": [
+    {
+      "syllable": "XGAAN2",
+      "sounds": [
+        "XG",
+        "aan"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B368": [
+    {
+      "syllable": "QBA3",
+      "sounds": [
+        "QB",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B369": [
+    {
+      "syllable": "GGEEN1",
+      "sounds": [
+        "GG",
+        "een"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B36A": [
+    {
+      "syllable": "DIG7-A",
+      "sounds": [
+        "D",
+        "ig"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B36B": [
+    {
+      "syllable": "GU3",
+      "sounds": [
+        "G",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SUB7",
+      "sounds": [
+        "S",
+        "ub"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B36C": [
+    {
+      "syllable": "DA3",
+      "sounds": [
+        "D",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B36D": [
+    {
+      "syllable": "BEN3",
+      "sounds": [
+        "B",
+        "en"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B36E": [
+    {
+      "syllable": "XONG1",
+      "sounds": [
+        "X",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B36F": [
+    {
+      "syllable": "FONG2",
+      "sounds": [
+        "F",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B370": [
+    {
+      "syllable": "VA3",
+      "sounds": [
+        "V",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B371": [
+    {
+      "syllable": "LEN2",
+      "sounds": [
+        "L",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B372": [
+    {
+      "syllable": "NYUM5",
+      "sounds": [
+        "NY",
+        "um"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B373": [
+    {
+      "syllable": "LI2",
+      "sounds": [
+        "L",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B374": [
+    {
+      "syllable": "DIG7-B",
+      "sounds": [
+        "D",
+        "ig"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B375": [
+    {
+      "syllable": "BU1",
+      "sounds": [
+        "B",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B376": [
+    {
+      "syllable": "GGOU3",
+      "sounds": [
+        "GG",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "RAI5",
+      "sounds": [
+        "R",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B377": [
+    {
+      "syllable": "KKOU1",
+      "sounds": [
+        "KK",
+        "ou"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B378": [
+    {
+      "syllable": "DU3",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "BYAI2",
+      "sounds": [
+        "BY",
+        "ai"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B379": [
+    {
+      "syllable": "JAAB8",
+      "sounds": [
+        "J",
+        "aab"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B37A": [
+    {
+      "syllable": "GWAI5",
+      "sounds": [
+        "GW",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B37B": [
+    {
+      "syllable": "HAM3",
+      "sounds": [
+        "H",
+        "am"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B37C": [
+    {
+      "syllable": "SA5",
+      "sounds": [
+        "S",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "SYEENG1",
+      "sounds": [
+        "SY",
+        "eeng"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B37D": [
+    {
+      "syllable": "JI1",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B37E": [
+    {
+      "syllable": "YEENG3",
+      "sounds": [
+        "Y",
+        "eeng"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "GA1",
+      "sounds": [
+        "G",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B37F": [
+    {
+      "syllable": "LIN3",
+      "sounds": [
+        "L",
+        "in"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B380": [
+    {
+      "syllable": "GAAM3",
+      "sounds": [
+        "G",
+        "aam"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B381": [
+    {
+      "syllable": "FAN2",
+      "sounds": [
+        "F",
+        "an"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B382": [
+    {
+      "syllable": "XON6",
+      "sounds": [
+        "X",
+        "on"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B383": [
+    {
+      "syllable": "NNUM2",
+      "sounds": [
+        "NN",
+        "um"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B384": [
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B385": [
+    {
+      "syllable": "MAN1",
+      "sounds": [
+        "M",
+        "an"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B386": [
+    {
+      "syllable": "LYEEU4",
+      "sounds": [
+        "LY",
+        "eeu"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "JA1",
+      "sounds": [
+        "J",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "XOD7",
+      "sounds": [
+        "X",
+        "od"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B387": [
+    {
+      "syllable": "NGO4",
+      "sounds": [
+        "NG",
+        "o"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "HU3",
+      "sounds": [
+        "H",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B388": [
+    {
+      "syllable": "JU3",
+      "sounds": [
+        "J",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "BEEU5",
+      "sounds": [
+        "B",
+        "eeu"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B389": [
+    {
+      "syllable": "JED7",
+      "sounds": [
+        "J",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "SAAD7",
+      "sounds": [
+        "S",
+        "aad"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B38A": [
+    {
+      "syllable": "FONG1",
+      "sounds": [
+        "F",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "YONG2",
+      "sounds": [
+        "Y",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B38B": [
+    {
+      "syllable": "DAO5",
+      "sounds": [
+        "D",
+        "ao"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B38C": [
+    {
+      "syllable": "HO3",
+      "sounds": [
+        "H",
+        "o"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B38D": [
+    {
+      "syllable": "DAI6",
+      "sounds": [
+        "D",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "XONG1",
+      "sounds": [
+        "X",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B38E": [
+    {
+      "syllable": "JUI3",
+      "sounds": [
+        "J",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SAAD7",
+      "sounds": [
+        "S",
+        "aad"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "JA1",
+      "sounds": [
+        "J",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B38F": [
+    {
+      "syllable": "QXGOG7",
+      "sounds": [
+        "QXG",
+        "og"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B390": [
+    {
+      "syllable": "KKAANG1",
+      "sounds": [
+        "KK",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B391": [
+    {
+      "syllable": "DO5",
+      "sounds": [
+        "D",
+        "o"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "QWAANG5",
+      "sounds": [
+        "QW",
+        "aang"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B392": [
+    {
+      "syllable": "ZON5",
+      "sounds": [
+        "Z",
+        "on"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B393": [
+    {
+      "syllable": "FAAN6",
+      "sounds": [
+        "F",
+        "aan"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B394": [
+    {
+      "syllable": "GAM6",
+      "sounds": [
+        "G",
+        "am"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B395": [
+    {
+      "syllable": "MON1",
+      "sounds": [
+        "M",
+        "on"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B396": [
+    {
+      "syllable": "ZEENG6",
+      "sounds": [
+        "Z",
+        "eeng"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B397": [
+    {
+      "syllable": "MID8",
+      "sounds": [
+        "M",
+        "id"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B398": [
+    {
+      "syllable": "NUG8",
+      "sounds": [
+        "N",
+        "ug"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B399": [
+    {
+      "syllable": "NDAI5",
+      "sounds": [
+        "ND",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B39A": [
+    {
+      "syllable": "LAM1",
+      "sounds": [
+        "L",
+        "am"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B39B": [
+    {
+      "syllable": "YIU1",
+      "sounds": [
+        "Y",
+        "iu"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B39C": [
+    {
+      "syllable": "LO1",
+      "sounds": [
+        "L",
+        "o"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B39D": [
+    {
+      "syllable": "NAAM2",
+      "sounds": [
+        "N",
+        "aam"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B39E": [
+    {
+      "syllable": "XOD8",
+      "sounds": [
+        "X",
+        "od"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "LU6",
+      "sounds": [
+        "L",
+        "u"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B39F": [
+    {
+      "syllable": "BANG1",
+      "sounds": [
+        "B",
+        "ang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3A0": [
+    {
+      "syllable": "BEN2",
+      "sounds": [
+        "B",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "DONG2",
+      "sounds": [
+        "D",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3A1": [
+    {
+      "syllable": "PEEU1",
+      "sounds": [
+        "P",
+        "eeu"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NNAN2",
+      "sounds": [
+        "NN",
+        "an"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3A2": [
+    {
+      "syllable": "VAN1",
+      "sounds": [
+        "V",
+        "an"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3A3": [
+    {
+      "syllable": "ZONG2",
+      "sounds": [
+        "Z",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3A4": [
+    {
+      "syllable": "DA5",
+      "sounds": [
+        "D",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3A5": [
+    {
+      "syllable": "HEN2-A",
+      "sounds": [
+        "H",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3A6": [
+    {
+      "syllable": "HUN4",
+      "sounds": [
+        "H",
+        "un"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3A7": [
+    {
+      "syllable": "XONG1",
+      "sounds": [
+        "X",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "QYED7",
+      "sounds": [
+        "Q",
+        "Y",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3A8": [
+    {
+      "syllable": "RED7",
+      "sounds": [
+        "R",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3A9": [
+    {
+      "syllable": "QBYAI5",
+      "sounds": [
+        "QB",
+        "Y",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3AA": [
+    {
+      "syllable": "NNAAN1",
+      "sounds": [
+        "NN",
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3AB": [
+    {
+      "syllable": "GEI5",
+      "sounds": [
+        "G",
+        "ei"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3AC": [
+    {
+      "syllable": "QYOU5",
+      "sounds": [
+        "Q",
+        "Y",
+        "ou"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "JA1",
+      "sounds": [
+        "J",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3AD": [
+    {
+      "syllable": "QDAI1",
+      "sounds": [
+        "QD",
+        "ai"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3AE": [
+    {
+      "syllable": "DUI4",
+      "sounds": [
+        "D",
+        "ui"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3AF": [
+    {
+      "syllable": "DAANG2",
+      "sounds": [
+        "D",
+        "aang"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3B0": [
+    {
+      "syllable": "GING3",
+      "sounds": [
+        "G",
+        "ing"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3B1": [
+    {
+      "syllable": "GA4",
+      "sounds": [
+        "G",
+        "a"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "FA1",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3B2": [
+    {
+      "syllable": "LOU4",
+      "sounds": [
+        "L",
+        "ou"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3B3": [
+    {
+      "syllable": "XI3",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "VYEN5",
+      "sounds": [
+        "VY",
+        "en"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3B4": [
+    {
+      "syllable": "XEEN2",
+      "sounds": [
+        "X",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "BYED8",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "XGAAN2",
+      "sounds": [
+        "XG",
+        "aan"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3B5": [
+    {
+      "syllable": "KKAG7",
+      "sounds": [
+        "KK",
+        "ag"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3B6": [
+    {
+      "syllable": "ZEN2",
+      "sounds": [
+        "Z",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3B7": [
+    {
+      "syllable": "HO4",
+      "sounds": [
+        "H",
+        "o"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3B8": [
+    {
+      "syllable": "BU2",
+      "sounds": [
+        "B",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "MBYIU1",
+      "sounds": [
+        "MBY",
+        "iu"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3B9": [
+    {
+      "syllable": "KKUI1",
+      "sounds": [
+        "KK",
+        "ui"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "LAANG2",
+      "sounds": [
+        "L",
+        "aang"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3BA": [
+    {
+      "syllable": "SEN1-A",
+      "sounds": [
+        "S",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3BB": [
+    {
+      "syllable": "GGAD7",
+      "sounds": [
+        "GG",
+        "ad"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "DYU5",
+      "sounds": [
+        "DY",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3BC": [
+    {
+      "syllable": "LYEEM2",
+      "sounds": [
+        "LY",
+        "eem"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3BD": [
+    {
+      "syllable": "TAAM1",
+      "sounds": [
+        "T",
+        "aam"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3BE": [
+    {
+      "syllable": "XGAAN6",
+      "sounds": [
+        "XG",
+        "aan"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3BF": [
+    {
+      "syllable": "TIN1",
+      "sounds": [
+        "T",
+        "in"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3C0": [
+    {
+      "syllable": "GON5",
+      "sounds": [
+        "G",
+        "on"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3C1": [
+    {
+      "syllable": "LIU4",
+      "sounds": [
+        "L",
+        "iu"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3C2": [
+    {
+      "syllable": "XEEN1",
+      "sounds": [
+        "X",
+        "een"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3C3": [
+    {
+      "syllable": "HAANG4",
+      "sounds": [
+        "H",
+        "aang"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3C4": [
+    {
+      "syllable": "SOG8-A",
+      "sounds": [
+        "S",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B3C5": [
+    {
+      "syllable": "LO5",
+      "sounds": [
+        "L",
+        "o"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3C6": [
+    {
+      "syllable": "DYEENG1",
+      "sounds": [
+        "DY",
+        "eeng"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3C7": [
+    {
+      "syllable": "GGAAN5",
+      "sounds": [
+        "GG",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "GGONG1",
+      "sounds": [
+        "GG",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3C8": [
+    {
+      "syllable": "YA3",
+      "sounds": [
+        "Y",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3C9": [
+    {
+      "syllable": "DOG7",
+      "sounds": [
+        "D",
+        "og"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3CA": [
+    {
+      "syllable": "BAAG8",
+      "sounds": [
+        "B",
+        "aag"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B3CB": [
+    {
+      "syllable": "HA3",
+      "sounds": [
+        "H",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3CC": [
+    {
+      "syllable": "BEEG7",
+      "sounds": [
+        "B",
+        "eeg"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3CD": [
+    {
+      "syllable": "U1",
+      "sounds": [
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3CE": [
+    {
+      "syllable": "PYEE1",
+      "sounds": [
+        "PY",
+        "ee"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3CF": [
+    {
+      "syllable": "SI2",
+      "sounds": [
+        "S",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3D0": [
+    {
+      "syllable": "GGAO5",
+      "sounds": [
+        "GG",
+        "ao"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3D1": [
+    {
+      "syllable": "FU5",
+      "sounds": [
+        "F",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3D2": [
+    {
+      "syllable": "QYUM5-B",
+      "sounds": [
+        "Q",
+        "Y",
+        "um"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3D3": [
+    {
+      "syllable": "JED7",
+      "sounds": [
+        "J",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3D4": [
+    {
+      "syllable": "QDYU3",
+      "sounds": [
+        "QD",
+        "Y",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3D5": [
+    {
+      "syllable": "NNUN2",
+      "sounds": [
+        "NN",
+        "un"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3D6": [
+    {
+      "syllable": "HAAD8",
+      "sounds": [
+        "H",
+        "aad"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B3D7": [
+    {
+      "syllable": "LYEEN2",
+      "sounds": [
+        "LY",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3D8": [
+    {
+      "syllable": "QYU3",
+      "sounds": [
+        "Q",
+        "Y",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3D9": [
+    {
+      "syllable": "BYAM1",
+      "sounds": [
+        "BY",
+        "am"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3DA": [
+    {
+      "syllable": "DU3",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "QDAO3",
+      "sounds": [
+        "QD",
+        "ao"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3DB": [
+    {
+      "syllable": "QDAI1",
+      "sounds": [
+        "QD",
+        "ai"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "VAN1",
+      "sounds": [
+        "V",
+        "an"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3DC": [
+    {
+      "syllable": "SUB8",
+      "sounds": [
+        "S",
+        "ub"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B3DD": [
+    {
+      "syllable": "XED7-A",
+      "sounds": [
+        "X",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3DE": [
+    {
+      "syllable": "SUB8",
+      "sounds": [
+        "S",
+        "ub"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "QYED7",
+      "sounds": [
+        "Q",
+        "Y",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3DF": [
+    {
+      "syllable": "GAM3",
+      "sounds": [
+        "G",
+        "am"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3E0": [
+    {
+      "syllable": "GUB7",
+      "sounds": [
+        "G",
+        "ub"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3E1": [
+    {
+      "syllable": "JU3",
+      "sounds": [
+        "J",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3E2": [
+    {
+      "syllable": "NGO2",
+      "sounds": [
+        "NG",
+        "o"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3E3": [
+    {
+      "syllable": "ZOU6",
+      "sounds": [
+        "Z",
+        "ou"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3E4": [
+    {
+      "syllable": "SUB8",
+      "sounds": [
+        "S",
+        "ub"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "NNI6",
+      "sounds": [
+        "NN",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3E5": [
+    {
+      "syllable": "HAG7",
+      "sounds": [
+        "H",
+        "ag"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3E6": [
+    {
+      "syllable": "DAI6",
+      "sounds": [
+        "D",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "JED7",
+      "sounds": [
+        "J",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3E7": [
+    {
+      "syllable": "MU6",
+      "sounds": [
+        "M",
+        "u"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3E8": [
+    {
+      "syllable": "ZYEE1",
+      "sounds": [
+        "ZY",
+        "ee"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3E9": [
+    {
+      "syllable": "DEI2",
+      "sounds": [
+        "D",
+        "ei"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "JEN1",
+      "sounds": [
+        "J",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3EA": [
+    {
+      "syllable": "XI4",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3EB": [
+    {
+      "syllable": "XI3-A",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3EC": [
+    {
+      "syllable": "SU3-A",
+      "sounds": [
+        "S",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3ED": [
+    {
+      "syllable": "HMA3",
+      "sounds": [
+        "HM",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3EE": [
+    {
+      "syllable": "UM3",
+      "sounds": [
+        "um"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3EF": [
+    {
+      "syllable": "REN1",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "LAO4",
+      "sounds": [
+        "L",
+        "ao"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3F0": [
+    {
+      "syllable": "FONG2",
+      "sounds": [
+        "F",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "DOU3",
+      "sounds": [
+        "D",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3F1": [
+    {
+      "syllable": "TYEEN1",
+      "sounds": [
+        "TY",
+        "een"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "GGAANG1",
+      "sounds": [
+        "GG",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "OU4",
+      "sounds": [
+        "ou"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3F2": [
+    {
+      "syllable": "XI3-B",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3F3": [
+    {
+      "syllable": "AAN1",
+      "sounds": [
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "MA4",
+      "sounds": [
+        "M",
+        "a"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3F4": [
+    {
+      "syllable": "SAM5",
+      "sounds": [
+        "S",
+        "am"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B3F5": [
+    {
+      "syllable": "SUM3",
+      "sounds": [
+        "S",
+        "um"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B3F6": [
+    {
+      "syllable": "GUNG2",
+      "sounds": [
+        "G",
+        "ung"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3F7": [
+    {
+      "syllable": "LAI6",
+      "sounds": [
+        "L",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3F8": [
+    {
+      "syllable": "SYEEN1",
+      "sounds": [
+        "SY",
+        "een"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B3F9": [
+    {
+      "syllable": "BYAAN6-A",
+      "sounds": [
+        "BY",
+        "aan"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3FA": [
+    {
+      "syllable": "QNNAAM1",
+      "sounds": [
+        "QNN",
+        "aam"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "QNNAG7",
+      "sounds": [
+        "QNN",
+        "ag"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B3FB": [
+    {
+      "syllable": "XGAAN2",
+      "sounds": [
+        "XG",
+        "aan"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "MEN2",
+      "sounds": [
+        "M",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B3FC": [
+    {
+      "syllable": "MING6",
+      "sounds": [
+        "M",
+        "ing"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3FD": [
+    {
+      "syllable": "DA4",
+      "sounds": [
+        "D",
+        "a"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B3FE": [
+    {
+      "syllable": "DAI6",
+      "sounds": [
+        "D",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "BAI6",
+      "sounds": [
+        "B",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B3FF": [
+    {
+      "syllable": "NGAAN5",
+      "sounds": [
+        "NG",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B400": [
+    {
+      "syllable": "QDEI3",
+      "sounds": [
+        "QD",
+        "ei"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B401": [
+    {
+      "syllable": "SING2",
+      "sounds": [
+        "S",
+        "ing"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B402": [
+    {
+      "syllable": "DEI1",
+      "sounds": [
+        "D",
+        "ei"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B403": [
+    {
+      "syllable": "HAANG4",
+      "sounds": [
+        "H",
+        "aang"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "DANG1",
+      "sounds": [
+        "D",
+        "ang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B404": [
+    {
+      "syllable": "SEN1-B",
+      "sounds": [
+        "S",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B405": [
+    {
+      "syllable": "UN1",
+      "sounds": [
+        "un"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B406": [
+    {
+      "syllable": "EI3",
+      "sounds": [
+        "ei"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "HO3",
+      "sounds": [
+        "H",
+        "o"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B407": [
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "FONG2",
+      "sounds": [
+        "F",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B408": [
+    {
+      "syllable": "HNGAAN5",
+      "sounds": [
+        "HNG",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B409": [
+    {
+      "syllable": "HAN5",
+      "sounds": [
+        "H",
+        "an"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B40A": [
+    {
+      "syllable": "SAI6",
+      "sounds": [
+        "S",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "FAN1",
+      "sounds": [
+        "F",
+        "an"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B40B": [
+    {
+      "syllable": "VA2",
+      "sounds": [
+        "V",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B40C": [
+    {
+      "syllable": "BU4",
+      "sounds": [
+        "B",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B40D": [
+    {
+      "syllable": "LAAG8",
+      "sounds": [
+        "L",
+        "aag"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B40E": [
+    {
+      "syllable": "XUM1",
+      "sounds": [
+        "X",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NNOD8",
+      "sounds": [
+        "NN",
+        "od"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "U1",
+      "sounds": [
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B40F": [
+    {
+      "syllable": "ZEEM4",
+      "sounds": [
+        "Z",
+        "eem"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B410": [
+    {
+      "syllable": "DONG1",
+      "sounds": [
+        "D",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B411": [
+    {
+      "syllable": "BAI1",
+      "sounds": [
+        "B",
+        "ai"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B412": [
+    {
+      "syllable": "BYEENG2",
+      "sounds": [
+        "BY",
+        "eeng"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B413": [
+    {
+      "syllable": "BIG7",
+      "sounds": [
+        "B",
+        "ig"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "KAANG5",
+      "sounds": [
+        "K",
+        "aang"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B414": [
+    {
+      "syllable": "JUM1",
+      "sounds": [
+        "J",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B415": [
+    {
+      "syllable": "JAI5",
+      "sounds": [
+        "J",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B416": [
+    {
+      "syllable": "DIN2",
+      "sounds": [
+        "D",
+        "in"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B417": [
+    {
+      "syllable": "BYED8",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "YING5",
+      "sounds": [
+        "Y",
+        "ing"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B418": [
+    {
+      "syllable": "BYED8-A",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B419": [
+    {
+      "syllable": "BYEENG2",
+      "sounds": [
+        "BY",
+        "eeng"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "BYAG8",
+      "sounds": [
+        "BY",
+        "ag"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B41A": [
+    {
+      "syllable": "QYEN5",
+      "sounds": [
+        "Q",
+        "Y",
+        "en"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "DI4",
+      "sounds": [
+        "D",
+        "i"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B41B": [
+    {
+      "syllable": "JI3",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B41C": [
+    {
+      "syllable": "DAI6",
+      "sounds": [
+        "D",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "SAD7",
+      "sounds": [
+        "S",
+        "ad"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B41D": [
+    {
+      "syllable": "LYOG8-A",
+      "sounds": [
+        "LY",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B41E": [
+    {
+      "syllable": "LA2",
+      "sounds": [
+        "L",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "MAANG4",
+      "sounds": [
+        "M",
+        "aang"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B41F": [
+    {
+      "syllable": "DIG7-C",
+      "sounds": [
+        "D",
+        "ig"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B420": [
+    {
+      "syllable": "YI2",
+      "sounds": [
+        "Y",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B421": [
+    {
+      "syllable": "LWA1",
+      "sounds": [
+        "LW",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B422": [
+    {
+      "syllable": "PYA3",
+      "sounds": [
+        "PY",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B423": [
+    {
+      "syllable": "SAAM3",
+      "sounds": [
+        "S",
+        "aam"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B424": [
+    {
+      "syllable": "HEN5",
+      "sounds": [
+        "H",
+        "en"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B425": [
+    {
+      "syllable": "DIG7",
+      "sounds": [
+        "D",
+        "ig"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "XGAAN2",
+      "sounds": [
+        "XG",
+        "aan"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B426": [
+    {
+      "syllable": "XU1",
+      "sounds": [
+        "X",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B427": [
+    {
+      "syllable": "QYON1",
+      "sounds": [
+        "Q",
+        "Y",
+        "on"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B428": [
+    {
+      "syllable": "DAO2",
+      "sounds": [
+        "D",
+        "ao"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B429": [
+    {
+      "syllable": "BAAD7",
+      "sounds": [
+        "B",
+        "aad"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B42A": [
+    {
+      "syllable": "DU3",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "HA3",
+      "sounds": [
+        "H",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B42B": [
+    {
+      "syllable": "FA3",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B42C": [
+    {
+      "syllable": "NUN2",
+      "sounds": [
+        "N",
+        "un"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B42D": [
+    {
+      "syllable": "GGAAM1",
+      "sounds": [
+        "GG",
+        "aam"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B42E": [
+    {
+      "syllable": "BYAAN6-B",
+      "sounds": [
+        "BY",
+        "aan"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B42F": [
+    {
+      "syllable": "SA5",
+      "sounds": [
+        "S",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B430": [
+    {
+      "syllable": "JIU2",
+      "sounds": [
+        "J",
+        "iu"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B431": [
+    {
+      "syllable": "ZUI2",
+      "sounds": [
+        "Z",
+        "ui"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B432": [
+    {
+      "syllable": "GEN3",
+      "sounds": [
+        "G",
+        "en"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "XGEN4",
+      "sounds": [
+        "XG",
+        "en"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B433": [
+    {
+      "syllable": "NDONG5",
+      "sounds": [
+        "ND",
+        "ong"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B434": [
+    {
+      "syllable": "SEI5",
+      "sounds": [
+        "S",
+        "ei"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B435": [
+    {
+      "syllable": "JA6",
+      "sounds": [
+        "J",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B436": [
+    {
+      "syllable": "JI2",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B437": [
+    {
+      "syllable": "ZI3",
+      "sounds": [
+        "Z",
+        "i"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "LYEEU3",
+      "sounds": [
+        "LY",
+        "eeu"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B438": [
+    {
+      "syllable": "GA3",
+      "sounds": [
+        "G",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B439": [
+    {
+      "syllable": "HAAN5",
+      "sounds": [
+        "H",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B43A": [
+    {
+      "syllable": "DANG3",
+      "sounds": [
+        "D",
+        "ang"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B43B": [
+    {
+      "syllable": "DA5",
+      "sounds": [
+        "D",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "WYAAN5",
+      "sounds": [
+        "W",
+        "Y",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B43C": [
+    {
+      "syllable": "NI4",
+      "sounds": [
+        "N",
+        "i"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "FU5",
+      "sounds": [
+        "F",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B43D": [
+    {
+      "syllable": "DONG2",
+      "sounds": [
+        "D",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "SEI5",
+      "sounds": [
+        "S",
+        "ei"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B43E": [
+    {
+      "syllable": "NGO4",
+      "sounds": [
+        "NG",
+        "o"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "GGUI5",
+      "sounds": [
+        "GG",
+        "ui"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B43F": [
+    {
+      "syllable": "MEI4",
+      "sounds": [
+        "M",
+        "ei"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "DYED7",
+      "sounds": [
+        "DY",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B440": [
+    {
+      "syllable": "MBYAANG1",
+      "sounds": [
+        "MBY",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "OU4",
+      "sounds": [
+        "ou"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B441": [
+    {
+      "syllable": "TU3",
+      "sounds": [
+        "T",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B442": [
+    {
+      "syllable": "NGO4",
+      "sounds": [
+        "NG",
+        "o"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B443": [
+    {
+      "syllable": "ZYEENG1",
+      "sounds": [
+        "ZY",
+        "eeng"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B444": [
+    {
+      "syllable": "SU3-B",
+      "sounds": [
+        "S",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B445": [
+    {
+      "syllable": "JU2",
+      "sounds": [
+        "J",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B446": [
+    {
+      "syllable": "DEN3",
+      "sounds": [
+        "D",
+        "en"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B447": [
+    {
+      "syllable": "DYUNG3",
+      "sounds": [
+        "DY",
+        "ung"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B448": [
+    {
+      "syllable": "QBEN1",
+      "sounds": [
+        "QB",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B449": [
+    {
+      "syllable": "LYOG8-B",
+      "sounds": [
+        "LY",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B44A": [
+    {
+      "syllable": "MI6",
+      "sounds": [
+        "M",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B44B": [
+    {
+      "syllable": "YONG6",
+      "sounds": [
+        "Y",
+        "ong"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B44C": [
+    {
+      "syllable": "SEN2",
+      "sounds": [
+        "S",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B44D": [
+    {
+      "syllable": "GGEE4",
+      "sounds": [
+        "GG",
+        "ee"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B44E": [
+    {
+      "syllable": "NU2",
+      "sounds": [
+        "N",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B44F": [
+    {
+      "syllable": "SA5",
+      "sounds": [
+        "S",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "XEEN2",
+      "sounds": [
+        "X",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B450": [
+    {
+      "syllable": "GGEENG1",
+      "sounds": [
+        "GG",
+        "eeng"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B451": [
+    {
+      "syllable": "HEN2-B",
+      "sounds": [
+        "H",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B452": [
+    {
+      "syllable": "DU3",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "DONG2",
+      "sounds": [
+        "D",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B453": [
+    {
+      "syllable": "QNNAM5",
+      "sounds": [
+        "QNN",
+        "am"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B454": [
+    {
+      "syllable": "NNI6",
+      "sounds": [
+        "NN",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "SUB8",
+      "sounds": [
+        "S",
+        "ub"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B455": [
+    {
+      "syllable": "GGAM1",
+      "sounds": [
+        "GG",
+        "am"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B456": [
+    {
+      "syllable": "QBAAN3",
+      "sounds": [
+        "QB",
+        "aan"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B457": [
+    {
+      "syllable": "HEE4",
+      "sounds": [
+        "H",
+        "ee"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B458": [
+    {
+      "syllable": "BEE1",
+      "sounds": [
+        "B",
+        "ee"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B459": [
+    {
+      "syllable": "XGGAO3",
+      "sounds": [
+        "XGG",
+        "ao"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B45A": [
+    {
+      "syllable": "XU1",
+      "sounds": [
+        "X",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "YU3",
+      "sounds": [
+        "Y",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B45B": [
+    {
+      "syllable": "MEI4",
+      "sounds": [
+        "M",
+        "ei"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "NNEI3",
+      "sounds": [
+        "NN",
+        "ei"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B45C": [
+    {
+      "syllable": "MEE2",
+      "sounds": [
+        "M",
+        "ee"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "DU3",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "QDAO3",
+      "sounds": [
+        "QD",
+        "ao"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B45D": [
+    {
+      "syllable": "XEEN2",
+      "sounds": [
+        "X",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B45E": [
+    {
+      "syllable": "YEN2",
+      "sounds": [
+        "Y",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B45F": [
+    {
+      "syllable": "GWUN5",
+      "sounds": [
+        "GW",
+        "un"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B460": [
+    {
+      "syllable": "VAANG1",
+      "sounds": [
+        "V",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B461": [
+    {
+      "syllable": "GGAM4",
+      "sounds": [
+        "GG",
+        "am"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B462": [
+    {
+      "syllable": "JEEN2",
+      "sounds": [
+        "J",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B463": [
+    {
+      "syllable": "NDA1",
+      "sounds": [
+        "ND",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B464": [
+    {
+      "syllable": "BYA6",
+      "sounds": [
+        "BY",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "SEENG1",
+      "sounds": [
+        "S",
+        "eeng"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "DOU2",
+      "sounds": [
+        "D",
+        "ou"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B465": [
+    {
+      "syllable": "SID7",
+      "sounds": [
+        "S",
+        "id"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B466": [
+    {
+      "syllable": "GWAAN1",
+      "sounds": [
+        "GW",
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B467": [
+    {
+      "syllable": "QXGA5",
+      "sounds": [
+        "QXG",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B468": [
+    {
+      "syllable": "DA6",
+      "sounds": [
+        "D",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B469": [
+    {
+      "syllable": "GWON3",
+      "sounds": [
+        "GW",
+        "on"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "QYEN5",
+      "sounds": [
+        "Q",
+        "Y",
+        "en"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B46A": [
+    {
+      "syllable": "ZAN6",
+      "sounds": [
+        "Z",
+        "an"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B46B": [
+    {
+      "syllable": "NNAO6-B",
+      "sounds": [
+        "NN",
+        "ao"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B46C": [
+    {
+      "syllable": "QXGA5",
+      "sounds": [
+        "QXG",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "VA2",
+      "sounds": [
+        "V",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B46D": [
+    {
+      "syllable": "GU3",
+      "sounds": [
+        "G",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "GGON4",
+      "sounds": [
+        "GG",
+        "on"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B46E": [
+    {
+      "syllable": "DON2",
+      "sounds": [
+        "D",
+        "on"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "XGON2",
+      "sounds": [
+        "XG",
+        "on"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B46F": [
+    {
+      "syllable": "TYEEN1",
+      "sounds": [
+        "TY",
+        "een"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "GGAANG1",
+      "sounds": [
+        "GG",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B470": [
+    {
+      "syllable": "MBAAN1",
+      "sounds": [
+        "MB",
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B471": [
+    {
+      "syllable": "HONG5",
+      "sounds": [
+        "H",
+        "ong"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B472": [
+    {
+      "syllable": "BYED8-B",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B473": [
+    {
+      "syllable": "SOG8-B",
+      "sounds": [
+        "S",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B474": [
+    {
+      "syllable": "KUI3",
+      "sounds": [
+        "K",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B475": [
+    {
+      "syllable": "MAN6-B",
+      "sounds": [
+        "M",
+        "an"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B476": [
+    {
+      "syllable": "JID7",
+      "sounds": [
+        "J",
+        "id"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B477": [
+    {
+      "syllable": "HAI1",
+      "sounds": [
+        "H",
+        "ai"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B478": [
+    {
+      "syllable": "KKAAM3",
+      "sounds": [
+        "KK",
+        "aam"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B479": [
+    {
+      "syllable": "GGAD7",
+      "sounds": [
+        "GG",
+        "ad"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B47A": [
+    {
+      "syllable": "ZI6",
+      "sounds": [
+        "Z",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B47B": [
+    {
+      "syllable": "HUI6",
+      "sounds": [
+        "H",
+        "ui"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "DAANG2",
+      "sounds": [
+        "D",
+        "aang"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B47C": [
+    {
+      "syllable": "DAO5",
+      "sounds": [
+        "D",
+        "ao"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "AAN1",
+      "sounds": [
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B47D": [
+    {
+      "syllable": "LOG7",
+      "sounds": [
+        "L",
+        "og"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B47E": [
+    {
+      "syllable": "PA5-A",
+      "sounds": [
+        "P",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B47F": [
+    {
+      "syllable": "QNGEE3",
+      "sounds": [
+        "QNG",
+        "ee"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B480": [
+    {
+      "syllable": "HAAG8",
+      "sounds": [
+        "H",
+        "aag"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B481": [
+    {
+      "syllable": "AO1",
+      "sounds": [
+        "ao"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B482": [
+    {
+      "syllable": "LAAG8",
+      "sounds": [
+        "L",
+        "aag"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "MBAAN1",
+      "sounds": [
+        "MB",
+        "aan"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B483": [
+    {
+      "syllable": "NDU3",
+      "sounds": [
+        "ND",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B484": [
+    {
+      "syllable": "LANG6",
+      "sounds": [
+        "L",
+        "ang"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B485": [
+    {
+      "syllable": "DAAB7",
+      "sounds": [
+        "D",
+        "aab"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B486": [
+    {
+      "syllable": "XING1",
+      "sounds": [
+        "X",
+        "ing"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NDA1",
+      "sounds": [
+        "ND",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B487": [
+    {
+      "syllable": "BYA6",
+      "sounds": [
+        "BY",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B488": [
+    {
+      "syllable": "DO1",
+      "sounds": [
+        "D",
+        "o"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "FAANG1",
+      "sounds": [
+        "F",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B489": [
+    {
+      "syllable": "HNNAANG3",
+      "sounds": [
+        "HNN",
+        "aang"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B48A": [
+    {
+      "syllable": "MYEEN2",
+      "sounds": [
+        "MY",
+        "een"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B48B": [
+    {
+      "syllable": "QDYA1",
+      "sounds": [
+        "QD",
+        "Y",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B48C": [
+    {
+      "syllable": "SEE1",
+      "sounds": [
+        "S",
+        "ee"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B48D": [
+    {
+      "syllable": "FAAM4",
+      "sounds": [
+        "F",
+        "aam"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B48E": [
+    {
+      "syllable": "SAO5",
+      "sounds": [
+        "S",
+        "ao"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B48F": [
+    {
+      "syllable": "BAI1",
+      "sounds": [
+        "B",
+        "ai"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "QNUG7",
+      "sounds": [
+        "QN",
+        "ug"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B490": [
+    {
+      "syllable": "DEI2",
+      "sounds": [
+        "D",
+        "ei"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B491": [
+    {
+      "syllable": "MEI4",
+      "sounds": [
+        "M",
+        "ei"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "NUG8",
+      "sounds": [
+        "N",
+        "ug"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "SAO5",
+      "sounds": [
+        "S",
+        "ao"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B492": [
+    {
+      "syllable": "GGAN5",
+      "sounds": [
+        "GG",
+        "an"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B493": [
+    {
+      "syllable": "HUI6",
+      "sounds": [
+        "H",
+        "ui"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B494": [
+    {
+      "syllable": "YONG2",
+      "sounds": [
+        "Y",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B495": [
+    {
+      "syllable": "NAI6",
+      "sounds": [
+        "N",
+        "ai"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B496": [
+    {
+      "syllable": "KKOU3-B",
+      "sounds": [
+        "KK",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B497": [
+    {
+      "syllable": "NDAAN5",
+      "sounds": [
+        "ND",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B498": [
+    {
+      "syllable": "DYUM1-B",
+      "sounds": [
+        "DY",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B499": [
+    {
+      "syllable": "XEN1-B",
+      "sounds": [
+        "X",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B49A": [
+    {
+      "syllable": "HAI1",
+      "sounds": [
+        "H",
+        "ai"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "GGONG1",
+      "sounds": [
+        "GG",
+        "ong"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B49B": [
+    {
+      "syllable": "VAANG6",
+      "sounds": [
+        "V",
+        "aang"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B49C": [
+    {
+      "syllable": "DANG1",
+      "sounds": [
+        "D",
+        "ang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B49D": [
+    {
+      "syllable": "NDYEI3",
+      "sounds": [
+        "NDY",
+        "ei"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B49E": [
+    {
+      "syllable": "ZUD7",
+      "sounds": [
+        "Z",
+        "ud"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B49F": [
+    {
+      "syllable": "XI5",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4A0": [
+    {
+      "syllable": "XI5",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "HAAN5",
+      "sounds": [
+        "H",
+        "aan"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4A1": [
+    {
+      "syllable": "AM5",
+      "sounds": [
+        "am"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4A2": [
+    {
+      "syllable": "XEEN6",
+      "sounds": [
+        "X",
+        "een"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4A3": [
+    {
+      "syllable": "JA1",
+      "sounds": [
+        "J",
+        "a"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4A4": [
+    {
+      "syllable": "BAAD7",
+      "sounds": [
+        "B",
+        "aad"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "BYEN2",
+      "sounds": [
+        "BY",
+        "en"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4A5": [
+    {
+      "syllable": "GUM1",
+      "sounds": [
+        "G",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4A6": [
+    {
+      "syllable": "BYEEG7",
+      "sounds": [
+        "BY",
+        "eeg"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "LYEEG7",
+      "sounds": [
+        "LY",
+        "eeg"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B4A7": [
+    {
+      "syllable": "XED7-B",
+      "sounds": [
+        "X",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B4A8": [
+    {
+      "syllable": "DO1",
+      "sounds": [
+        "D",
+        "o"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4A9": [
+    {
+      "syllable": "SAI3",
+      "sounds": [
+        "S",
+        "ai"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B4AA": [
+    {
+      "syllable": "HAN5",
+      "sounds": [
+        "H",
+        "an"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "VI1",
+      "sounds": [
+        "V",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4AB": [
+    {
+      "syllable": "HAI2",
+      "sounds": [
+        "H",
+        "ai"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4AC": [
+    {
+      "syllable": "BYAI2",
+      "sounds": [
+        "BY",
+        "ai"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4AD": [
+    {
+      "syllable": "BYAI2",
+      "sounds": [
+        "BY",
+        "ai"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "LAO4",
+      "sounds": [
+        "L",
+        "ao"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B4AE": [
+    {
+      "syllable": "KUN1",
+      "sounds": [
+        "K",
+        "un"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4AF": [
+    {
+      "syllable": "GGO1",
+      "sounds": [
+        "GG",
+        "o"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "JEN1",
+      "sounds": [
+        "J",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4B0": [
+    {
+      "syllable": "PA5-B",
+      "sounds": [
+        "P",
+        "a"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4B1": [
+    {
+      "syllable": "DU3",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "ZEN3",
+      "sounds": [
+        "Z",
+        "en"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B4B2": [
+    {
+      "syllable": "LUI5",
+      "sounds": [
+        "L",
+        "ui"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4B3": [
+    {
+      "syllable": "BU2",
+      "sounds": [
+        "B",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4B4": [
+    {
+      "syllable": "DUI2",
+      "sounds": [
+        "D",
+        "ui"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "NDONG5",
+      "sounds": [
+        "ND",
+        "ong"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4B5": [
+    {
+      "syllable": "JU3",
+      "sounds": [
+        "J",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "PEN1",
+      "sounds": [
+        "P",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4B6": [
+    {
+      "syllable": "JU3",
+      "sounds": [
+        "J",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "GGAO3",
+      "sounds": [
+        "GG",
+        "ao"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B4B7": [
+    {
+      "syllable": "MAANG1",
+      "sounds": [
+        "M",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4B8": [
+    {
+      "syllable": "JUI3",
+      "sounds": [
+        "J",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "JUM1",
+      "sounds": [
+        "J",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "YAANG2",
+      "sounds": [
+        "Y",
+        "aang"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4B9": [
+    {
+      "syllable": "REN1-B",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4BA": [
+    {
+      "syllable": "DAN3",
+      "sounds": [
+        "D",
+        "an"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "NDONG5",
+      "sounds": [
+        "ND",
+        "ong"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4BB": [
+    {
+      "syllable": "GGUI5-B",
+      "sounds": [
+        "GG",
+        "ui"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4BC": [
+    {
+      "syllable": "NYU4",
+      "sounds": [
+        "NY",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "TU3",
+      "sounds": [
+        "T",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "FOG8",
+      "sounds": [
+        "F",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B4BD": [
+    {
+      "syllable": "REN1",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "DEI2",
+      "sounds": [
+        "D",
+        "ei"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "XAANG1",
+      "sounds": [
+        "X",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4BE": [
+    {
+      "syllable": "REN1",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "DYAM2",
+      "sounds": [
+        "DY",
+        "am"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "BYA2",
+      "sounds": [
+        "BY",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4BF": [
+    {
+      "syllable": "HEE4",
+      "sounds": [
+        "H",
+        "ee"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "FAAB7",
+      "sounds": [
+        "F",
+        "aab"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B4C0": [
+    {
+      "syllable": "REN1",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "DEI2",
+      "sounds": [
+        "D",
+        "ei"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "JI2",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4C1": [
+    {
+      "syllable": "DEI1",
+      "sounds": [
+        "D",
+        "ei"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "ZOU6",
+      "sounds": [
+        "Z",
+        "ou"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "REN1",
+      "sounds": [
+        "R",
+        "en"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4C2": [
+    {
+      "syllable": "XGA2",
+      "sounds": [
+        "XG",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "FAI4",
+      "sounds": [
+        "F",
+        "ai"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "NU4",
+      "sounds": [
+        "N",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B4C3": [
+    {
+      "syllable": "LOI2",
+      "sounds": [
+        "L",
+        "oi"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "JUM1",
+      "sounds": [
+        "J",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "GGOU3",
+      "sounds": [
+        "GG",
+        "ou"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B4C4": [
+    {
+      "syllable": "JI1",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NGA6",
+      "sounds": [
+        "NG",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "MA4",
+      "sounds": [
+        "M",
+        "a"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B4C5": [
+    {
+      "syllable": "SYAANG1",
+      "sounds": [
+        "SY",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NNED8",
+      "sounds": [
+        "NN",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "MA4",
+      "sounds": [
+        "M",
+        "a"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B4C6": [
+    {
+      "syllable": "FA2",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4C7": [
+    {
+      "syllable": "GUI2",
+      "sounds": [
+        "G",
+        "ui"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4C8": [
+    {
+      "syllable": "JI1",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NGA6",
+      "sounds": [
+        "NG",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "HMU5",
+      "sounds": [
+        "HM",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4C9": [
+    {
+      "syllable": "SAM5",
+      "sounds": [
+        "S",
+        "am"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "YON2",
+      "sounds": [
+        "Y",
+        "on"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4CA": [
+    {
+      "syllable": "MA4",
+      "sounds": [
+        "M",
+        "a"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B4CB": [
+    {
+      "syllable": "MON6",
+      "sounds": [
+        "M",
+        "on"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4CC": [
+    {
+      "syllable": "HOI3",
+      "sounds": [
+        "H",
+        "oi"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "FA3",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "XGGOU1",
+      "sounds": [
+        "XGG",
+        "ou"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4CD": [
+    {
+      "syllable": "SU1",
+      "sounds": [
+        "S",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NNED8",
+      "sounds": [
+        "NN",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "SU1",
+      "sounds": [
+        "S",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4CE": [
+    {
+      "syllable": "FONG2",
+      "sounds": [
+        "F",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "NNED8",
+      "sounds": [
+        "NN",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "TU5",
+      "sounds": [
+        "T",
+        "u"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4CF": [
+    {
+      "syllable": "BYED7",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "FA3",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "ZU1",
+      "sounds": [
+        "Z",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4D0": [
+    {
+      "syllable": "DEE1",
+      "sounds": [
+        "D",
+        "ee"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "TU3",
+      "sounds": [
+        "T",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "LAAG8",
+      "sounds": [
+        "L",
+        "aag"
+      ],
+      "tone": 8,
+      "junk": null
+    }
+  ],
+  "U+1B4D1": [
+    {
+      "syllable": "NI4",
+      "sounds": [
+        "N",
+        "i"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "FA3",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "HU3",
+      "sounds": [
+        "H",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    }
+  ],
+  "U+1B4D2": [
+    {
+      "syllable": "NNU2",
+      "sounds": [
+        "NN",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "JUM1",
+      "sounds": [
+        "J",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NNU2",
+      "sounds": [
+        "NN",
+        "u"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4D3": [
+    {
+      "syllable": "SEENG1",
+      "sounds": [
+        "S",
+        "eeng"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "LAO4",
+      "sounds": [
+        "L",
+        "ao"
+      ],
+      "tone": 4,
+      "junk": null
+    }
+  ],
+  "U+1B4D4": [
+    {
+      "syllable": "JI1",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "NGA6",
+      "sounds": [
+        "NG",
+        "a"
+      ],
+      "tone": 6,
+      "junk": null
+    },
+    {
+      "syllable": "GGAI5",
+      "sounds": [
+        "GG",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4D5": [
+    {
+      "syllable": "EEB7",
+      "sounds": [
+        "eeb"
+      ],
+      "tone": 7,
+      "junk": null
+    }
+  ],
+  "U+1B4D6": [
+    {
+      "syllable": "NGAAN6",
+      "sounds": [
+        "NG",
+        "aan"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4D7": [
+    {
+      "syllable": "NYU4",
+      "sounds": [
+        "NY",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "NNOD8",
+      "sounds": [
+        "NN",
+        "od"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "IN5",
+      "sounds": [
+        "in"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4D8": [
+    {
+      "syllable": "NGA2",
+      "sounds": [
+        "NG",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "NNID8",
+      "sounds": [
+        "NN",
+        "id"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "JI1",
+      "sounds": [
+        "J",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4D9": [
+    {
+      "syllable": "BYED7",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "NNOD8",
+      "sounds": [
+        "NN",
+        "od"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "U1",
+      "sounds": [
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4DA": [
+    {
+      "syllable": "NGA2",
+      "sounds": [
+        "NG",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    },
+    {
+      "syllable": "TU3",
+      "sounds": [
+        "T",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "DI6",
+      "sounds": [
+        "D",
+        "i"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4DB": [
+    {
+      "syllable": "XEEU3",
+      "sounds": [
+        "X",
+        "eeu"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "NGAAN6",
+      "sounds": [
+        "NG",
+        "aan"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4DC": [
+    {
+      "syllable": "YED8",
+      "sounds": [
+        "Y",
+        "ed"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "FA3",
+      "sounds": [
+        "F",
+        "a"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "SYA2",
+      "sounds": [
+        "SY",
+        "a"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4DD": [
+    {
+      "syllable": "GGAM5",
+      "sounds": [
+        "GG",
+        "am"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "JUM1",
+      "sounds": [
+        "J",
+        "um"
+      ],
+      "tone": 1,
+      "junk": null
+    },
+    {
+      "syllable": "LYONG2",
+      "sounds": [
+        "LY",
+        "ong"
+      ],
+      "tone": 2,
+      "junk": null
+    }
+  ],
+  "U+1B4DE": [
+    {
+      "syllable": "GGAM5",
+      "sounds": [
+        "GG",
+        "am"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "GGAO1",
+      "sounds": [
+        "GG",
+        "ao"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4DF": [
+    {
+      "syllable": "BYED7",
+      "sounds": [
+        "BY",
+        "ed"
+      ],
+      "tone": 7,
+      "junk": null
+    },
+    {
+      "syllable": "SUI3",
+      "sounds": [
+        "S",
+        "ui"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "XI1",
+      "sounds": [
+        "X",
+        "i"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4E0": [
+    {
+      "syllable": "MOM6",
+      "sounds": [
+        "M",
+        "om"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4E1": [
+    {
+      "syllable": "VYEN5",
+      "sounds": [
+        "VY",
+        "en"
+      ],
+      "tone": 5,
+      "junk": null
+    },
+    {
+      "syllable": "MOM6",
+      "sounds": [
+        "M",
+        "om"
+      ],
+      "tone": 6,
+      "junk": null
+    }
+  ],
+  "U+1B4E2": [
+    {
+      "syllable": "LU4",
+      "sounds": [
+        "L",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "TU3",
+      "sounds": [
+        "T",
+        "u"
+      ],
+      "tone": 3,
+      "junk": null
+    },
+    {
+      "syllable": "ZAANG1",
+      "sounds": [
+        "Z",
+        "aang"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4E3": [
+    {
+      "syllable": "DU4",
+      "sounds": [
+        "D",
+        "u"
+      ],
+      "tone": 4,
+      "junk": null
+    },
+    {
+      "syllable": "MOG8",
+      "sounds": [
+        "M",
+        "og"
+      ],
+      "tone": 8,
+      "junk": null
+    },
+    {
+      "syllable": "HAI5",
+      "sounds": [
+        "H",
+        "ai"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ],
+  "U+1B4E4": [
+    {
+      "syllable": "LU1",
+      "sounds": [
+        "L",
+        "u"
+      ],
+      "tone": 1,
+      "junk": null
+    }
+  ],
+  "U+1B4E5": [
+    {
+      "syllable": "ZING5",
+      "sounds": [
+        "Z",
+        "ing"
+      ],
+      "tone": 5,
+      "junk": null
+    }
+  ]
+}
