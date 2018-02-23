@@ -1,0 +1,242 @@
+<html>
+  <head>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <style>
+      div.navigator {
+        position: fixed !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #E0E0E0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navigator">
+      <input id="phonetic_value" type="text" disabled>
+    </div>
+    <div class="results">
+      <div id="sdyz_ipa_results">
+        <ol></ol>
+      </div>
+      <div id="ucs_results">
+        <ol></ol>
+      </div>
+    </div>
+    <script>
+      // ------------------------------------------------------
+      // polyfill
+
+      // includes()
+      if (!Array.prototype.includes) {
+        Array.prototype.includes = function(o) {
+          if (0 > this.indexOf(o))
+            return false;
+          else
+            return true;
+        };
+      };
+      if (!String.prototype.includes) {
+        String.prototype.includes = function(search, start) {
+          if (typeof start !== 'number') {
+            start = 0;
+          }
+    
+          if (start + search.length > this.length) {
+            return false;
+          } else {
+            return this.indexOf(search, start) !== -1;
+          }
+        };
+      }
+
+      // startsWith()
+      if (!String.prototype.startsWith) {
+        String.prototype.startsWith = function(searchString, position){
+          position = position || 0;
+          return this.substr(position, searchString.length) === searchString;
+        };
+      }
+
+      // String.repeat() is since ES6
+      if (!String.prototype.repeat) {
+        String.prototype.repeat = function(len) {
+          var r = "";
+          for (var i = 0; i < len; i ++ ) {
+            r = r + this;
+          };
+          return r;
+        };
+      };
+   
+      // -------------------------------------------------------
+      Object.prototype.getSyllable = function(doCapitalize, ignoreTone) {
+        if (!this.sounds || this.sounds.length == 0) {
+          return null;
+        }
+
+        var basename = "";
+        this.sounds.forEach(function(tok, idx){
+          if (idx > 0) {
+            // non-initial consonant would be concatenated after an apostroph
+            if (/^[A-Z]/.test(tok) && !doCapitalize) {
+              basename += "\'";
+            }
+            // insert hyphen if capitalized
+            if (doCapitalize) {
+              basename += "-";
+            }
+          }
+          if (doCapitalize) {
+            tok = tok.toUpperCase();
+          };
+          basename += tok;
+        });
+        if (ignoreTone) {
+          return basename;
+        }
+        return (basename + this.tone.toString(10));
+      };
+
+      Array.prototype.getCharName = function(sepSyllable, doCapitalize, ignoreTone) {
+        var sep = sepSyllable;
+        if (sep == null || sep == undefined) {
+          sep = " ";
+        }
+
+        return this.map(function(syl){
+          return syl.getSyllable(doCapitalize, ignoreTone);
+        }).join(sep);
+      };
+
+      // -------------------------------------------------------
+
+      var Opts = new Object();
+      Opts.keyupTimeout = 100;
+      Opts.isRemote = (document.location.protocol != "file:");
+      Opts.textPhonetic = $("#phonetic_value");
+
+      Opts.queryForSdyzIpa = function(queryText) {
+        var zResults = $("#sdyz_ipa_results > ol");
+        var sdyzIpaFounds = new Array();
+        Object.keys(Opts.sdyzSounds).forEach(function(ipa_sound){
+          if (Opts.sdyzSounds[ipa_sound].includes(queryText)) {
+            sdyzIpaFounds.push(ipa_sound);
+          }
+        });
+
+        for (var i = 0; i < sdyzIpaFounds.length; i += 1) {
+          var jqImg = $("<img>").addClass("img-sdyz-ipa");
+          jqImg.attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[i] + ".gif");
+          jqImg.css("height", "30px");
+          jqImg.attr("title", sdyzIpaFounds[i]);
+          jqImg.appendTo(zResults);
+        };
+      };
+
+      Opts.queryForUcs = function(queryText) {
+        var uResults = $("#ucs_results > ol");
+        var ucsFounds = new Array();
+        Object.keys(Opts.hex2sounds).forEach(function(ucs){
+          var charName = Opts.hex2sounds[ucs].getCharName("", false, true);
+          console.log("q=" + queryText + " charName=" + charName);
+          if (charName.toLowerCase().replace(/[^0-9A-Za-z]/, "").startsWith(queryText)) {
+            ucsFounds.push(ucs);
+          }
+        });
+
+        for (var i = 0; i < ucsFounds.length; i += 1) {
+          var ucs = ucsFounds[i];
+          var jqLi = $("<li>");
+          jqLi.appendTo(uResults);
+
+          var jqImg = $("<img>").addClass("img-ucs");
+          jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
+          // jqImg.css("height", "50px");
+          jqImg.attr("title", ucs);
+          jqImg.appendTo(jqLi);
+
+          var jqSpan = $("<span>").addClass("span-ucs-phon");
+          jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false));
+          jqSpan.appendTo(jqLi);
+        };
+      };
+
+      Opts.funcQuery = function() {
+        var zResults = $("#sdyz_ipa_results > ol");
+        var uResults = $("#ucs_results > ol");
+
+        zResults.empty();
+        uResults.empty();
+
+        var queryText = Opts.textPhonetic.val().replace(/[^0-9A-Za-z]/, "");
+        // Opts.queryForZidian(queryText);
+        Opts.queryForUcs(queryText);
+      };
+
+      Opts.queryTimer = null;
+      Opts.textPhonetic.keyup(function(evt)
+        {
+          Opts.textPhonetic.css("background-color", "white");
+
+          if (Opts.queryTimer) {
+            clearTimeout(Opts.queryTimer);
+          }
+          if (Opts.textPhonetic.val().length != Opts.textPhonetic.prop("oldStringLength")) {
+            Opts.queryTimer = setTimeout(function(){Opts.funcQuery();}, Opts.keyupTimeout);
+          }
+          Opts.textPhonetic.prop("oldStringLength", Opts.textPhonetic.val().length);
+        }
+      );
+
+      Opts.textPhonetic.focusout(function(){Opts.funcQuery();});
+
+
+
+      var loadSingleJson = function(basename, objname) {
+        var jqd = $.Deferred();
+
+        if (objname == null) {
+          objname = basename.split(".")[0];
+        }
+        var jsonUrl = basename;
+        if (Opts.isRemote) {
+          var toks = document.location.href.split("/");
+          toks.pop();
+          toks.push(basename);
+          jsonUrl = toks.join("/");
+        }
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", jsonUrl, false);
+        xhr.onload = function(evt) {
+          if (xhr.readyState == 4 && (!Opts.isRemote || xhr.status == 200)) {
+            var db = JSON.parse( xhr.responseText );
+            if (Opts[objname] == undefined) {
+              Opts[objname] = db;
+            } else {
+              Object.keys(db).forEach(function(k){
+                Opts[objname][k] = db[k];
+              });
+            }
+            jqd.resolve();
+          }
+        };
+        xhr.send();
+        return jqd.promise();
+      };
+
+      var enableUi = function(){
+        $("#phonetic_value").prop("disabled", false);
+      };
+
+      $.when(loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
+             loadSingleJson("SDYZSound.json", "sdyzSounds"),
+             loadSingleJson("config.json")
+      ).then(enableUi);
+
+      $("div.results").css("margin-top", $("div.navigator").height() + 10);
+    </script>
+  </body>
+</html>
