@@ -1,6 +1,7 @@
 PDF_TEXT = ShuishuLogogramNameList.txt ShuishuRadicalNameList.txt
+DERIVED_JSON = ShuishuLogogramNameList.json
 
-all: ShuishuLogogramNameList.json
+all: $(DERIVED_JSON) $(PDF_TEXT)
 
 ShuishuLogogramNameList.json: ShuishuLogogramNameList.txt
 	./tokenizeUcsCharName.rb --charname-list=$< --sounds=sounds_wg2n4696.txt > $@
@@ -14,4 +15,4 @@ ShuishuRadicalNameList.txt: srcPDF/17366r-n4922-5th-ed-pdam2-2-chart.pdf
 	./makeCharNameList.rb < ${@:.txt=.dat} > $@
 
 clean:
-	rm -f $(PDF_TEXT)
+	rm -f $(PDF_TEXT) $(DERIVED_JSON)

@@ -2,6 +2,7 @@
 Encoding.default_internal = "utf-8"
 Encoding.default_external = "utf-8"
 
+lines = Array.new
 while (STDIN.gets)
   next if ($_.chomp !~ /1B[3-5][0-9A-F]{2}.*SHUISHU/)
 
@@ -18,5 +19,9 @@ while (STDIN.gets)
 
   charName = toks[2..-1].join(" ")
 
-  printf("U+%04X\t%s\n", ucsInt, charName)
+  lines << sprintf("U+%04X\t%s", ucsInt, charName)
+end
+
+lines.sort.each do |l|
+  puts l
 end
