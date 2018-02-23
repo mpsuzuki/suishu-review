@@ -51,6 +51,8 @@ while (o = ARGV.shift)
       Opts[k] = v
     elsif (Opts[k].class == Array)
       Opts[k] << v
+    elsif (Opts[:"do-not-auto-extend-to-array"])
+      Opts[k] = v
     else
       Opts[k] = [Opts[k], v]
     end
