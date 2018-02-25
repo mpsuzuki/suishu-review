@@ -16,3 +16,15 @@ ShuishuRadicalNameList.txt: srcPDF/17366r-n4922-5th-ed-pdam2-2-chart.pdf
 
 clean:
 	rm -f $(PDF_TEXT) $(DERIVED_JSON)
+
+DIST_SOURCES = \
+	lookup_U+1B300.html \
+	*.js \
+	*.json \
+	gif-oe-n4922/*.gif 
+
+dist:
+	tar cvf - $(DIST_SOURCES) | xz -9v > lookup_U+1B300.tar.xz
+
+dist-zip:
+	zip -vr lookup_U+1B300.zip $(DIST_SOURCES)
