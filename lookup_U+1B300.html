@@ -20,6 +20,9 @@
       span.ucs-ipa {
         color: red;
       }
+      span.pat-sdyz {
+        margin-right: 5em;
+      }
     </style>
   </head>
   <body>
@@ -176,21 +179,32 @@
       document.zResults = $("#sdyz_ipa_results > ul");
       document.uResults = $("#ucs_results > ul");
 
-
       Opts.queryForSdyzIpa = function(queryText) {
         var sdyzIpaFounds = new Array();
-        Object.keys(Opts.sdyzSounds).forEach(function(ipa_sound){
-          if (Opts.sdyzSounds[ipa_sound].includes(queryText)) {
-            sdyzIpaFounds.push(ipa_sound);
+        var pats = queryText.toUpperCase().split("/");
+        pats.forEach(function(t){
+          if (t.length == 0) {
+            return [];
           }
+          var foundKeys = Opts.sdyzRomanKeys.filter(function(rk){
+            return rk.startsWith(t);
+          });
+          sdyzIpaFounds.push(foundKeys);
         });
-
         for (var i = 0; i < sdyzIpaFounds.length; i += 1) {
-          var jqImg = $("<img>").addClass("img-sdyz-ipa");
-          jqImg.attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[i] + ".gif");
-          jqImg.css("height", "30px");
-          jqImg.attr("title", sdyzIpaFounds[i]);
-          jqImg.appendTo(document.zResults);
+          var jqLi = $("<li>");
+          jqLi.appendTo(document.zResults);
+
+          var jqSpan = $("<span>");
+          jqSpan.append(pats[i] + "~").addClass("pat-sdyz").appendTo(jqLi);
+
+          for (var j = 0; j < sdyzIpaFounds[i].length; j += 1) {
+            var jqImg = $("<img>").addClass("img-sdyz-ipa");
+            jqImg.attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[i][j] + ".gif");
+            jqImg.css("height", "50px");
+            jqImg.attr("title", sdyzIpaFounds[i][j]);
+            jqImg.appendTo(jqLi);
+          };
         };
       };
 
@@ -234,9 +248,9 @@
         document.zResults.empty();
         document.uResults.empty();
 
-        var queryText = document.rPhonetic.val().replace(/[^0-9A-Za-z]/, "");
-        // Opts.queryForZidian(queryText);
-        Opts.queryForUcs(queryText);
+        var queryText = document.rPhonetic.val();
+        Opts.queryForSdyzIpa( queryText );
+        Opts.queryForUcs( queryText.replace(/[^0-9A-Za-z]/, "") );
       };
 
       Opts.queryTimer = null;
@@ -291,6 +305,15 @@
         return jqd.promise();
       };
 
+      var setupSdyz = function(){
+        var jqd = $.Deferred();
+        Opts.sdyzRoman2Ipa = Opts.sdyzSounds._sound_table;
+        Opts.sdyzRomanKeys = Object.keys(Opts.sdyzRoman2Ipa);
+        var jqp = jqd.promise();
+        jqd.resolve();
+        return jqp;
+      };
+
       var enableUi = function(){
         document.rPhonetic.prop("disabled", false);
       };
@@ -298,7 +321,8 @@
       $.when(loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
              loadSingleJson("SDYZSound.json", "sdyzSounds"),
              loadSingleJson("config.json")
-      ).then(enableUi);
+      ).then(setupSdyz)
+       .then(enableUi);
 
       $("div.results").css("margin-top", $("div.navigator").height() + 10);
     </script>
