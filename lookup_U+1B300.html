@@ -142,11 +142,26 @@
         }
 
         return this.map(function(syl){
+          var ucsInt = 0;
+          var r = null;
           if (syl.ipa) {
-            return syl.ipa.join("");
-          } else {
-            return null;
+            r = syl.ipa.join("");
+            if (r && syl.tone) {
+              switch (syl.tone) {
+                case 1:
+                  ucsInt = 0x00B9;
+                  break;
+                case 2:
+                case 3:
+                  ucsInt = (syl.tone - 2) + 0x00B2;
+                  break;
+                default:
+                  ucsInt = syl.tone + 0x2070;
+              }
+              r += String.fromCharCode(ucsInt);
+            }
           }
+          return r;
         }).filter(function(syl){
           return (syl != null);
         }).join(sep);
