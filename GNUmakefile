@@ -28,6 +28,7 @@ DIST_SOURCES = \
 	lookup_U+1B300.html \
 	*.js \
 	*.json \
+	gif-sdyz-ipa/*.gif \
 	gif-oe-n4922/*.gif 
 
 dist:
