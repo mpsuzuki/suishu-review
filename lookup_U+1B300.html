@@ -21,7 +21,7 @@
         color: red;
       }
       span.pat-sdyz {
-        margin-right: 5em;
+        margin-right: 25px;
       }
     </style>
   </head>
@@ -196,7 +196,7 @@
           jqLi.appendTo(document.zResults);
 
           var jqSpan = $("<span>");
-          jqSpan.append(pats[i] + "~").addClass("pat-sdyz").appendTo(jqLi);
+          jqSpan.append(pats[i] + "...").addClass("pat-sdyz").appendTo(jqLi);
 
           for (var j = 0; j < sdyzIpaFounds[i].length; j += 1) {
             var jqImg = $("<img>").addClass("img-sdyz-ipa");
