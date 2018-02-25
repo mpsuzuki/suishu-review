@@ -138,6 +138,34 @@
         return charName;
       };
 
+      String.prototype.toSuperScript = function() {
+        var superScripts = {
+          "0": "\u2070",
+          "1": "\u00B9",
+          "2": "\u00B2",
+          "3": "\u00B3",
+          "4": "\u2074",
+          "5": "\u2075",
+          "6": "\u2076",
+          "7": "\u2077",
+          "8": "\u2078",
+          "9": "\u2079",
+          "-": "\u207B"
+        };
+        var r = "";
+        for (var i = 0; i < this.length; i += 1) {
+          if (superScripts[ this[i] ]) {
+            r += superScripts[ this[i] ];
+          }
+        };
+        return r;
+      };
+
+      Number.prototype.fromSuiToneNumberToPitchValues = function() {
+        var t2p = [ null, "13", "31", "33", "52", "35", "55", "55-35", "32-42" ];
+        return t2p[this];
+      };
+
       Array.prototype.getIPA = function(sepSyllable) {
         var sep = sepSyllable;
         if (sep == null || sep == undefined) {
@@ -150,18 +178,15 @@
           if (syl.ipa) {
             r = syl.ipa.join("");
             if (r && syl.tone) {
-              switch (syl.tone) {
-                case 1:
-                  ucsInt = 0x00B9;
-                  break;
-                case 2:
-                case 3:
-                  ucsInt = (syl.tone - 2) + 0x00B2;
-                  break;
-                default:
-                  ucsInt = syl.tone + 0x2070;
+              var pitches = syl.tone.fromSuiToneNumberToPitchValues();
+              if (pitches.includes("-")) {
+                if (r.includes(":") || r.includes("\u02D0")) {
+                  pitches = pitches.split("-").pop();
+                } else {
+                  pitches = pitches.split("-").shift();
+                }
               }
-              r += String.fromCharCode(ucsInt);
+              r += pitches.toSuperScript();
             }
           }
           return r;
