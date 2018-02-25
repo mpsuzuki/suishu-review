@@ -10,6 +10,12 @@
         width: 100%;
         background-color: #E0E0E0;
       }
+      #sdyz_ipa_results {
+        border: 1px solid black;
+      }
+      #ucs_results {
+        border: 1px solid black;
+      }
       span.sound {
         display: inline-block;
         width: 150px;
@@ -31,10 +37,16 @@
     </div>
     <div class="results">
       <div id="sdyz_ipa_results">
-        <ul></ul>
+        <div class="desc-for-empty-list">
+        elementary sounds in SDYZ2007.
+        </div>
+        <ul style="display: none;"></ul>
       </div>
       <div id="ucs_results">
-        <ul></ul>
+        <div class="desc-for-empty-list">
+        characters in WG2 N4922.
+        </div>
+        <ul style="display: none;"></ul>
       </div>
     </div>
     <script>
@@ -216,6 +228,15 @@
           });
           sdyzIpaFounds.push(foundKeys);
         });
+
+        if (sdyzIpaFounds.length == 0) {
+          $("#sdyz_ipa_results > div.desc-for-empty-list").show();
+          document.zResults.hide();
+        } else {
+          $("#sdyz_ipa_results > div.desc-for-empty-list").hide();
+          document.zResults.show();
+        }
+
         for (var i = 0; i < sdyzIpaFounds.length; i += 1) {
           var jqLi = $("<li>");
           jqLi.appendTo(document.zResults);
@@ -244,6 +265,14 @@
             ucsFounds.push(ucs);
           }
         });
+
+        if (ucsFounds.length == 0) {
+          $("#ucs_results > div.desc-for-empty-list").show();
+          document.uResults.hide();
+        } else {
+          $("#ucs_results > div.desc-for-empty-list").hide();
+          document.uResults.show();
+        }
 
         for (var i = 0; i < ucsFounds.length; i += 1) {
           var ucs = ucsFounds[i];
