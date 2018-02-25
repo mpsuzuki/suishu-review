@@ -10,6 +10,16 @@
         width: 100%;
         background-color: #E0E0E0;
       }
+      span {
+        display: inline-block;
+        width: 150px;
+        margin-left: 25px;
+      }
+      span.ucs-roman {
+      }
+      span.ucs-ipa {
+        color: red;
+      }
     </style>
   </head>
   <body>
@@ -125,6 +135,23 @@
         return charName;
       };
 
+      Array.prototype.getIPA = function(sepSyllable) {
+        var sep = sepSyllable;
+        if (sep == null || sep == undefined) {
+          sep = " ";
+        }
+
+        return this.map(function(syl){
+          if (syl.ipa) {
+            return syl.ipa.join("");
+          } else {
+            return null;
+          }
+        }).filter(function(syl){
+          return (syl != null);
+        }).join(sep);
+      };
+
       // -------------------------------------------------------
 
       var Opts = new Object();
@@ -174,8 +201,12 @@
           jqImg.attr("title", ucs);
           jqImg.appendTo(jqLi);
 
-          var jqSpan = $("<span>").addClass("span-ucs-phon");
+          var jqSpan = $("<span>").addClass("ucs-roman");
           jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false));
+          jqSpan.appendTo(jqLi);
+
+          var jqSpan = $("<span>").addClass("ucs-ipa");
+          jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
           jqSpan.appendTo(jqLi);
         };
       };
