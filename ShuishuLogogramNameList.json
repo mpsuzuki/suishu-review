@@ -1,22 +1,35 @@
 {
   "U+1B300": [
     {
-      "syllable": "QYED7-A",
-      "sounds": [
+      "syllable": "QYED7",
+      "roman": [
         "Q",
         "Y",
         "ed"
       ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "ə"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B301": [
     {
       "syllable": "BYEENG3",
-      "sounds": [
+      "roman": [
         "BY",
         "eeng"
+      ],
+      "ipa": [
+        "pj",
+        "eŋ"
       ],
       "tone": 3,
       "junk": null
@@ -25,18 +38,26 @@
   "U+1B302": [
     {
       "syllable": "HNGAAN5",
-      "sounds": [
+      "roman": [
         "HNG",
         "aan"
+      ],
+      "ipa": [
+        "ŋ̊",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "HNGOU1",
-      "sounds": [
+      "roman": [
         "HNG",
         "ou"
+      ],
+      "ipa": [
+        "ŋ̊",
+        "au"
       ],
       "tone": 1,
       "junk": null
@@ -45,9 +66,13 @@
   "U+1B303": [
     {
       "syllable": "DAI6",
-      "sounds": [
+      "roman": [
         "D",
         "ai"
+      ],
+      "ipa": [
+        "t",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
@@ -56,17 +81,25 @@
   "U+1B304": [
     {
       "syllable": "BI2",
-      "sounds": [
+      "roman": [
         "B",
         "i"
+      ],
+      "ipa": [
+        "p",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "KU1",
-      "sounds": [
+      "roman": [
         "K",
+        "u"
+      ],
+      "ipa": [
+        "kʰ",
         "u"
       ],
       "tone": 1,
@@ -75,32 +108,53 @@
   ],
   "U+1B305": [
     {
-      "syllable": "QYUM5-A",
-      "sounds": [
+      "syllable": "QYUM5",
+      "roman": [
         "Q",
         "Y",
         "um"
       ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "um"
+      ],
       "tone": 5,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B306": [
     {
-      "syllable": "DI6-A",
-      "sounds": [
+      "syllable": "DI6",
+      "roman": [
         "D",
         "i"
       ],
+      "ipa": [
+        "t",
+        "i,ɿ"
+      ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B307": [
     {
       "syllable": "DYUM1",
-      "sounds": [
+      "roman": [
         "DY",
+        "um"
+      ],
+      "ipa": [
+        "tj",
         "um"
       ],
       "tone": 1,
@@ -108,17 +162,25 @@
     },
     {
       "syllable": "FONG2",
-      "sounds": [
+      "roman": [
         "F",
         "ong"
+      ],
+      "ipa": [
+        "f",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "HU3",
-      "sounds": [
+      "roman": [
         "H",
+        "u"
+      ],
+      "ipa": [
+        "h",
         "u"
       ],
       "tone": 3,
@@ -128,8 +190,12 @@
   "U+1B308": [
     {
       "syllable": "YU4",
-      "sounds": [
+      "roman": [
         "Y",
+        "u"
+      ],
+      "ipa": [
+        "j",
         "u"
       ],
       "tone": 4,
@@ -139,9 +205,13 @@
   "U+1B309": [
     {
       "syllable": "HED7",
-      "sounds": [
+      "roman": [
         "H",
         "ed"
+      ],
+      "ipa": [
+        "h",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -150,8 +220,12 @@
   "U+1B30A": [
     {
       "syllable": "XGO3",
-      "sounds": [
+      "roman": [
         "XG",
+        "o"
+      ],
+      "ipa": [
+        "ɣ",
         "o"
       ],
       "tone": 3,
@@ -161,8 +235,12 @@
   "U+1B30B": [
     {
       "syllable": "DOI6",
-      "sounds": [
+      "roman": [
         "D",
+        "oi"
+      ],
+      "ipa": [
+        "t",
         "oi"
       ],
       "tone": 6,
@@ -172,9 +250,13 @@
   "U+1B30C": [
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
@@ -183,18 +265,26 @@
   "U+1B30D": [
     {
       "syllable": "DYOU3",
-      "sounds": [
+      "roman": [
         "DY",
         "ou"
+      ],
+      "ipa": [
+        "tj",
+        "au"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "DYED7",
-      "sounds": [
+      "roman": [
         "DY",
         "ed"
+      ],
+      "ipa": [
+        "tj",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -203,9 +293,13 @@
   "U+1B30E": [
     {
       "syllable": "KAAM3",
-      "sounds": [
+      "roman": [
         "K",
         "aam"
+      ],
+      "ipa": [
+        "kʰ",
+        "aːm"
       ],
       "tone": 3,
       "junk": null
@@ -214,8 +308,12 @@
   "U+1B30F": [
     {
       "syllable": "ZAM2",
-      "sounds": [
+      "roman": [
         "Z",
+        "am"
+      ],
+      "ipa": [
+        "ts",
         "am"
       ],
       "tone": 2,
@@ -225,8 +323,12 @@
   "U+1B310": [
     {
       "syllable": "BA2",
-      "sounds": [
+      "roman": [
         "B",
+        "a"
+      ],
+      "ipa": [
+        "p",
         "a"
       ],
       "tone": 2,
@@ -236,8 +338,12 @@
   "U+1B311": [
     {
       "syllable": "NDEN1",
-      "sounds": [
+      "roman": [
         "ND",
+        "en"
+      ],
+      "ipa": [
+        "ⁿd",
         "en"
       ],
       "tone": 1,
@@ -247,9 +353,13 @@
   "U+1B312": [
     {
       "syllable": "LYEEU2",
-      "sounds": [
+      "roman": [
         "LY",
         "eeu"
+      ],
+      "ipa": [
+        "lj",
+        "eu"
       ],
       "tone": 2,
       "junk": null
@@ -258,17 +368,25 @@
   "U+1B313": [
     {
       "syllable": "FAI4",
-      "sounds": [
+      "roman": [
         "F",
         "ai"
+      ],
+      "ipa": [
+        "f",
+        "aːi"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "NU4",
-      "sounds": [
+      "roman": [
         "N",
+        "u"
+      ],
+      "ipa": [
+        "n",
         "u"
       ],
       "tone": 4,
@@ -278,9 +396,13 @@
   "U+1B314": [
     {
       "syllable": "ZING3",
-      "sounds": [
+      "roman": [
         "Z",
         "ing"
+      ],
+      "ipa": [
+        "ts",
+        "iŋ"
       ],
       "tone": 3,
       "junk": null
@@ -289,17 +411,25 @@
   "U+1B315": [
     {
       "syllable": "XGAAN2",
-      "sounds": [
+      "roman": [
         "XG",
         "aan"
+      ],
+      "ipa": [
+        "ɣ",
+        "aːn"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "FU5",
-      "sounds": [
+      "roman": [
         "F",
+        "u"
+      ],
+      "ipa": [
+        "f",
         "u"
       ],
       "tone": 5,
@@ -309,9 +439,13 @@
   "U+1B316": [
     {
       "syllable": "KAANG5",
-      "sounds": [
+      "roman": [
         "K",
         "aang"
+      ],
+      "ipa": [
+        "kʰ",
+        "aː"
       ],
       "tone": 5,
       "junk": null
@@ -319,20 +453,32 @@
   ],
   "U+1B317": [
     {
-      "syllable": "DI6-B",
-      "sounds": [
+      "syllable": "DI6",
+      "roman": [
         "D",
         "i"
       ],
+      "ipa": [
+        "t",
+        "i,ɿ"
+      ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B318": [
     {
       "syllable": "GGAM4",
-      "sounds": [
+      "roman": [
         "GG",
+        "am"
+      ],
+      "ipa": [
+        "q",
         "am"
       ],
       "tone": 4,
@@ -340,9 +486,13 @@
     },
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
@@ -351,9 +501,13 @@
   "U+1B319": [
     {
       "syllable": "LUNG5",
-      "sounds": [
+      "roman": [
         "L",
         "ung"
+      ],
+      "ipa": [
+        "l",
+        "uŋ"
       ],
       "tone": 5,
       "junk": null
@@ -362,9 +516,13 @@
   "U+1B31A": [
     {
       "syllable": "NNI6",
-      "sounds": [
+      "roman": [
         "NN",
         "i"
+      ],
+      "ipa": [
+        "ɳ",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
@@ -372,20 +530,32 @@
   ],
   "U+1B31B": [
     {
-      "syllable": "GGUI5-A",
-      "sounds": [
+      "syllable": "GGUI5",
+      "roman": [
         "GG",
+        "ui"
+      ],
+      "ipa": [
+        "q",
         "ui"
       ],
       "tone": 5,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B31C": [
     {
       "syllable": "XAM3",
-      "sounds": [
+      "roman": [
         "X",
+        "am"
+      ],
+      "ipa": [
+        "ɕ",
         "am"
       ],
       "tone": 3,
@@ -395,9 +565,13 @@
   "U+1B31D": [
     {
       "syllable": "HAAM1",
-      "sounds": [
+      "roman": [
         "H",
         "aam"
+      ],
+      "ipa": [
+        "h",
+        "aːm"
       ],
       "tone": 1,
       "junk": null
@@ -406,17 +580,25 @@
   "U+1B31E": [
     {
       "syllable": "NYEEM6",
-      "sounds": [
+      "roman": [
         "NY",
         "eem"
+      ],
+      "ipa": [
+        "nj",
+        "em"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "YU5",
-      "sounds": [
+      "roman": [
         "Y",
+        "u"
+      ],
+      "ipa": [
+        "j",
         "u"
       ],
       "tone": 5,
@@ -426,7 +608,10 @@
   "U+1B31F": [
     {
       "syllable": "UN1",
-      "sounds": [
+      "roman": [
+        "un"
+      ],
+      "ipa": [
         "un"
       ],
       "tone": 1,
@@ -434,9 +619,13 @@
     },
     {
       "syllable": "DANG5",
-      "sounds": [
+      "roman": [
         "D",
         "ang"
+      ],
+      "ipa": [
+        "t",
+        "aŋ"
       ],
       "tone": 5,
       "junk": null
@@ -445,9 +634,13 @@
   "U+1B320": [
     {
       "syllable": "DYAB8",
-      "sounds": [
+      "roman": [
         "DY",
         "ab"
+      ],
+      "ipa": [
+        "tj",
+        "ap"
       ],
       "tone": 8,
       "junk": null
@@ -455,21 +648,33 @@
   ],
   "U+1B321": [
     {
-      "syllable": "XEN1-A",
-      "sounds": [
+      "syllable": "XEN1",
+      "roman": [
         "X",
+        "en"
+      ],
+      "ipa": [
+        "ɕ",
         "en"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B322": [
     {
       "syllable": "QDONG1",
-      "sounds": [
+      "roman": [
         "QD",
         "ong"
+      ],
+      "ipa": [
+        "ʔd",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -478,9 +683,13 @@
   "U+1B323": [
     {
       "syllable": "SYAANG6",
-      "sounds": [
+      "roman": [
         "SY",
         "aang"
+      ],
+      "ipa": [
+        "sj",
+        "aː"
       ],
       "tone": 6,
       "junk": null
@@ -488,29 +697,45 @@
   ],
   "U+1B324": [
     {
-      "syllable": "REN1-A",
-      "sounds": [
+      "syllable": "REN1",
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B325": [
     {
       "syllable": "YAD8",
-      "sounds": [
+      "roman": [
         "Y",
         "ad"
+      ],
+      "ipa": [
+        "j",
+        "at"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "MYA1",
-      "sounds": [
+      "roman": [
         "MY",
+        "a"
+      ],
+      "ipa": [
+        "mj",
         "a"
       ],
       "tone": 1,
@@ -520,7 +745,10 @@
   "U+1B326": [
     {
       "syllable": "UN1",
-      "sounds": [
+      "roman": [
+        "un"
+      ],
+      "ipa": [
         "un"
       ],
       "tone": 1,
@@ -528,18 +756,26 @@
     },
     {
       "syllable": "DANG5",
-      "sounds": [
+      "roman": [
         "D",
         "ang"
+      ],
+      "ipa": [
+        "t",
+        "aŋ"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "QNING3",
-      "sounds": [
+      "roman": [
         "QN",
         "ing"
+      ],
+      "ipa": [
+        "ʔn",
+        "iŋ"
       ],
       "tone": 3,
       "junk": null
@@ -548,18 +784,26 @@
   "U+1B327": [
     {
       "syllable": "QDONG1",
-      "sounds": [
+      "roman": [
         "QD",
         "ong"
+      ],
+      "ipa": [
+        "ʔd",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "LAO4",
-      "sounds": [
+      "roman": [
         "L",
         "ao"
+      ],
+      "ipa": [
+        "l",
+        "aːu"
       ],
       "tone": 4,
       "junk": null
@@ -568,9 +812,13 @@
   "U+1B328": [
     {
       "syllable": "BAAN2",
-      "sounds": [
+      "roman": [
         "B",
         "aan"
+      ],
+      "ipa": [
+        "p",
+        "aːn"
       ],
       "tone": 2,
       "junk": null
@@ -579,17 +827,25 @@
   "U+1B329": [
     {
       "syllable": "BIG7",
-      "sounds": [
+      "roman": [
         "B",
         "ig"
+      ],
+      "ipa": [
+        "p",
+        "ik"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -597,8 +853,12 @@
     },
     {
       "syllable": "JEN1",
-      "sounds": [
+      "roman": [
         "J",
+        "en"
+      ],
+      "ipa": [
+        "ȶ",
         "en"
       ],
       "tone": 1,
@@ -608,17 +868,25 @@
   "U+1B32A": [
     {
       "syllable": "MYEED8",
-      "sounds": [
+      "roman": [
         "MY",
         "eed"
+      ],
+      "ipa": [
+        "mj",
+        "et"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "MEN2",
-      "sounds": [
+      "roman": [
         "M",
+        "en"
+      ],
+      "ipa": [
+        "m",
         "en"
       ],
       "tone": 2,
@@ -628,27 +896,39 @@
   "U+1B32B": [
     {
       "syllable": "DONG2",
-      "sounds": [
+      "roman": [
         "D",
         "ong"
+      ],
+      "ipa": [
+        "t",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "SEI5",
-      "sounds": [
+      "roman": [
         "S",
         "ei"
+      ],
+      "ipa": [
+        "s",
+        "ai"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "DANG1",
-      "sounds": [
+      "roman": [
         "D",
         "ang"
+      ],
+      "ipa": [
+        "t",
+        "aŋ"
       ],
       "tone": 1,
       "junk": null
@@ -657,9 +937,13 @@
   "U+1B32C": [
     {
       "syllable": "GWE1",
-      "sounds": [
+      "roman": [
         "GW",
         "e"
+      ],
+      "ipa": [
+        "kw",
+        "ə"
       ],
       "tone": 1,
       "junk": null
@@ -668,9 +952,13 @@
   "U+1B32D": [
     {
       "syllable": "DYEEN6",
-      "sounds": [
+      "roman": [
         "DY",
         "een"
+      ],
+      "ipa": [
+        "tj",
+        "en"
       ],
       "tone": 6,
       "junk": null
@@ -679,9 +967,13 @@
   "U+1B32E": [
     {
       "syllable": "ZAB8",
-      "sounds": [
+      "roman": [
         "Z",
         "ab"
+      ],
+      "ipa": [
+        "ts",
+        "ap"
       ],
       "tone": 8,
       "junk": null
@@ -690,9 +982,13 @@
   "U+1B32F": [
     {
       "syllable": "SAAN1",
-      "sounds": [
+      "roman": [
         "S",
         "aan"
+      ],
+      "ipa": [
+        "s",
+        "aːn"
       ],
       "tone": 1,
       "junk": null
@@ -701,9 +997,13 @@
   "U+1B330": [
     {
       "syllable": "MBEE1",
-      "sounds": [
+      "roman": [
         "MB",
         "ee"
+      ],
+      "ipa": [
+        "ᵐb",
+        "e"
       ],
       "tone": 1,
       "junk": null
@@ -711,21 +1011,33 @@
   ],
   "U+1B331": [
     {
-      "syllable": "NNAO6-A",
-      "sounds": [
+      "syllable": "NNAO6",
+      "roman": [
         "NN",
         "ao"
       ],
+      "ipa": [
+        "ɳ",
+        "aːu"
+      ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B332": [
     {
       "syllable": "GGAG7",
-      "sounds": [
+      "roman": [
         "GG",
         "ag"
+      ],
+      "ipa": [
+        "q",
+        "ak"
       ],
       "tone": 7,
       "junk": null
@@ -734,9 +1046,13 @@
   "U+1B333": [
     {
       "syllable": "MYEED8",
-      "sounds": [
+      "roman": [
         "MY",
         "eed"
+      ],
+      "ipa": [
+        "mj",
+        "et"
       ],
       "tone": 8,
       "junk": null
@@ -745,9 +1061,13 @@
   "U+1B334": [
     {
       "syllable": "QDEE3",
-      "sounds": [
+      "roman": [
         "QD",
         "ee"
+      ],
+      "ipa": [
+        "ʔd",
+        "e"
       ],
       "tone": 3,
       "junk": null
@@ -756,16 +1076,23 @@
   "U+1B335": [
     {
       "syllable": "AAN1",
-      "sounds": [
+      "roman": [
         "aan"
+      ],
+      "ipa": [
+        "aːn"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "QWON5",
-      "sounds": [
+      "roman": [
         "QW",
+        "on"
+      ],
+      "ipa": [
+        "ʔw",
         "on"
       ],
       "tone": 5,
@@ -775,9 +1102,13 @@
   "U+1B336": [
     {
       "syllable": "XGGAI3",
-      "sounds": [
+      "roman": [
         "XGG",
         "ai"
+      ],
+      "ipa": [
+        "ʁ",
+        "aːi"
       ],
       "tone": 3,
       "junk": null
@@ -785,20 +1116,32 @@
   ],
   "U+1B337": [
     {
-      "syllable": "MAN6-A",
-      "sounds": [
+      "syllable": "MAN6",
+      "roman": [
         "M",
+        "an"
+      ],
+      "ipa": [
+        "m",
         "an"
       ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B338": [
     {
       "syllable": "ZEN5",
-      "sounds": [
+      "roman": [
         "Z",
+        "en"
+      ],
+      "ipa": [
+        "ts",
         "en"
       ],
       "tone": 5,
@@ -808,8 +1151,12 @@
   "U+1B339": [
     {
       "syllable": "YEN2",
-      "sounds": [
+      "roman": [
         "Y",
+        "en"
+      ],
+      "ipa": [
+        "j",
         "en"
       ],
       "tone": 2,
@@ -817,8 +1164,12 @@
     },
     {
       "syllable": "YUI2",
-      "sounds": [
+      "roman": [
         "Y",
+        "ui"
+      ],
+      "ipa": [
+        "j",
         "ui"
       ],
       "tone": 2,
@@ -828,8 +1179,12 @@
   "U+1B33A": [
     {
       "syllable": "MYO3",
-      "sounds": [
+      "roman": [
         "MY",
+        "o"
+      ],
+      "ipa": [
+        "mj",
         "o"
       ],
       "tone": 3,
@@ -839,9 +1194,13 @@
   "U+1B33B": [
     {
       "syllable": "JOD8",
-      "sounds": [
+      "roman": [
         "J",
         "od"
+      ],
+      "ipa": [
+        "ȶ",
+        "ot"
       ],
       "tone": 8,
       "junk": null
@@ -849,22 +1208,35 @@
   ],
   "U+1B33C": [
     {
-      "syllable": "DYUM1-A",
-      "sounds": [
+      "syllable": "DYUM1",
+      "roman": [
         "DY",
+        "um"
+      ],
+      "ipa": [
+        "tj",
         "um"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B33D": [
     {
       "syllable": "QBYAAG7",
-      "sounds": [
+      "roman": [
         "QB",
         "Y",
         "aag"
+      ],
+      "ipa": [
+        "ʔb",
+        "j",
+        "aːk"
       ],
       "tone": 7,
       "junk": null
@@ -873,9 +1245,13 @@
   "U+1B33E": [
     {
       "syllable": "HMAAG7",
-      "sounds": [
+      "roman": [
         "HM",
         "aag"
+      ],
+      "ipa": [
+        "m̥",
+        "aːk"
       ],
       "tone": 7,
       "junk": null
@@ -884,8 +1260,12 @@
   "U+1B33F": [
     {
       "syllable": "DOI5",
-      "sounds": [
+      "roman": [
         "D",
+        "oi"
+      ],
+      "ipa": [
+        "t",
         "oi"
       ],
       "tone": 5,
@@ -895,9 +1275,13 @@
   "U+1B340": [
     {
       "syllable": "MEE2",
-      "sounds": [
+      "roman": [
         "M",
         "ee"
+      ],
+      "ipa": [
+        "m",
+        "e"
       ],
       "tone": 2,
       "junk": null
@@ -906,8 +1290,12 @@
   "U+1B341": [
     {
       "syllable": "JAN3",
-      "sounds": [
+      "roman": [
         "J",
+        "an"
+      ],
+      "ipa": [
+        "ȶ",
         "an"
       ],
       "tone": 3,
@@ -917,9 +1305,13 @@
   "U+1B342": [
     {
       "syllable": "HED8",
-      "sounds": [
+      "roman": [
         "H",
         "ed"
+      ],
+      "ipa": [
+        "h",
+        "ə"
       ],
       "tone": 8,
       "junk": null
@@ -928,8 +1320,12 @@
   "U+1B343": [
     {
       "syllable": "FEN1",
-      "sounds": [
+      "roman": [
         "F",
+        "en"
+      ],
+      "ipa": [
+        "f",
         "en"
       ],
       "tone": 1,
@@ -938,20 +1334,32 @@
   ],
   "U+1B344": [
     {
-      "syllable": "KKOU3-A",
-      "sounds": [
+      "syllable": "KKOU3",
+      "roman": [
         "KK",
         "ou"
       ],
+      "ipa": [
+        "qʰ",
+        "au"
+      ],
       "tone": 3,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B345": [
     {
       "syllable": "LA1",
-      "sounds": [
+      "roman": [
         "L",
+        "a"
+      ],
+      "ipa": [
+        "l",
         "a"
       ],
       "tone": 1,
@@ -961,9 +1369,14 @@
   "U+1B346": [
     {
       "syllable": "QYAM1",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
+        "am"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
         "am"
       ],
       "tone": 1,
@@ -973,8 +1386,12 @@
   "U+1B347": [
     {
       "syllable": "DYU5",
-      "sounds": [
+      "roman": [
         "DY",
+        "u"
+      ],
+      "ipa": [
+        "tj",
         "u"
       ],
       "tone": 5,
@@ -984,8 +1401,12 @@
   "U+1B348": [
     {
       "syllable": "DOI5",
-      "sounds": [
+      "roman": [
         "D",
+        "oi"
+      ],
+      "ipa": [
+        "t",
         "oi"
       ],
       "tone": 5,
@@ -993,9 +1414,13 @@
     },
     {
       "syllable": "DOU2",
-      "sounds": [
+      "roman": [
         "D",
         "ou"
+      ],
+      "ipa": [
+        "t",
+        "au"
       ],
       "tone": 2,
       "junk": null
@@ -1004,8 +1429,12 @@
   "U+1B349": [
     {
       "syllable": "SO1",
-      "sounds": [
+      "roman": [
         "S",
+        "o"
+      ],
+      "ipa": [
+        "s",
         "o"
       ],
       "tone": 1,
@@ -1015,9 +1444,13 @@
   "U+1B34A": [
     {
       "syllable": "FAANG1",
-      "sounds": [
+      "roman": [
         "F",
         "aang"
+      ],
+      "ipa": [
+        "f",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -1026,8 +1459,12 @@
   "U+1B34B": [
     {
       "syllable": "JUI5",
-      "sounds": [
+      "roman": [
         "J",
+        "ui"
+      ],
+      "ipa": [
+        "ȶ",
         "ui"
       ],
       "tone": 5,
@@ -1037,9 +1474,13 @@
   "U+1B34C": [
     {
       "syllable": "NYEEN2",
-      "sounds": [
+      "roman": [
         "NY",
         "een"
+      ],
+      "ipa": [
+        "nj",
+        "en"
       ],
       "tone": 2,
       "junk": null
@@ -1048,9 +1489,13 @@
   "U+1B34D": [
     {
       "syllable": "YAANG2",
-      "sounds": [
+      "roman": [
         "Y",
         "aang"
+      ],
+      "ipa": [
+        "j",
+        "aː"
       ],
       "tone": 2,
       "junk": null
@@ -1059,9 +1504,13 @@
   "U+1B34E": [
     {
       "syllable": "ZI3",
-      "sounds": [
+      "roman": [
         "Z",
         "i"
+      ],
+      "ipa": [
+        "ts",
+        "i,ɿ"
       ],
       "tone": 3,
       "junk": null
@@ -1069,21 +1518,33 @@
   ],
   "U+1B34F": [
     {
-      "syllable": "YUM1-A",
-      "sounds": [
+      "syllable": "YUM1",
+      "roman": [
         "Y",
+        "um"
+      ],
+      "ipa": [
+        "j",
         "um"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B350": [
     {
       "syllable": "BYONG4",
-      "sounds": [
+      "roman": [
         "BY",
         "ong"
+      ],
+      "ipa": [
+        "pj",
+        "oŋ"
       ],
       "tone": 4,
       "junk": null
@@ -1092,9 +1553,13 @@
   "U+1B351": [
     {
       "syllable": "PYEI5",
-      "sounds": [
+      "roman": [
         "PY",
         "ei"
+      ],
+      "ipa": [
+        "pʰj",
+        "ai"
       ],
       "tone": 5,
       "junk": null
@@ -1102,21 +1567,34 @@
   ],
   "U+1B352": [
     {
-      "syllable": "QYED7-B",
-      "sounds": [
+      "syllable": "QYED7",
+      "roman": [
         "Q",
         "Y",
         "ed"
       ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "ə"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B353": [
     {
       "syllable": "FU4",
-      "sounds": [
+      "roman": [
         "F",
+        "u"
+      ],
+      "ipa": [
+        "f",
         "u"
       ],
       "tone": 4,
@@ -1126,17 +1604,24 @@
   "U+1B354": [
     {
       "syllable": "EI3",
-      "sounds": [
+      "roman": [
         "ei"
+      ],
+      "ipa": [
+        "ai"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "SOU3",
-      "sounds": [
+      "roman": [
         "S",
         "ou"
+      ],
+      "ipa": [
+        "s",
+        "au"
       ],
       "tone": 3,
       "junk": null
@@ -1145,9 +1630,13 @@
   "U+1B355": [
     {
       "syllable": "NDOU5",
-      "sounds": [
+      "roman": [
         "ND",
         "ou"
+      ],
+      "ipa": [
+        "ⁿd",
+        "au"
       ],
       "tone": 5,
       "junk": null
@@ -1156,9 +1645,13 @@
   "U+1B356": [
     {
       "syllable": "BANG6",
-      "sounds": [
+      "roman": [
         "B",
         "ang"
+      ],
+      "ipa": [
+        "p",
+        "aŋ"
       ],
       "tone": 6,
       "junk": null
@@ -1167,8 +1660,12 @@
   "U+1B357": [
     {
       "syllable": "LYU2",
-      "sounds": [
+      "roman": [
         "LY",
+        "u"
+      ],
+      "ipa": [
+        "lj",
         "u"
       ],
       "tone": 2,
@@ -1176,17 +1673,25 @@
     },
     {
       "syllable": "LI2",
-      "sounds": [
+      "roman": [
         "L",
         "i"
+      ],
+      "ipa": [
+        "l",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -1196,18 +1701,26 @@
   "U+1B358": [
     {
       "syllable": "XONG1",
-      "sounds": [
+      "roman": [
         "X",
         "ong"
+      ],
+      "ipa": [
+        "ɕ",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "XEEB7",
-      "sounds": [
+      "roman": [
         "X",
         "eeb"
+      ],
+      "ipa": [
+        "ɕ",
+        "ep"
       ],
       "tone": 7,
       "junk": null
@@ -1216,8 +1729,12 @@
   "U+1B359": [
     {
       "syllable": "SA1",
-      "sounds": [
+      "roman": [
         "S",
+        "a"
+      ],
+      "ipa": [
+        "s",
         "a"
       ],
       "tone": 1,
@@ -1225,9 +1742,13 @@
     },
     {
       "syllable": "BONG2",
-      "sounds": [
+      "roman": [
         "B",
         "ong"
+      ],
+      "ipa": [
+        "p",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -1236,26 +1757,38 @@
   "U+1B35A": [
     {
       "syllable": "DI6",
-      "sounds": [
+      "roman": [
         "D",
         "i"
+      ],
+      "ipa": [
+        "t",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "HAANG1",
-      "sounds": [
+      "roman": [
         "H",
         "aang"
+      ],
+      "ipa": [
+        "h",
+        "aː"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "FAN1",
-      "sounds": [
+      "roman": [
         "F",
+        "an"
+      ],
+      "ipa": [
+        "f",
         "an"
       ],
       "tone": 1,
@@ -1265,8 +1798,12 @@
   "U+1B35B": [
     {
       "syllable": "XA3",
-      "sounds": [
+      "roman": [
         "X",
+        "a"
+      ],
+      "ipa": [
+        "ɕ",
         "a"
       ],
       "tone": 3,
@@ -1276,8 +1813,12 @@
   "U+1B35C": [
     {
       "syllable": "VYEN3",
-      "sounds": [
+      "roman": [
         "VY",
+        "en"
+      ],
+      "ipa": [
+        "vj",
         "en"
       ],
       "tone": 3,
@@ -1287,18 +1828,26 @@
   "U+1B35D": [
     {
       "syllable": "BYED8",
-      "sounds": [
+      "roman": [
         "BY",
         "ed"
+      ],
+      "ipa": [
+        "pj",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "XONG1",
-      "sounds": [
+      "roman": [
         "X",
         "ong"
+      ],
+      "ipa": [
+        "ɕ",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -1307,9 +1856,13 @@
   "U+1B35E": [
     {
       "syllable": "DEE5",
-      "sounds": [
+      "roman": [
         "D",
         "ee"
+      ],
+      "ipa": [
+        "t",
+        "e"
       ],
       "tone": 5,
       "junk": null
@@ -1318,8 +1871,12 @@
   "U+1B35F": [
     {
       "syllable": "SO3",
-      "sounds": [
+      "roman": [
         "S",
+        "o"
+      ],
+      "ipa": [
+        "s",
         "o"
       ],
       "tone": 3,
@@ -1327,9 +1884,13 @@
     },
     {
       "syllable": "SYEEN1",
-      "sounds": [
+      "roman": [
         "SY",
         "een"
+      ],
+      "ipa": [
+        "sj",
+        "en"
       ],
       "tone": 1,
       "junk": null
@@ -1338,8 +1899,12 @@
   "U+1B360": [
     {
       "syllable": "GA1",
-      "sounds": [
+      "roman": [
         "G",
+        "a"
+      ],
+      "ipa": [
+        "k",
         "a"
       ],
       "tone": 1,
@@ -1349,27 +1914,39 @@
   "U+1B361": [
     {
       "syllable": "ZAANG1",
-      "sounds": [
+      "roman": [
         "Z",
         "aang"
+      ],
+      "ipa": [
+        "ts",
+        "aː"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NNOD8",
-      "sounds": [
+      "roman": [
         "NN",
         "od"
+      ],
+      "ipa": [
+        "ɳ",
+        "ot"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "LOG8",
-      "sounds": [
+      "roman": [
         "L",
         "og"
+      ],
+      "ipa": [
+        "l",
+        "ok"
       ],
       "tone": 8,
       "junk": null
@@ -1378,9 +1955,13 @@
   "U+1B362": [
     {
       "syllable": "JAAB7",
-      "sounds": [
+      "roman": [
         "J",
         "aab"
+      ],
+      "ipa": [
+        "ȶ",
+        "aːp"
       ],
       "tone": 7,
       "junk": null
@@ -1389,8 +1970,12 @@
   "U+1B363": [
     {
       "syllable": "QNA3",
-      "sounds": [
+      "roman": [
         "QN",
+        "a"
+      ],
+      "ipa": [
+        "ʔn",
         "a"
       ],
       "tone": 3,
@@ -1400,9 +1985,13 @@
   "U+1B364": [
     {
       "syllable": "MAO4",
-      "sounds": [
+      "roman": [
         "M",
         "ao"
+      ],
+      "ipa": [
+        "m",
+        "aːu"
       ],
       "tone": 4,
       "junk": null
@@ -1411,9 +2000,13 @@
   "U+1B365": [
     {
       "syllable": "NI4",
-      "sounds": [
+      "roman": [
         "N",
         "i"
+      ],
+      "ipa": [
+        "n",
+        "i,ɿ"
       ],
       "tone": 4,
       "junk": null
@@ -1421,21 +2014,33 @@
   ],
   "U+1B366": [
     {
-      "syllable": "YUM1-B",
-      "sounds": [
+      "syllable": "YUM1",
+      "roman": [
         "Y",
+        "um"
+      ],
+      "ipa": [
+        "j",
         "um"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B367": [
     {
       "syllable": "XGAAN2",
-      "sounds": [
+      "roman": [
         "XG",
         "aan"
+      ],
+      "ipa": [
+        "ɣ",
+        "aːn"
       ],
       "tone": 2,
       "junk": null
@@ -1444,8 +2049,12 @@
   "U+1B368": [
     {
       "syllable": "QBA3",
-      "sounds": [
+      "roman": [
         "QB",
+        "a"
+      ],
+      "ipa": [
+        "ʔb",
         "a"
       ],
       "tone": 3,
@@ -1455,9 +2064,13 @@
   "U+1B369": [
     {
       "syllable": "GGEEN1",
-      "sounds": [
+      "roman": [
         "GG",
         "een"
+      ],
+      "ipa": [
+        "q",
+        "en"
       ],
       "tone": 1,
       "junk": null
@@ -1465,20 +2078,32 @@
   ],
   "U+1B36A": [
     {
-      "syllable": "DIG7-A",
-      "sounds": [
+      "syllable": "DIG7",
+      "roman": [
         "D",
         "ig"
       ],
+      "ipa": [
+        "t",
+        "ik"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B36B": [
     {
       "syllable": "GU3",
-      "sounds": [
+      "roman": [
         "G",
+        "u"
+      ],
+      "ipa": [
+        "k",
         "u"
       ],
       "tone": 3,
@@ -1486,9 +2111,13 @@
     },
     {
       "syllable": "SUB7",
-      "sounds": [
+      "roman": [
         "S",
         "ub"
+      ],
+      "ipa": [
+        "s",
+        "up"
       ],
       "tone": 7,
       "junk": null
@@ -1497,8 +2126,12 @@
   "U+1B36C": [
     {
       "syllable": "DA3",
-      "sounds": [
+      "roman": [
         "D",
+        "a"
+      ],
+      "ipa": [
+        "t",
         "a"
       ],
       "tone": 3,
@@ -1508,8 +2141,12 @@
   "U+1B36D": [
     {
       "syllable": "BEN3",
-      "sounds": [
+      "roman": [
         "B",
+        "en"
+      ],
+      "ipa": [
+        "p",
         "en"
       ],
       "tone": 3,
@@ -1519,9 +2156,13 @@
   "U+1B36E": [
     {
       "syllable": "XONG1",
-      "sounds": [
+      "roman": [
         "X",
         "ong"
+      ],
+      "ipa": [
+        "ɕ",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -1530,9 +2171,13 @@
   "U+1B36F": [
     {
       "syllable": "FONG2",
-      "sounds": [
+      "roman": [
         "F",
         "ong"
+      ],
+      "ipa": [
+        "f",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -1541,8 +2186,12 @@
   "U+1B370": [
     {
       "syllable": "VA3",
-      "sounds": [
+      "roman": [
         "V",
+        "a"
+      ],
+      "ipa": [
+        "v",
         "a"
       ],
       "tone": 3,
@@ -1552,8 +2201,12 @@
   "U+1B371": [
     {
       "syllable": "LEN2",
-      "sounds": [
+      "roman": [
         "L",
+        "en"
+      ],
+      "ipa": [
+        "l",
         "en"
       ],
       "tone": 2,
@@ -1563,8 +2216,12 @@
   "U+1B372": [
     {
       "syllable": "NYUM5",
-      "sounds": [
+      "roman": [
         "NY",
+        "um"
+      ],
+      "ipa": [
+        "nj",
         "um"
       ],
       "tone": 5,
@@ -1574,9 +2231,13 @@
   "U+1B373": [
     {
       "syllable": "LI2",
-      "sounds": [
+      "roman": [
         "L",
         "i"
+      ],
+      "ipa": [
+        "l",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
@@ -1584,20 +2245,32 @@
   ],
   "U+1B374": [
     {
-      "syllable": "DIG7-B",
-      "sounds": [
+      "syllable": "DIG7",
+      "roman": [
         "D",
         "ig"
       ],
+      "ipa": [
+        "t",
+        "ik"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B375": [
     {
       "syllable": "BU1",
-      "sounds": [
+      "roman": [
         "B",
+        "u"
+      ],
+      "ipa": [
+        "p",
         "u"
       ],
       "tone": 1,
@@ -1607,18 +2280,26 @@
   "U+1B376": [
     {
       "syllable": "GGOU3",
-      "sounds": [
+      "roman": [
         "GG",
         "ou"
+      ],
+      "ipa": [
+        "q",
+        "au"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "RAI5",
-      "sounds": [
+      "roman": [
         "R",
         "ai"
+      ],
+      "ipa": [
+        "z",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -1627,9 +2308,13 @@
   "U+1B377": [
     {
       "syllable": "KKOU1",
-      "sounds": [
+      "roman": [
         "KK",
         "ou"
+      ],
+      "ipa": [
+        "qʰ",
+        "au"
       ],
       "tone": 1,
       "junk": null
@@ -1638,8 +2323,12 @@
   "U+1B378": [
     {
       "syllable": "DU3",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 3,
@@ -1647,9 +2336,13 @@
     },
     {
       "syllable": "BYAI2",
-      "sounds": [
+      "roman": [
         "BY",
         "ai"
+      ],
+      "ipa": [
+        "pj",
+        "aːi"
       ],
       "tone": 2,
       "junk": null
@@ -1658,9 +2351,13 @@
   "U+1B379": [
     {
       "syllable": "JAAB8",
-      "sounds": [
+      "roman": [
         "J",
         "aab"
+      ],
+      "ipa": [
+        "ȶ",
+        "aːp"
       ],
       "tone": 8,
       "junk": null
@@ -1669,9 +2366,13 @@
   "U+1B37A": [
     {
       "syllable": "GWAI5",
-      "sounds": [
+      "roman": [
         "GW",
         "ai"
+      ],
+      "ipa": [
+        "kw",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -1680,8 +2381,12 @@
   "U+1B37B": [
     {
       "syllable": "HAM3",
-      "sounds": [
+      "roman": [
         "H",
+        "am"
+      ],
+      "ipa": [
+        "h",
         "am"
       ],
       "tone": 3,
@@ -1691,8 +2396,12 @@
   "U+1B37C": [
     {
       "syllable": "SA5",
-      "sounds": [
+      "roman": [
         "S",
+        "a"
+      ],
+      "ipa": [
+        "s",
         "a"
       ],
       "tone": 5,
@@ -1700,9 +2409,13 @@
     },
     {
       "syllable": "SYEENG1",
-      "sounds": [
+      "roman": [
         "SY",
         "eeng"
+      ],
+      "ipa": [
+        "sj",
+        "eŋ"
       ],
       "tone": 1,
       "junk": null
@@ -1711,9 +2424,13 @@
   "U+1B37D": [
     {
       "syllable": "JI1",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
@@ -1722,17 +2439,25 @@
   "U+1B37E": [
     {
       "syllable": "YEENG3",
-      "sounds": [
+      "roman": [
         "Y",
         "eeng"
+      ],
+      "ipa": [
+        "j",
+        "eŋ"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "GA1",
-      "sounds": [
+      "roman": [
         "G",
+        "a"
+      ],
+      "ipa": [
+        "k",
         "a"
       ],
       "tone": 1,
@@ -1742,8 +2467,12 @@
   "U+1B37F": [
     {
       "syllable": "LIN3",
-      "sounds": [
+      "roman": [
         "L",
+        "in"
+      ],
+      "ipa": [
+        "l",
         "in"
       ],
       "tone": 3,
@@ -1753,9 +2482,13 @@
   "U+1B380": [
     {
       "syllable": "GAAM3",
-      "sounds": [
+      "roman": [
         "G",
         "aam"
+      ],
+      "ipa": [
+        "k",
+        "aːm"
       ],
       "tone": 3,
       "junk": null
@@ -1764,8 +2497,12 @@
   "U+1B381": [
     {
       "syllable": "FAN2",
-      "sounds": [
+      "roman": [
         "F",
+        "an"
+      ],
+      "ipa": [
+        "f",
         "an"
       ],
       "tone": 2,
@@ -1775,8 +2512,12 @@
   "U+1B382": [
     {
       "syllable": "XON6",
-      "sounds": [
+      "roman": [
         "X",
+        "on"
+      ],
+      "ipa": [
+        "ɕ",
         "on"
       ],
       "tone": 6,
@@ -1786,8 +2527,12 @@
   "U+1B383": [
     {
       "syllable": "NNUM2",
-      "sounds": [
+      "roman": [
         "NN",
+        "um"
+      ],
+      "ipa": [
+        "ɳ",
         "um"
       ],
       "tone": 2,
@@ -1797,8 +2542,12 @@
   "U+1B384": [
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -1808,8 +2557,12 @@
   "U+1B385": [
     {
       "syllable": "MAN1",
-      "sounds": [
+      "roman": [
         "M",
+        "an"
+      ],
+      "ipa": [
+        "m",
         "an"
       ],
       "tone": 1,
@@ -1819,17 +2572,25 @@
   "U+1B386": [
     {
       "syllable": "LYEEU4",
-      "sounds": [
+      "roman": [
         "LY",
         "eeu"
+      ],
+      "ipa": [
+        "lj",
+        "eu"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "JA1",
-      "sounds": [
+      "roman": [
         "J",
+        "a"
+      ],
+      "ipa": [
+        "ȶ",
         "a"
       ],
       "tone": 1,
@@ -1837,9 +2598,13 @@
     },
     {
       "syllable": "XOD7",
-      "sounds": [
+      "roman": [
         "X",
         "od"
+      ],
+      "ipa": [
+        "ɕ",
+        "ot"
       ],
       "tone": 7,
       "junk": null
@@ -1848,8 +2613,12 @@
   "U+1B387": [
     {
       "syllable": "NGO4",
-      "sounds": [
+      "roman": [
         "NG",
+        "o"
+      ],
+      "ipa": [
+        "ŋ",
         "o"
       ],
       "tone": 4,
@@ -1857,8 +2626,12 @@
     },
     {
       "syllable": "HU3",
-      "sounds": [
+      "roman": [
         "H",
+        "u"
+      ],
+      "ipa": [
+        "h",
         "u"
       ],
       "tone": 3,
@@ -1868,8 +2641,12 @@
   "U+1B388": [
     {
       "syllable": "JU3",
-      "sounds": [
+      "roman": [
         "J",
+        "u"
+      ],
+      "ipa": [
+        "ȶ",
         "u"
       ],
       "tone": 3,
@@ -1877,8 +2654,12 @@
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -1886,9 +2667,13 @@
     },
     {
       "syllable": "BEEU5",
-      "sounds": [
+      "roman": [
         "B",
         "eeu"
+      ],
+      "ipa": [
+        "p",
+        "eu"
       ],
       "tone": 5,
       "junk": null
@@ -1897,18 +2682,26 @@
   "U+1B389": [
     {
       "syllable": "JED7",
-      "sounds": [
+      "roman": [
         "J",
         "ed"
+      ],
+      "ipa": [
+        "ȶ",
+        "ə"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "SAAD7",
-      "sounds": [
+      "roman": [
         "S",
         "aad"
+      ],
+      "ipa": [
+        "s",
+        "aːt"
       ],
       "tone": 7,
       "junk": null
@@ -1917,18 +2710,26 @@
   "U+1B38A": [
     {
       "syllable": "FONG1",
-      "sounds": [
+      "roman": [
         "F",
         "ong"
+      ],
+      "ipa": [
+        "f",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "YONG2",
-      "sounds": [
+      "roman": [
         "Y",
         "ong"
+      ],
+      "ipa": [
+        "j",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -1937,9 +2738,13 @@
   "U+1B38B": [
     {
       "syllable": "DAO5",
-      "sounds": [
+      "roman": [
         "D",
         "ao"
+      ],
+      "ipa": [
+        "t",
+        "aːu"
       ],
       "tone": 5,
       "junk": null
@@ -1948,8 +2753,12 @@
   "U+1B38C": [
     {
       "syllable": "HO3",
-      "sounds": [
+      "roman": [
         "H",
+        "o"
+      ],
+      "ipa": [
+        "h",
         "o"
       ],
       "tone": 3,
@@ -1959,18 +2768,26 @@
   "U+1B38D": [
     {
       "syllable": "DAI6",
-      "sounds": [
+      "roman": [
         "D",
         "ai"
+      ],
+      "ipa": [
+        "t",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "XONG1",
-      "sounds": [
+      "roman": [
         "X",
         "ong"
+      ],
+      "ipa": [
+        "ɕ",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -1979,8 +2796,12 @@
   "U+1B38E": [
     {
       "syllable": "JUI3",
-      "sounds": [
+      "roman": [
         "J",
+        "ui"
+      ],
+      "ipa": [
+        "ȶ",
         "ui"
       ],
       "tone": 3,
@@ -1988,17 +2809,25 @@
     },
     {
       "syllable": "SAAD7",
-      "sounds": [
+      "roman": [
         "S",
         "aad"
+      ],
+      "ipa": [
+        "s",
+        "aːt"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "JA1",
-      "sounds": [
+      "roman": [
         "J",
+        "a"
+      ],
+      "ipa": [
+        "ȶ",
         "a"
       ],
       "tone": 1,
@@ -2008,9 +2837,13 @@
   "U+1B38F": [
     {
       "syllable": "QXGOG7",
-      "sounds": [
+      "roman": [
         "QXG",
         "og"
+      ],
+      "ipa": [
+        "ʔɣ",
+        "ok"
       ],
       "tone": 7,
       "junk": null
@@ -2019,9 +2852,13 @@
   "U+1B390": [
     {
       "syllable": "KKAANG1",
-      "sounds": [
+      "roman": [
         "KK",
         "aang"
+      ],
+      "ipa": [
+        "qʰ",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -2030,8 +2867,12 @@
   "U+1B391": [
     {
       "syllable": "DO5",
-      "sounds": [
+      "roman": [
         "D",
+        "o"
+      ],
+      "ipa": [
+        "t",
         "o"
       ],
       "tone": 5,
@@ -2039,9 +2880,13 @@
     },
     {
       "syllable": "QWAANG5",
-      "sounds": [
+      "roman": [
         "QW",
         "aang"
+      ],
+      "ipa": [
+        "ʔw",
+        "aː"
       ],
       "tone": 5,
       "junk": null
@@ -2050,8 +2895,12 @@
   "U+1B392": [
     {
       "syllable": "ZON5",
-      "sounds": [
+      "roman": [
         "Z",
+        "on"
+      ],
+      "ipa": [
+        "ts",
         "on"
       ],
       "tone": 5,
@@ -2061,9 +2910,13 @@
   "U+1B393": [
     {
       "syllable": "FAAN6",
-      "sounds": [
+      "roman": [
         "F",
         "aan"
+      ],
+      "ipa": [
+        "f",
+        "aːn"
       ],
       "tone": 6,
       "junk": null
@@ -2072,8 +2925,12 @@
   "U+1B394": [
     {
       "syllable": "GAM6",
-      "sounds": [
+      "roman": [
         "G",
+        "am"
+      ],
+      "ipa": [
+        "k",
         "am"
       ],
       "tone": 6,
@@ -2083,8 +2940,12 @@
   "U+1B395": [
     {
       "syllable": "MON1",
-      "sounds": [
+      "roman": [
         "M",
+        "on"
+      ],
+      "ipa": [
+        "m",
         "on"
       ],
       "tone": 1,
@@ -2094,9 +2955,13 @@
   "U+1B396": [
     {
       "syllable": "ZEENG6",
-      "sounds": [
+      "roman": [
         "Z",
         "eeng"
+      ],
+      "ipa": [
+        "ts",
+        "eŋ"
       ],
       "tone": 6,
       "junk": null
@@ -2105,9 +2970,13 @@
   "U+1B397": [
     {
       "syllable": "MID8",
-      "sounds": [
+      "roman": [
         "M",
         "id"
+      ],
+      "ipa": [
+        "m",
+        "it"
       ],
       "tone": 8,
       "junk": null
@@ -2116,9 +2985,13 @@
   "U+1B398": [
     {
       "syllable": "NUG8",
-      "sounds": [
+      "roman": [
         "N",
         "ug"
+      ],
+      "ipa": [
+        "n",
+        "uk"
       ],
       "tone": 8,
       "junk": null
@@ -2127,9 +3000,13 @@
   "U+1B399": [
     {
       "syllable": "NDAI5",
-      "sounds": [
+      "roman": [
         "ND",
         "ai"
+      ],
+      "ipa": [
+        "ⁿd",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -2138,8 +3015,12 @@
   "U+1B39A": [
     {
       "syllable": "LAM1",
-      "sounds": [
+      "roman": [
         "L",
+        "am"
+      ],
+      "ipa": [
+        "l",
         "am"
       ],
       "tone": 1,
@@ -2149,8 +3030,12 @@
   "U+1B39B": [
     {
       "syllable": "YIU1",
-      "sounds": [
+      "roman": [
         "Y",
+        "iu"
+      ],
+      "ipa": [
+        "j",
         "iu"
       ],
       "tone": 1,
@@ -2160,8 +3045,12 @@
   "U+1B39C": [
     {
       "syllable": "LO1",
-      "sounds": [
+      "roman": [
         "L",
+        "o"
+      ],
+      "ipa": [
+        "l",
         "o"
       ],
       "tone": 1,
@@ -2171,9 +3060,13 @@
   "U+1B39D": [
     {
       "syllable": "NAAM2",
-      "sounds": [
+      "roman": [
         "N",
         "aam"
+      ],
+      "ipa": [
+        "n",
+        "aːm"
       ],
       "tone": 2,
       "junk": null
@@ -2182,17 +3075,25 @@
   "U+1B39E": [
     {
       "syllable": "XOD8",
-      "sounds": [
+      "roman": [
         "X",
         "od"
+      ],
+      "ipa": [
+        "ɕ",
+        "ot"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "LU6",
-      "sounds": [
+      "roman": [
         "L",
+        "u"
+      ],
+      "ipa": [
+        "l",
         "u"
       ],
       "tone": 6,
@@ -2202,9 +3103,13 @@
   "U+1B39F": [
     {
       "syllable": "BANG1",
-      "sounds": [
+      "roman": [
         "B",
         "ang"
+      ],
+      "ipa": [
+        "p",
+        "aŋ"
       ],
       "tone": 1,
       "junk": null
@@ -2213,8 +3118,12 @@
   "U+1B3A0": [
     {
       "syllable": "BEN2",
-      "sounds": [
+      "roman": [
         "B",
+        "en"
+      ],
+      "ipa": [
+        "p",
         "en"
       ],
       "tone": 2,
@@ -2222,9 +3131,13 @@
     },
     {
       "syllable": "DONG2",
-      "sounds": [
+      "roman": [
         "D",
         "ong"
+      ],
+      "ipa": [
+        "t",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -2233,17 +3146,25 @@
   "U+1B3A1": [
     {
       "syllable": "PEEU1",
-      "sounds": [
+      "roman": [
         "P",
         "eeu"
+      ],
+      "ipa": [
+        "pʰ",
+        "eu"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NNAN2",
-      "sounds": [
+      "roman": [
         "NN",
+        "an"
+      ],
+      "ipa": [
+        "ɳ",
         "an"
       ],
       "tone": 2,
@@ -2253,8 +3174,12 @@
   "U+1B3A2": [
     {
       "syllable": "VAN1",
-      "sounds": [
+      "roman": [
         "V",
+        "an"
+      ],
+      "ipa": [
+        "v",
         "an"
       ],
       "tone": 1,
@@ -2264,9 +3189,13 @@
   "U+1B3A3": [
     {
       "syllable": "ZONG2",
-      "sounds": [
+      "roman": [
         "Z",
         "ong"
+      ],
+      "ipa": [
+        "ts",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -2275,8 +3204,12 @@
   "U+1B3A4": [
     {
       "syllable": "DA5",
-      "sounds": [
+      "roman": [
         "D",
+        "a"
+      ],
+      "ipa": [
+        "t",
         "a"
       ],
       "tone": 5,
@@ -2285,20 +3218,32 @@
   ],
   "U+1B3A5": [
     {
-      "syllable": "HEN2-A",
-      "sounds": [
+      "syllable": "HEN2",
+      "roman": [
         "H",
+        "en"
+      ],
+      "ipa": [
+        "h",
         "en"
       ],
       "tone": 2,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3A6": [
     {
       "syllable": "HUN4",
-      "sounds": [
+      "roman": [
         "H",
+        "un"
+      ],
+      "ipa": [
+        "h",
         "un"
       ],
       "tone": 4,
@@ -2308,19 +3253,28 @@
   "U+1B3A7": [
     {
       "syllable": "XONG1",
-      "sounds": [
+      "roman": [
         "X",
         "ong"
+      ],
+      "ipa": [
+        "ɕ",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "QYED7",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
         "ed"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -2329,9 +3283,13 @@
   "U+1B3A8": [
     {
       "syllable": "RED7",
-      "sounds": [
+      "roman": [
         "R",
         "ed"
+      ],
+      "ipa": [
+        "z",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -2340,10 +3298,15 @@
   "U+1B3A9": [
     {
       "syllable": "QBYAI5",
-      "sounds": [
+      "roman": [
         "QB",
         "Y",
         "ai"
+      ],
+      "ipa": [
+        "ʔb",
+        "j",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -2352,9 +3315,13 @@
   "U+1B3AA": [
     {
       "syllable": "NNAAN1",
-      "sounds": [
+      "roman": [
         "NN",
         "aan"
+      ],
+      "ipa": [
+        "ɳ",
+        "aːn"
       ],
       "tone": 1,
       "junk": null
@@ -2363,9 +3330,13 @@
   "U+1B3AB": [
     {
       "syllable": "GEI5",
-      "sounds": [
+      "roman": [
         "G",
         "ei"
+      ],
+      "ipa": [
+        "k",
+        "ai"
       ],
       "tone": 5,
       "junk": null
@@ -2374,18 +3345,27 @@
   "U+1B3AC": [
     {
       "syllable": "QYOU5",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
         "ou"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "au"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "JA1",
-      "sounds": [
+      "roman": [
         "J",
+        "a"
+      ],
+      "ipa": [
+        "ȶ",
         "a"
       ],
       "tone": 1,
@@ -2395,9 +3375,13 @@
   "U+1B3AD": [
     {
       "syllable": "QDAI1",
-      "sounds": [
+      "roman": [
         "QD",
         "ai"
+      ],
+      "ipa": [
+        "ʔd",
+        "aːi"
       ],
       "tone": 1,
       "junk": null
@@ -2406,8 +3390,12 @@
   "U+1B3AE": [
     {
       "syllable": "DUI4",
-      "sounds": [
+      "roman": [
         "D",
+        "ui"
+      ],
+      "ipa": [
+        "t",
         "ui"
       ],
       "tone": 4,
@@ -2417,9 +3405,13 @@
   "U+1B3AF": [
     {
       "syllable": "DAANG2",
-      "sounds": [
+      "roman": [
         "D",
         "aang"
+      ],
+      "ipa": [
+        "t",
+        "aː"
       ],
       "tone": 2,
       "junk": null
@@ -2428,9 +3420,13 @@
   "U+1B3B0": [
     {
       "syllable": "GING3",
-      "sounds": [
+      "roman": [
         "G",
         "ing"
+      ],
+      "ipa": [
+        "k",
+        "iŋ"
       ],
       "tone": 3,
       "junk": null
@@ -2439,8 +3435,12 @@
   "U+1B3B1": [
     {
       "syllable": "GA4",
-      "sounds": [
+      "roman": [
         "G",
+        "a"
+      ],
+      "ipa": [
+        "k",
         "a"
       ],
       "tone": 4,
@@ -2448,8 +3448,12 @@
     },
     {
       "syllable": "FA1",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 1,
@@ -2459,9 +3463,13 @@
   "U+1B3B2": [
     {
       "syllable": "LOU4",
-      "sounds": [
+      "roman": [
         "L",
         "ou"
+      ],
+      "ipa": [
+        "l",
+        "au"
       ],
       "tone": 4,
       "junk": null
@@ -2470,17 +3478,25 @@
   "U+1B3B3": [
     {
       "syllable": "XI3",
-      "sounds": [
+      "roman": [
         "X",
         "i"
+      ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "VYEN5",
-      "sounds": [
+      "roman": [
         "VY",
+        "en"
+      ],
+      "ipa": [
+        "vj",
         "en"
       ],
       "tone": 5,
@@ -2490,27 +3506,39 @@
   "U+1B3B4": [
     {
       "syllable": "XEEN2",
-      "sounds": [
+      "roman": [
         "X",
         "een"
+      ],
+      "ipa": [
+        "ɕ",
+        "en"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "BYED8",
-      "sounds": [
+      "roman": [
         "BY",
         "ed"
+      ],
+      "ipa": [
+        "pj",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "XGAAN2",
-      "sounds": [
+      "roman": [
         "XG",
         "aan"
+      ],
+      "ipa": [
+        "ɣ",
+        "aːn"
       ],
       "tone": 2,
       "junk": null
@@ -2519,9 +3547,13 @@
   "U+1B3B5": [
     {
       "syllable": "KKAG7",
-      "sounds": [
+      "roman": [
         "KK",
         "ag"
+      ],
+      "ipa": [
+        "qʰ",
+        "ak"
       ],
       "tone": 7,
       "junk": null
@@ -2530,8 +3562,12 @@
   "U+1B3B6": [
     {
       "syllable": "ZEN2",
-      "sounds": [
+      "roman": [
         "Z",
+        "en"
+      ],
+      "ipa": [
+        "ts",
         "en"
       ],
       "tone": 2,
@@ -2541,8 +3577,12 @@
   "U+1B3B7": [
     {
       "syllable": "HO4",
-      "sounds": [
+      "roman": [
         "H",
+        "o"
+      ],
+      "ipa": [
+        "h",
         "o"
       ],
       "tone": 4,
@@ -2552,8 +3592,12 @@
   "U+1B3B8": [
     {
       "syllable": "BU2",
-      "sounds": [
+      "roman": [
         "B",
+        "u"
+      ],
+      "ipa": [
+        "p",
         "u"
       ],
       "tone": 2,
@@ -2561,8 +3605,12 @@
     },
     {
       "syllable": "MBYIU1",
-      "sounds": [
+      "roman": [
         "MBY",
+        "iu"
+      ],
+      "ipa": [
+        "ᵐbj",
         "iu"
       ],
       "tone": 1,
@@ -2572,8 +3620,12 @@
   "U+1B3B9": [
     {
       "syllable": "KKUI1",
-      "sounds": [
+      "roman": [
         "KK",
+        "ui"
+      ],
+      "ipa": [
+        "qʰ",
         "ui"
       ],
       "tone": 1,
@@ -2581,18 +3633,26 @@
     },
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "LAANG2",
-      "sounds": [
+      "roman": [
         "L",
         "aang"
+      ],
+      "ipa": [
+        "l",
+        "aː"
       ],
       "tone": 2,
       "junk": null
@@ -2600,29 +3660,45 @@
   ],
   "U+1B3BA": [
     {
-      "syllable": "SEN1-A",
-      "sounds": [
+      "syllable": "SEN1",
+      "roman": [
         "S",
+        "en"
+      ],
+      "ipa": [
+        "s",
         "en"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3BB": [
     {
       "syllable": "GGAD7",
-      "sounds": [
+      "roman": [
         "GG",
         "ad"
+      ],
+      "ipa": [
+        "q",
+        "at"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "DYU5",
-      "sounds": [
+      "roman": [
         "DY",
+        "u"
+      ],
+      "ipa": [
+        "tj",
         "u"
       ],
       "tone": 5,
@@ -2632,9 +3708,13 @@
   "U+1B3BC": [
     {
       "syllable": "LYEEM2",
-      "sounds": [
+      "roman": [
         "LY",
         "eem"
+      ],
+      "ipa": [
+        "lj",
+        "em"
       ],
       "tone": 2,
       "junk": null
@@ -2643,9 +3723,13 @@
   "U+1B3BD": [
     {
       "syllable": "TAAM1",
-      "sounds": [
+      "roman": [
         "T",
         "aam"
+      ],
+      "ipa": [
+        "tʰ",
+        "aːm"
       ],
       "tone": 1,
       "junk": null
@@ -2654,9 +3738,13 @@
   "U+1B3BE": [
     {
       "syllable": "XGAAN6",
-      "sounds": [
+      "roman": [
         "XG",
         "aan"
+      ],
+      "ipa": [
+        "ɣ",
+        "aːn"
       ],
       "tone": 6,
       "junk": null
@@ -2665,8 +3753,12 @@
   "U+1B3BF": [
     {
       "syllable": "TIN1",
-      "sounds": [
+      "roman": [
         "T",
+        "in"
+      ],
+      "ipa": [
+        "tʰ",
         "in"
       ],
       "tone": 1,
@@ -2676,8 +3768,12 @@
   "U+1B3C0": [
     {
       "syllable": "GON5",
-      "sounds": [
+      "roman": [
         "G",
+        "on"
+      ],
+      "ipa": [
+        "k",
         "on"
       ],
       "tone": 5,
@@ -2687,8 +3783,12 @@
   "U+1B3C1": [
     {
       "syllable": "LIU4",
-      "sounds": [
+      "roman": [
         "L",
+        "iu"
+      ],
+      "ipa": [
+        "l",
         "iu"
       ],
       "tone": 4,
@@ -2698,9 +3798,13 @@
   "U+1B3C2": [
     {
       "syllable": "XEEN1",
-      "sounds": [
+      "roman": [
         "X",
         "een"
+      ],
+      "ipa": [
+        "ɕ",
+        "en"
       ],
       "tone": 1,
       "junk": null
@@ -2709,9 +3813,13 @@
   "U+1B3C3": [
     {
       "syllable": "HAANG4",
-      "sounds": [
+      "roman": [
         "H",
         "aang"
+      ],
+      "ipa": [
+        "h",
+        "aː"
       ],
       "tone": 4,
       "junk": null
@@ -2719,20 +3827,32 @@
   ],
   "U+1B3C4": [
     {
-      "syllable": "SOG8-A",
-      "sounds": [
+      "syllable": "SOG8",
+      "roman": [
         "S",
         "og"
       ],
+      "ipa": [
+        "s",
+        "ok"
+      ],
       "tone": 8,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3C5": [
     {
       "syllable": "LO5",
-      "sounds": [
+      "roman": [
         "L",
+        "o"
+      ],
+      "ipa": [
+        "l",
         "o"
       ],
       "tone": 5,
@@ -2742,9 +3862,13 @@
   "U+1B3C6": [
     {
       "syllable": "DYEENG1",
-      "sounds": [
+      "roman": [
         "DY",
         "eeng"
+      ],
+      "ipa": [
+        "tj",
+        "eŋ"
       ],
       "tone": 1,
       "junk": null
@@ -2753,18 +3877,26 @@
   "U+1B3C7": [
     {
       "syllable": "GGAAN5",
-      "sounds": [
+      "roman": [
         "GG",
         "aan"
+      ],
+      "ipa": [
+        "q",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "GGONG1",
-      "sounds": [
+      "roman": [
         "GG",
         "ong"
+      ],
+      "ipa": [
+        "q",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -2773,8 +3905,12 @@
   "U+1B3C8": [
     {
       "syllable": "YA3",
-      "sounds": [
+      "roman": [
         "Y",
+        "a"
+      ],
+      "ipa": [
+        "j",
         "a"
       ],
       "tone": 3,
@@ -2784,9 +3920,13 @@
   "U+1B3C9": [
     {
       "syllable": "DOG7",
-      "sounds": [
+      "roman": [
         "D",
         "og"
+      ],
+      "ipa": [
+        "t",
+        "ok"
       ],
       "tone": 7,
       "junk": null
@@ -2795,9 +3935,13 @@
   "U+1B3CA": [
     {
       "syllable": "BAAG8",
-      "sounds": [
+      "roman": [
         "B",
         "aag"
+      ],
+      "ipa": [
+        "p",
+        "aːk"
       ],
       "tone": 8,
       "junk": null
@@ -2806,8 +3950,12 @@
   "U+1B3CB": [
     {
       "syllable": "HA3",
-      "sounds": [
+      "roman": [
         "H",
+        "a"
+      ],
+      "ipa": [
+        "h",
         "a"
       ],
       "tone": 3,
@@ -2817,9 +3965,13 @@
   "U+1B3CC": [
     {
       "syllable": "BEEG7",
-      "sounds": [
+      "roman": [
         "B",
         "eeg"
+      ],
+      "ipa": [
+        "p",
+        "ek"
       ],
       "tone": 7,
       "junk": null
@@ -2828,7 +3980,10 @@
   "U+1B3CD": [
     {
       "syllable": "U1",
-      "sounds": [
+      "roman": [
+        "u"
+      ],
+      "ipa": [
         "u"
       ],
       "tone": 1,
@@ -2838,9 +3993,13 @@
   "U+1B3CE": [
     {
       "syllable": "PYEE1",
-      "sounds": [
+      "roman": [
         "PY",
         "ee"
+      ],
+      "ipa": [
+        "pʰj",
+        "e"
       ],
       "tone": 1,
       "junk": null
@@ -2849,9 +4008,13 @@
   "U+1B3CF": [
     {
       "syllable": "SI2",
-      "sounds": [
+      "roman": [
         "S",
         "i"
+      ],
+      "ipa": [
+        "s",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
@@ -2860,9 +4023,13 @@
   "U+1B3D0": [
     {
       "syllable": "GGAO5",
-      "sounds": [
+      "roman": [
         "GG",
         "ao"
+      ],
+      "ipa": [
+        "q",
+        "aːu"
       ],
       "tone": 5,
       "junk": null
@@ -2871,8 +4038,12 @@
   "U+1B3D1": [
     {
       "syllable": "FU5",
-      "sounds": [
+      "roman": [
         "F",
+        "u"
+      ],
+      "ipa": [
+        "f",
         "u"
       ],
       "tone": 5,
@@ -2881,22 +4052,35 @@
   ],
   "U+1B3D2": [
     {
-      "syllable": "QYUM5-B",
-      "sounds": [
+      "syllable": "QYUM5",
+      "roman": [
         "Q",
         "Y",
         "um"
       ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "um"
+      ],
       "tone": 5,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B3D3": [
     {
       "syllable": "JED7",
-      "sounds": [
+      "roman": [
         "J",
         "ed"
+      ],
+      "ipa": [
+        "ȶ",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -2905,9 +4089,14 @@
   "U+1B3D4": [
     {
       "syllable": "QDYU3",
-      "sounds": [
+      "roman": [
         "QD",
         "Y",
+        "u"
+      ],
+      "ipa": [
+        "ʔd",
+        "j",
         "u"
       ],
       "tone": 3,
@@ -2917,8 +4106,12 @@
   "U+1B3D5": [
     {
       "syllable": "NNUN2",
-      "sounds": [
+      "roman": [
         "NN",
+        "un"
+      ],
+      "ipa": [
+        "ɳ",
         "un"
       ],
       "tone": 2,
@@ -2928,9 +4121,13 @@
   "U+1B3D6": [
     {
       "syllable": "HAAD8",
-      "sounds": [
+      "roman": [
         "H",
         "aad"
+      ],
+      "ipa": [
+        "h",
+        "aːt"
       ],
       "tone": 8,
       "junk": null
@@ -2939,9 +4136,13 @@
   "U+1B3D7": [
     {
       "syllable": "LYEEN2",
-      "sounds": [
+      "roman": [
         "LY",
         "een"
+      ],
+      "ipa": [
+        "lj",
+        "en"
       ],
       "tone": 2,
       "junk": null
@@ -2950,9 +4151,14 @@
   "U+1B3D8": [
     {
       "syllable": "QYU3",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
+        "u"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
         "u"
       ],
       "tone": 3,
@@ -2962,8 +4168,12 @@
   "U+1B3D9": [
     {
       "syllable": "BYAM1",
-      "sounds": [
+      "roman": [
         "BY",
+        "am"
+      ],
+      "ipa": [
+        "pj",
         "am"
       ],
       "tone": 1,
@@ -2973,8 +4183,12 @@
   "U+1B3DA": [
     {
       "syllable": "DU3",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 3,
@@ -2982,9 +4196,13 @@
     },
     {
       "syllable": "QDAO3",
-      "sounds": [
+      "roman": [
         "QD",
         "ao"
+      ],
+      "ipa": [
+        "ʔd",
+        "aːu"
       ],
       "tone": 3,
       "junk": null
@@ -2993,17 +4211,25 @@
   "U+1B3DB": [
     {
       "syllable": "QDAI1",
-      "sounds": [
+      "roman": [
         "QD",
         "ai"
+      ],
+      "ipa": [
+        "ʔd",
+        "aːi"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "VAN1",
-      "sounds": [
+      "roman": [
         "V",
+        "an"
+      ],
+      "ipa": [
+        "v",
         "an"
       ],
       "tone": 1,
@@ -3013,9 +4239,13 @@
   "U+1B3DC": [
     {
       "syllable": "SUB8",
-      "sounds": [
+      "roman": [
         "S",
         "ub"
+      ],
+      "ipa": [
+        "s",
+        "up"
       ],
       "tone": 8,
       "junk": null
@@ -3023,31 +4253,48 @@
   ],
   "U+1B3DD": [
     {
-      "syllable": "XED7-A",
-      "sounds": [
+      "syllable": "XED7",
+      "roman": [
         "X",
         "ed"
       ],
+      "ipa": [
+        "ɕ",
+        "ə"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3DE": [
     {
       "syllable": "SUB8",
-      "sounds": [
+      "roman": [
         "S",
         "ub"
+      ],
+      "ipa": [
+        "s",
+        "up"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "QYED7",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
         "ed"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -3056,8 +4303,12 @@
   "U+1B3DF": [
     {
       "syllable": "GAM3",
-      "sounds": [
+      "roman": [
         "G",
+        "am"
+      ],
+      "ipa": [
+        "k",
         "am"
       ],
       "tone": 3,
@@ -3067,9 +4318,13 @@
   "U+1B3E0": [
     {
       "syllable": "GUB7",
-      "sounds": [
+      "roman": [
         "G",
         "ub"
+      ],
+      "ipa": [
+        "k",
+        "up"
       ],
       "tone": 7,
       "junk": null
@@ -3078,8 +4333,12 @@
   "U+1B3E1": [
     {
       "syllable": "JU3",
-      "sounds": [
+      "roman": [
         "J",
+        "u"
+      ],
+      "ipa": [
+        "ȶ",
         "u"
       ],
       "tone": 3,
@@ -3089,8 +4348,12 @@
   "U+1B3E2": [
     {
       "syllable": "NGO2",
-      "sounds": [
+      "roman": [
         "NG",
+        "o"
+      ],
+      "ipa": [
+        "ŋ",
         "o"
       ],
       "tone": 2,
@@ -3100,9 +4363,13 @@
   "U+1B3E3": [
     {
       "syllable": "ZOU6",
-      "sounds": [
+      "roman": [
         "Z",
         "ou"
+      ],
+      "ipa": [
+        "ts",
+        "au"
       ],
       "tone": 6,
       "junk": null
@@ -3111,18 +4378,26 @@
   "U+1B3E4": [
     {
       "syllable": "SUB8",
-      "sounds": [
+      "roman": [
         "S",
         "ub"
+      ],
+      "ipa": [
+        "s",
+        "up"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "NNI6",
-      "sounds": [
+      "roman": [
         "NN",
         "i"
+      ],
+      "ipa": [
+        "ɳ",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
@@ -3131,9 +4406,13 @@
   "U+1B3E5": [
     {
       "syllable": "HAG7",
-      "sounds": [
+      "roman": [
         "H",
         "ag"
+      ],
+      "ipa": [
+        "h",
+        "ak"
       ],
       "tone": 7,
       "junk": null
@@ -3142,18 +4421,26 @@
   "U+1B3E6": [
     {
       "syllable": "DAI6",
-      "sounds": [
+      "roman": [
         "D",
         "ai"
+      ],
+      "ipa": [
+        "t",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "JED7",
-      "sounds": [
+      "roman": [
         "J",
         "ed"
+      ],
+      "ipa": [
+        "ȶ",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -3162,8 +4449,12 @@
   "U+1B3E7": [
     {
       "syllable": "MU6",
-      "sounds": [
+      "roman": [
         "M",
+        "u"
+      ],
+      "ipa": [
+        "m",
         "u"
       ],
       "tone": 6,
@@ -3173,9 +4464,13 @@
   "U+1B3E8": [
     {
       "syllable": "ZYEE1",
-      "sounds": [
+      "roman": [
         "ZY",
         "ee"
+      ],
+      "ipa": [
+        "tsj",
+        "e"
       ],
       "tone": 1,
       "junk": null
@@ -3184,17 +4479,25 @@
   "U+1B3E9": [
     {
       "syllable": "DEI2",
-      "sounds": [
+      "roman": [
         "D",
         "ei"
+      ],
+      "ipa": [
+        "t",
+        "ai"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "JEN1",
-      "sounds": [
+      "roman": [
         "J",
+        "en"
+      ],
+      "ipa": [
+        "ȶ",
         "en"
       ],
       "tone": 1,
@@ -3204,9 +4507,13 @@
   "U+1B3EA": [
     {
       "syllable": "XI4",
-      "sounds": [
+      "roman": [
         "X",
         "i"
+      ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
       ],
       "tone": 4,
       "junk": null
@@ -3214,31 +4521,51 @@
   ],
   "U+1B3EB": [
     {
-      "syllable": "XI3-A",
-      "sounds": [
+      "syllable": "XI3",
+      "roman": [
         "X",
         "i"
       ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
+      ],
       "tone": 3,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3EC": [
     {
-      "syllable": "SU3-A",
-      "sounds": [
+      "syllable": "SU3",
+      "roman": [
         "S",
+        "u"
+      ],
+      "ipa": [
+        "s",
         "u"
       ],
       "tone": 3,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3ED": [
     {
       "syllable": "HMA3",
-      "sounds": [
+      "roman": [
         "HM",
+        "a"
+      ],
+      "ipa": [
+        "m̥",
         "a"
       ],
       "tone": 3,
@@ -3248,7 +4575,10 @@
   "U+1B3EE": [
     {
       "syllable": "UM3",
-      "sounds": [
+      "roman": [
+        "um"
+      ],
+      "ipa": [
         "um"
       ],
       "tone": 3,
@@ -3258,8 +4588,12 @@
   "U+1B3EF": [
     {
       "syllable": "REN1",
-      "sounds": [
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
@@ -3267,9 +4601,13 @@
     },
     {
       "syllable": "LAO4",
-      "sounds": [
+      "roman": [
         "L",
         "ao"
+      ],
+      "ipa": [
+        "l",
+        "aːu"
       ],
       "tone": 4,
       "junk": null
@@ -3278,18 +4616,26 @@
   "U+1B3F0": [
     {
       "syllable": "FONG2",
-      "sounds": [
+      "roman": [
         "F",
         "ong"
+      ],
+      "ipa": [
+        "f",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "DOU3",
-      "sounds": [
+      "roman": [
         "D",
         "ou"
+      ],
+      "ipa": [
+        "t",
+        "au"
       ],
       "tone": 3,
       "junk": null
@@ -3298,26 +4644,37 @@
   "U+1B3F1": [
     {
       "syllable": "TYEEN1",
-      "sounds": [
+      "roman": [
         "TY",
         "een"
+      ],
+      "ipa": [
+        "tʰj",
+        "en"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "GGAANG1",
-      "sounds": [
+      "roman": [
         "GG",
         "aang"
+      ],
+      "ipa": [
+        "q",
+        "aː"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "OU4",
-      "sounds": [
+      "roman": [
         "ou"
+      ],
+      "ipa": [
+        "au"
       ],
       "tone": 4,
       "junk": null
@@ -3325,28 +4682,43 @@
   ],
   "U+1B3F2": [
     {
-      "syllable": "XI3-B",
-      "sounds": [
+      "syllable": "XI3",
+      "roman": [
         "X",
         "i"
       ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
+      ],
       "tone": 3,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B3F3": [
     {
       "syllable": "AAN1",
-      "sounds": [
+      "roman": [
         "aan"
+      ],
+      "ipa": [
+        "aːn"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "MA4",
-      "sounds": [
+      "roman": [
         "M",
+        "a"
+      ],
+      "ipa": [
+        "m",
         "a"
       ],
       "tone": 4,
@@ -3356,8 +4728,12 @@
   "U+1B3F4": [
     {
       "syllable": "SAM5",
-      "sounds": [
+      "roman": [
         "S",
+        "am"
+      ],
+      "ipa": [
+        "s",
         "am"
       ],
       "tone": 5,
@@ -3367,8 +4743,12 @@
   "U+1B3F5": [
     {
       "syllable": "SUM3",
-      "sounds": [
+      "roman": [
         "S",
+        "um"
+      ],
+      "ipa": [
+        "s",
         "um"
       ],
       "tone": 3,
@@ -3378,9 +4758,13 @@
   "U+1B3F6": [
     {
       "syllable": "GUNG2",
-      "sounds": [
+      "roman": [
         "G",
         "ung"
+      ],
+      "ipa": [
+        "k",
+        "uŋ"
       ],
       "tone": 2,
       "junk": null
@@ -3389,9 +4773,13 @@
   "U+1B3F7": [
     {
       "syllable": "LAI6",
-      "sounds": [
+      "roman": [
         "L",
         "ai"
+      ],
+      "ipa": [
+        "l",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
@@ -3400,9 +4788,13 @@
   "U+1B3F8": [
     {
       "syllable": "SYEEN1",
-      "sounds": [
+      "roman": [
         "SY",
         "een"
+      ],
+      "ipa": [
+        "sj",
+        "en"
       ],
       "tone": 1,
       "junk": null
@@ -3410,30 +4802,46 @@
   ],
   "U+1B3F9": [
     {
-      "syllable": "BYAAN6-A",
-      "sounds": [
+      "syllable": "BYAAN6",
+      "roman": [
         "BY",
         "aan"
       ],
+      "ipa": [
+        "pj",
+        "aːn"
+      ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B3FA": [
     {
       "syllable": "QNNAAM1",
-      "sounds": [
+      "roman": [
         "QNN",
         "aam"
+      ],
+      "ipa": [
+        "ʔɳ",
+        "aːm"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "QNNAG7",
-      "sounds": [
+      "roman": [
         "QNN",
         "ag"
+      ],
+      "ipa": [
+        "ʔɳ",
+        "ak"
       ],
       "tone": 7,
       "junk": null
@@ -3442,17 +4850,25 @@
   "U+1B3FB": [
     {
       "syllable": "XGAAN2",
-      "sounds": [
+      "roman": [
         "XG",
         "aan"
+      ],
+      "ipa": [
+        "ɣ",
+        "aːn"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "MEN2",
-      "sounds": [
+      "roman": [
         "M",
+        "en"
+      ],
+      "ipa": [
+        "m",
         "en"
       ],
       "tone": 2,
@@ -3462,9 +4878,13 @@
   "U+1B3FC": [
     {
       "syllable": "MING6",
-      "sounds": [
+      "roman": [
         "M",
         "ing"
+      ],
+      "ipa": [
+        "m",
+        "iŋ"
       ],
       "tone": 6,
       "junk": null
@@ -3473,8 +4893,12 @@
   "U+1B3FD": [
     {
       "syllable": "DA4",
-      "sounds": [
+      "roman": [
         "D",
+        "a"
+      ],
+      "ipa": [
+        "t",
         "a"
       ],
       "tone": 4,
@@ -3484,18 +4908,26 @@
   "U+1B3FE": [
     {
       "syllable": "DAI6",
-      "sounds": [
+      "roman": [
         "D",
         "ai"
+      ],
+      "ipa": [
+        "t",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "BAI6",
-      "sounds": [
+      "roman": [
         "B",
         "ai"
+      ],
+      "ipa": [
+        "p",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
@@ -3504,9 +4936,13 @@
   "U+1B3FF": [
     {
       "syllable": "NGAAN5",
-      "sounds": [
+      "roman": [
         "NG",
         "aan"
+      ],
+      "ipa": [
+        "ŋ",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
@@ -3515,9 +4951,13 @@
   "U+1B400": [
     {
       "syllable": "QDEI3",
-      "sounds": [
+      "roman": [
         "QD",
         "ei"
+      ],
+      "ipa": [
+        "ʔd",
+        "ai"
       ],
       "tone": 3,
       "junk": null
@@ -3526,9 +4966,13 @@
   "U+1B401": [
     {
       "syllable": "SING2",
-      "sounds": [
+      "roman": [
         "S",
         "ing"
+      ],
+      "ipa": [
+        "s",
+        "iŋ"
       ],
       "tone": 2,
       "junk": null
@@ -3537,9 +4981,13 @@
   "U+1B402": [
     {
       "syllable": "DEI1",
-      "sounds": [
+      "roman": [
         "D",
         "ei"
+      ],
+      "ipa": [
+        "t",
+        "ai"
       ],
       "tone": 1,
       "junk": null
@@ -3548,18 +4996,26 @@
   "U+1B403": [
     {
       "syllable": "HAANG4",
-      "sounds": [
+      "roman": [
         "H",
         "aang"
+      ],
+      "ipa": [
+        "h",
+        "aː"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "DANG1",
-      "sounds": [
+      "roman": [
         "D",
         "ang"
+      ],
+      "ipa": [
+        "t",
+        "aŋ"
       ],
       "tone": 1,
       "junk": null
@@ -3567,19 +5023,30 @@
   ],
   "U+1B404": [
     {
-      "syllable": "SEN1-B",
-      "sounds": [
+      "syllable": "SEN1",
+      "roman": [
         "S",
+        "en"
+      ],
+      "ipa": [
+        "s",
         "en"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B405": [
     {
       "syllable": "UN1",
-      "sounds": [
+      "roman": [
+        "un"
+      ],
+      "ipa": [
         "un"
       ],
       "tone": 1,
@@ -3589,16 +5056,23 @@
   "U+1B406": [
     {
       "syllable": "EI3",
-      "sounds": [
+      "roman": [
         "ei"
+      ],
+      "ipa": [
+        "ai"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "HO3",
-      "sounds": [
+      "roman": [
         "H",
+        "o"
+      ],
+      "ipa": [
+        "h",
         "o"
       ],
       "tone": 3,
@@ -3608,18 +5082,26 @@
   "U+1B407": [
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "FONG2",
-      "sounds": [
+      "roman": [
         "F",
         "ong"
+      ],
+      "ipa": [
+        "f",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -3628,9 +5110,13 @@
   "U+1B408": [
     {
       "syllable": "HNGAAN5",
-      "sounds": [
+      "roman": [
         "HNG",
         "aan"
+      ],
+      "ipa": [
+        "ŋ̊",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
@@ -3639,8 +5125,12 @@
   "U+1B409": [
     {
       "syllable": "HAN5",
-      "sounds": [
+      "roman": [
         "H",
+        "an"
+      ],
+      "ipa": [
+        "h",
         "an"
       ],
       "tone": 5,
@@ -3650,17 +5140,25 @@
   "U+1B40A": [
     {
       "syllable": "SAI6",
-      "sounds": [
+      "roman": [
         "S",
         "ai"
+      ],
+      "ipa": [
+        "s",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "FAN1",
-      "sounds": [
+      "roman": [
         "F",
+        "an"
+      ],
+      "ipa": [
+        "f",
         "an"
       ],
       "tone": 1,
@@ -3670,8 +5168,12 @@
   "U+1B40B": [
     {
       "syllable": "VA2",
-      "sounds": [
+      "roman": [
         "V",
+        "a"
+      ],
+      "ipa": [
+        "v",
         "a"
       ],
       "tone": 2,
@@ -3681,8 +5183,12 @@
   "U+1B40C": [
     {
       "syllable": "BU4",
-      "sounds": [
+      "roman": [
         "B",
+        "u"
+      ],
+      "ipa": [
+        "p",
         "u"
       ],
       "tone": 4,
@@ -3692,9 +5198,13 @@
   "U+1B40D": [
     {
       "syllable": "LAAG8",
-      "sounds": [
+      "roman": [
         "L",
         "aag"
+      ],
+      "ipa": [
+        "l",
+        "aːk"
       ],
       "tone": 8,
       "junk": null
@@ -3703,8 +5213,12 @@
   "U+1B40E": [
     {
       "syllable": "XUM1",
-      "sounds": [
+      "roman": [
         "X",
+        "um"
+      ],
+      "ipa": [
+        "ɕ",
         "um"
       ],
       "tone": 1,
@@ -3712,16 +5226,23 @@
     },
     {
       "syllable": "NNOD8",
-      "sounds": [
+      "roman": [
         "NN",
         "od"
+      ],
+      "ipa": [
+        "ɳ",
+        "ot"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "U1",
-      "sounds": [
+      "roman": [
+        "u"
+      ],
+      "ipa": [
         "u"
       ],
       "tone": 1,
@@ -3731,9 +5252,13 @@
   "U+1B40F": [
     {
       "syllable": "ZEEM4",
-      "sounds": [
+      "roman": [
         "Z",
         "eem"
+      ],
+      "ipa": [
+        "ts",
+        "em"
       ],
       "tone": 4,
       "junk": null
@@ -3742,9 +5267,13 @@
   "U+1B410": [
     {
       "syllable": "DONG1",
-      "sounds": [
+      "roman": [
         "D",
         "ong"
+      ],
+      "ipa": [
+        "t",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -3753,9 +5282,13 @@
   "U+1B411": [
     {
       "syllable": "BAI1",
-      "sounds": [
+      "roman": [
         "B",
         "ai"
+      ],
+      "ipa": [
+        "p",
+        "aːi"
       ],
       "tone": 1,
       "junk": null
@@ -3764,9 +5297,13 @@
   "U+1B412": [
     {
       "syllable": "BYEENG2",
-      "sounds": [
+      "roman": [
         "BY",
         "eeng"
+      ],
+      "ipa": [
+        "pj",
+        "eŋ"
       ],
       "tone": 2,
       "junk": null
@@ -3775,17 +5312,25 @@
   "U+1B413": [
     {
       "syllable": "BIG7",
-      "sounds": [
+      "roman": [
         "B",
         "ig"
+      ],
+      "ipa": [
+        "p",
+        "ik"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -3793,9 +5338,13 @@
     },
     {
       "syllable": "KAANG5",
-      "sounds": [
+      "roman": [
         "K",
         "aang"
+      ],
+      "ipa": [
+        "kʰ",
+        "aː"
       ],
       "tone": 5,
       "junk": null
@@ -3804,8 +5353,12 @@
   "U+1B414": [
     {
       "syllable": "JUM1",
-      "sounds": [
+      "roman": [
         "J",
+        "um"
+      ],
+      "ipa": [
+        "ȶ",
         "um"
       ],
       "tone": 1,
@@ -3815,9 +5368,13 @@
   "U+1B415": [
     {
       "syllable": "JAI5",
-      "sounds": [
+      "roman": [
         "J",
         "ai"
+      ],
+      "ipa": [
+        "ȶ",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -3826,8 +5383,12 @@
   "U+1B416": [
     {
       "syllable": "DIN2",
-      "sounds": [
+      "roman": [
         "D",
+        "in"
+      ],
+      "ipa": [
+        "t",
         "in"
       ],
       "tone": 2,
@@ -3837,18 +5398,26 @@
   "U+1B417": [
     {
       "syllable": "BYED8",
-      "sounds": [
+      "roman": [
         "BY",
         "ed"
+      ],
+      "ipa": [
+        "pj",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "YING5",
-      "sounds": [
+      "roman": [
         "Y",
         "ing"
+      ],
+      "ipa": [
+        "j",
+        "iŋ"
       ],
       "tone": 5,
       "junk": null
@@ -3856,30 +5425,46 @@
   ],
   "U+1B418": [
     {
-      "syllable": "BYED8-A",
-      "sounds": [
+      "syllable": "BYED8",
+      "roman": [
         "BY",
         "ed"
       ],
+      "ipa": [
+        "pj",
+        "ə"
+      ],
       "tone": 8,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B419": [
     {
       "syllable": "BYEENG2",
-      "sounds": [
+      "roman": [
         "BY",
         "eeng"
+      ],
+      "ipa": [
+        "pj",
+        "eŋ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "BYAG8",
-      "sounds": [
+      "roman": [
         "BY",
         "ag"
+      ],
+      "ipa": [
+        "pj",
+        "ak"
       ],
       "tone": 8,
       "junk": null
@@ -3888,9 +5473,14 @@
   "U+1B41A": [
     {
       "syllable": "QYEN5",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
+        "en"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
         "en"
       ],
       "tone": 5,
@@ -3898,9 +5488,13 @@
     },
     {
       "syllable": "DI4",
-      "sounds": [
+      "roman": [
         "D",
         "i"
+      ],
+      "ipa": [
+        "t",
+        "i,ɿ"
       ],
       "tone": 4,
       "junk": null
@@ -3909,9 +5503,13 @@
   "U+1B41B": [
     {
       "syllable": "JI3",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 3,
       "junk": null
@@ -3920,18 +5518,26 @@
   "U+1B41C": [
     {
       "syllable": "DAI6",
-      "sounds": [
+      "roman": [
         "D",
         "ai"
+      ],
+      "ipa": [
+        "t",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "SAD7",
-      "sounds": [
+      "roman": [
         "S",
         "ad"
+      ],
+      "ipa": [
+        "s",
+        "at"
       ],
       "tone": 7,
       "junk": null
@@ -3939,20 +5545,32 @@
   ],
   "U+1B41D": [
     {
-      "syllable": "LYOG8-A",
-      "sounds": [
+      "syllable": "LYOG8",
+      "roman": [
         "LY",
         "og"
       ],
+      "ipa": [
+        "lj",
+        "ok"
+      ],
       "tone": 8,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B41E": [
     {
       "syllable": "LA2",
-      "sounds": [
+      "roman": [
         "L",
+        "a"
+      ],
+      "ipa": [
+        "l",
         "a"
       ],
       "tone": 2,
@@ -3960,9 +5578,13 @@
     },
     {
       "syllable": "MAANG4",
-      "sounds": [
+      "roman": [
         "M",
         "aang"
+      ],
+      "ipa": [
+        "m",
+        "aː"
       ],
       "tone": 4,
       "junk": null
@@ -3970,21 +5592,33 @@
   ],
   "U+1B41F": [
     {
-      "syllable": "DIG7-C",
-      "sounds": [
+      "syllable": "DIG7",
+      "roman": [
         "D",
         "ig"
       ],
+      "ipa": [
+        "t",
+        "ik"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-C"
     }
   ],
   "U+1B420": [
     {
       "syllable": "YI2",
-      "sounds": [
+      "roman": [
         "Y",
         "i"
+      ],
+      "ipa": [
+        "j",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
@@ -3993,8 +5627,12 @@
   "U+1B421": [
     {
       "syllable": "LWA1",
-      "sounds": [
+      "roman": [
         "LW",
+        "a"
+      ],
+      "ipa": [
+        "lw",
         "a"
       ],
       "tone": 1,
@@ -4004,8 +5642,12 @@
   "U+1B422": [
     {
       "syllable": "PYA3",
-      "sounds": [
+      "roman": [
         "PY",
+        "a"
+      ],
+      "ipa": [
+        "pʰj",
         "a"
       ],
       "tone": 3,
@@ -4015,9 +5657,13 @@
   "U+1B423": [
     {
       "syllable": "SAAM3",
-      "sounds": [
+      "roman": [
         "S",
         "aam"
+      ],
+      "ipa": [
+        "s",
+        "aːm"
       ],
       "tone": 3,
       "junk": null
@@ -4026,8 +5672,12 @@
   "U+1B424": [
     {
       "syllable": "HEN5",
-      "sounds": [
+      "roman": [
         "H",
+        "en"
+      ],
+      "ipa": [
+        "h",
         "en"
       ],
       "tone": 5,
@@ -4037,18 +5687,26 @@
   "U+1B425": [
     {
       "syllable": "DIG7",
-      "sounds": [
+      "roman": [
         "D",
         "ig"
+      ],
+      "ipa": [
+        "t",
+        "ik"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "XGAAN2",
-      "sounds": [
+      "roman": [
         "XG",
         "aan"
+      ],
+      "ipa": [
+        "ɣ",
+        "aːn"
       ],
       "tone": 2,
       "junk": null
@@ -4057,8 +5715,12 @@
   "U+1B426": [
     {
       "syllable": "XU1",
-      "sounds": [
+      "roman": [
         "X",
+        "u"
+      ],
+      "ipa": [
+        "ɕ",
         "u"
       ],
       "tone": 1,
@@ -4068,9 +5730,14 @@
   "U+1B427": [
     {
       "syllable": "QYON1",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
+        "on"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
         "on"
       ],
       "tone": 1,
@@ -4080,9 +5747,13 @@
   "U+1B428": [
     {
       "syllable": "DAO2",
-      "sounds": [
+      "roman": [
         "D",
         "ao"
+      ],
+      "ipa": [
+        "t",
+        "aːu"
       ],
       "tone": 2,
       "junk": null
@@ -4091,9 +5762,13 @@
   "U+1B429": [
     {
       "syllable": "BAAD7",
-      "sounds": [
+      "roman": [
         "B",
         "aad"
+      ],
+      "ipa": [
+        "p",
+        "aːt"
       ],
       "tone": 7,
       "junk": null
@@ -4102,8 +5777,12 @@
   "U+1B42A": [
     {
       "syllable": "DU3",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 3,
@@ -4111,8 +5790,12 @@
     },
     {
       "syllable": "HA3",
-      "sounds": [
+      "roman": [
         "H",
+        "a"
+      ],
+      "ipa": [
+        "h",
         "a"
       ],
       "tone": 3,
@@ -4122,8 +5805,12 @@
   "U+1B42B": [
     {
       "syllable": "FA3",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 3,
@@ -4133,8 +5820,12 @@
   "U+1B42C": [
     {
       "syllable": "NUN2",
-      "sounds": [
+      "roman": [
         "N",
+        "un"
+      ],
+      "ipa": [
+        "n",
         "un"
       ],
       "tone": 2,
@@ -4144,9 +5835,13 @@
   "U+1B42D": [
     {
       "syllable": "GGAAM1",
-      "sounds": [
+      "roman": [
         "GG",
         "aam"
+      ],
+      "ipa": [
+        "q",
+        "aːm"
       ],
       "tone": 1,
       "junk": null
@@ -4154,20 +5849,32 @@
   ],
   "U+1B42E": [
     {
-      "syllable": "BYAAN6-B",
-      "sounds": [
+      "syllable": "BYAAN6",
+      "roman": [
         "BY",
         "aan"
       ],
+      "ipa": [
+        "pj",
+        "aːn"
+      ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B42F": [
     {
       "syllable": "SA5",
-      "sounds": [
+      "roman": [
         "S",
+        "a"
+      ],
+      "ipa": [
+        "s",
         "a"
       ],
       "tone": 5,
@@ -4177,8 +5884,12 @@
   "U+1B430": [
     {
       "syllable": "JIU2",
-      "sounds": [
+      "roman": [
         "J",
+        "iu"
+      ],
+      "ipa": [
+        "ȶ",
         "iu"
       ],
       "tone": 2,
@@ -4188,8 +5899,12 @@
   "U+1B431": [
     {
       "syllable": "ZUI2",
-      "sounds": [
+      "roman": [
         "Z",
+        "ui"
+      ],
+      "ipa": [
+        "ts",
         "ui"
       ],
       "tone": 2,
@@ -4199,8 +5914,12 @@
   "U+1B432": [
     {
       "syllable": "GEN3",
-      "sounds": [
+      "roman": [
         "G",
+        "en"
+      ],
+      "ipa": [
+        "k",
         "en"
       ],
       "tone": 3,
@@ -4208,8 +5927,12 @@
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -4217,8 +5940,12 @@
     },
     {
       "syllable": "XGEN4",
-      "sounds": [
+      "roman": [
         "XG",
+        "en"
+      ],
+      "ipa": [
+        "ɣ",
         "en"
       ],
       "tone": 4,
@@ -4228,9 +5955,13 @@
   "U+1B433": [
     {
       "syllable": "NDONG5",
-      "sounds": [
+      "roman": [
         "ND",
         "ong"
+      ],
+      "ipa": [
+        "ⁿd",
+        "oŋ"
       ],
       "tone": 5,
       "junk": null
@@ -4239,9 +5970,13 @@
   "U+1B434": [
     {
       "syllable": "SEI5",
-      "sounds": [
+      "roman": [
         "S",
         "ei"
+      ],
+      "ipa": [
+        "s",
+        "ai"
       ],
       "tone": 5,
       "junk": null
@@ -4250,8 +5985,12 @@
   "U+1B435": [
     {
       "syllable": "JA6",
-      "sounds": [
+      "roman": [
         "J",
+        "a"
+      ],
+      "ipa": [
+        "ȶ",
         "a"
       ],
       "tone": 6,
@@ -4261,9 +6000,13 @@
   "U+1B436": [
     {
       "syllable": "JI2",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
@@ -4272,18 +6015,26 @@
   "U+1B437": [
     {
       "syllable": "ZI3",
-      "sounds": [
+      "roman": [
         "Z",
         "i"
+      ],
+      "ipa": [
+        "ts",
+        "i,ɿ"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "LYEEU3",
-      "sounds": [
+      "roman": [
         "LY",
         "eeu"
+      ],
+      "ipa": [
+        "lj",
+        "eu"
       ],
       "tone": 3,
       "junk": null
@@ -4292,8 +6043,12 @@
   "U+1B438": [
     {
       "syllable": "GA3",
-      "sounds": [
+      "roman": [
         "G",
+        "a"
+      ],
+      "ipa": [
+        "k",
         "a"
       ],
       "tone": 3,
@@ -4303,9 +6058,13 @@
   "U+1B439": [
     {
       "syllable": "HAAN5",
-      "sounds": [
+      "roman": [
         "H",
         "aan"
+      ],
+      "ipa": [
+        "h",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
@@ -4314,9 +6073,13 @@
   "U+1B43A": [
     {
       "syllable": "DANG3",
-      "sounds": [
+      "roman": [
         "D",
         "ang"
+      ],
+      "ipa": [
+        "t",
+        "aŋ"
       ],
       "tone": 3,
       "junk": null
@@ -4325,8 +6088,12 @@
   "U+1B43B": [
     {
       "syllable": "DA5",
-      "sounds": [
+      "roman": [
         "D",
+        "a"
+      ],
+      "ipa": [
+        "t",
         "a"
       ],
       "tone": 5,
@@ -4334,10 +6101,15 @@
     },
     {
       "syllable": "WYAAN5",
-      "sounds": [
+      "roman": [
         "W",
         "Y",
         "aan"
+      ],
+      "ipa": [
+        "w",
+        "j",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
@@ -4346,17 +6118,25 @@
   "U+1B43C": [
     {
       "syllable": "NI4",
-      "sounds": [
+      "roman": [
         "N",
         "i"
+      ],
+      "ipa": [
+        "n",
+        "i,ɿ"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "FU5",
-      "sounds": [
+      "roman": [
         "F",
+        "u"
+      ],
+      "ipa": [
+        "f",
         "u"
       ],
       "tone": 5,
@@ -4366,18 +6146,26 @@
   "U+1B43D": [
     {
       "syllable": "DONG2",
-      "sounds": [
+      "roman": [
         "D",
         "ong"
+      ],
+      "ipa": [
+        "t",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "SEI5",
-      "sounds": [
+      "roman": [
         "S",
         "ei"
+      ],
+      "ipa": [
+        "s",
+        "ai"
       ],
       "tone": 5,
       "junk": null
@@ -4386,8 +6174,12 @@
   "U+1B43E": [
     {
       "syllable": "NGO4",
-      "sounds": [
+      "roman": [
         "NG",
+        "o"
+      ],
+      "ipa": [
+        "ŋ",
         "o"
       ],
       "tone": 4,
@@ -4395,8 +6187,12 @@
     },
     {
       "syllable": "GGUI5",
-      "sounds": [
+      "roman": [
         "GG",
+        "ui"
+      ],
+      "ipa": [
+        "q",
         "ui"
       ],
       "tone": 5,
@@ -4406,18 +6202,26 @@
   "U+1B43F": [
     {
       "syllable": "MEI4",
-      "sounds": [
+      "roman": [
         "M",
         "ei"
+      ],
+      "ipa": [
+        "m",
+        "ai"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "DYED7",
-      "sounds": [
+      "roman": [
         "DY",
         "ed"
+      ],
+      "ipa": [
+        "tj",
+        "ə"
       ],
       "tone": 7,
       "junk": null
@@ -4426,17 +6230,24 @@
   "U+1B440": [
     {
       "syllable": "MBYAANG1",
-      "sounds": [
+      "roman": [
         "MBY",
         "aang"
+      ],
+      "ipa": [
+        "ᵐbj",
+        "aː"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "OU4",
-      "sounds": [
+      "roman": [
         "ou"
+      ],
+      "ipa": [
+        "au"
       ],
       "tone": 4,
       "junk": null
@@ -4445,8 +6256,12 @@
   "U+1B441": [
     {
       "syllable": "TU3",
-      "sounds": [
+      "roman": [
         "T",
+        "u"
+      ],
+      "ipa": [
+        "tʰ",
         "u"
       ],
       "tone": 3,
@@ -4456,8 +6271,12 @@
   "U+1B442": [
     {
       "syllable": "NGO4",
-      "sounds": [
+      "roman": [
         "NG",
+        "o"
+      ],
+      "ipa": [
+        "ŋ",
         "o"
       ],
       "tone": 4,
@@ -4467,9 +6286,13 @@
   "U+1B443": [
     {
       "syllable": "ZYEENG1",
-      "sounds": [
+      "roman": [
         "ZY",
         "eeng"
+      ],
+      "ipa": [
+        "tsj",
+        "eŋ"
       ],
       "tone": 1,
       "junk": null
@@ -4477,20 +6300,32 @@
   ],
   "U+1B444": [
     {
-      "syllable": "SU3-B",
-      "sounds": [
+      "syllable": "SU3",
+      "roman": [
         "S",
+        "u"
+      ],
+      "ipa": [
+        "s",
         "u"
       ],
       "tone": 3,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B445": [
     {
       "syllable": "JU2",
-      "sounds": [
+      "roman": [
         "J",
+        "u"
+      ],
+      "ipa": [
+        "ȶ",
         "u"
       ],
       "tone": 2,
@@ -4500,8 +6335,12 @@
   "U+1B446": [
     {
       "syllable": "DEN3",
-      "sounds": [
+      "roman": [
         "D",
+        "en"
+      ],
+      "ipa": [
+        "t",
         "en"
       ],
       "tone": 3,
@@ -4511,9 +6350,13 @@
   "U+1B447": [
     {
       "syllable": "DYUNG3",
-      "sounds": [
+      "roman": [
         "DY",
         "ung"
+      ],
+      "ipa": [
+        "tj",
+        "uŋ"
       ],
       "tone": 3,
       "junk": null
@@ -4522,8 +6365,12 @@
   "U+1B448": [
     {
       "syllable": "QBEN1",
-      "sounds": [
+      "roman": [
         "QB",
+        "en"
+      ],
+      "ipa": [
+        "ʔb",
         "en"
       ],
       "tone": 1,
@@ -4532,21 +6379,33 @@
   ],
   "U+1B449": [
     {
-      "syllable": "LYOG8-B",
-      "sounds": [
+      "syllable": "LYOG8",
+      "roman": [
         "LY",
         "og"
       ],
+      "ipa": [
+        "lj",
+        "ok"
+      ],
       "tone": 8,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B44A": [
     {
       "syllable": "MI6",
-      "sounds": [
+      "roman": [
         "M",
         "i"
+      ],
+      "ipa": [
+        "m",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
@@ -4555,9 +6414,13 @@
   "U+1B44B": [
     {
       "syllable": "YONG6",
-      "sounds": [
+      "roman": [
         "Y",
         "ong"
+      ],
+      "ipa": [
+        "j",
+        "oŋ"
       ],
       "tone": 6,
       "junk": null
@@ -4566,8 +6429,12 @@
   "U+1B44C": [
     {
       "syllable": "SEN2",
-      "sounds": [
+      "roman": [
         "S",
+        "en"
+      ],
+      "ipa": [
+        "s",
         "en"
       ],
       "tone": 2,
@@ -4577,9 +6444,13 @@
   "U+1B44D": [
     {
       "syllable": "GGEE4",
-      "sounds": [
+      "roman": [
         "GG",
         "ee"
+      ],
+      "ipa": [
+        "q",
+        "e"
       ],
       "tone": 4,
       "junk": null
@@ -4588,8 +6459,12 @@
   "U+1B44E": [
     {
       "syllable": "NU2",
-      "sounds": [
+      "roman": [
         "N",
+        "u"
+      ],
+      "ipa": [
+        "n",
         "u"
       ],
       "tone": 2,
@@ -4599,8 +6474,12 @@
   "U+1B44F": [
     {
       "syllable": "SA5",
-      "sounds": [
+      "roman": [
         "S",
+        "a"
+      ],
+      "ipa": [
+        "s",
         "a"
       ],
       "tone": 5,
@@ -4608,9 +6487,13 @@
     },
     {
       "syllable": "XEEN2",
-      "sounds": [
+      "roman": [
         "X",
         "een"
+      ],
+      "ipa": [
+        "ɕ",
+        "en"
       ],
       "tone": 2,
       "junk": null
@@ -4619,9 +6502,13 @@
   "U+1B450": [
     {
       "syllable": "GGEENG1",
-      "sounds": [
+      "roman": [
         "GG",
         "eeng"
+      ],
+      "ipa": [
+        "q",
+        "eŋ"
       ],
       "tone": 1,
       "junk": null
@@ -4629,20 +6516,32 @@
   ],
   "U+1B451": [
     {
-      "syllable": "HEN2-B",
-      "sounds": [
+      "syllable": "HEN2",
+      "roman": [
         "H",
+        "en"
+      ],
+      "ipa": [
+        "h",
         "en"
       ],
       "tone": 2,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B452": [
     {
       "syllable": "DU3",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 3,
@@ -4650,9 +6549,13 @@
     },
     {
       "syllable": "DONG2",
-      "sounds": [
+      "roman": [
         "D",
         "ong"
+      ],
+      "ipa": [
+        "t",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -4661,8 +6564,12 @@
   "U+1B453": [
     {
       "syllable": "QNNAM5",
-      "sounds": [
+      "roman": [
         "QNN",
+        "am"
+      ],
+      "ipa": [
+        "ʔɳ",
         "am"
       ],
       "tone": 5,
@@ -4672,18 +6579,26 @@
   "U+1B454": [
     {
       "syllable": "NNI6",
-      "sounds": [
+      "roman": [
         "NN",
         "i"
+      ],
+      "ipa": [
+        "ɳ",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "SUB8",
-      "sounds": [
+      "roman": [
         "S",
         "ub"
+      ],
+      "ipa": [
+        "s",
+        "up"
       ],
       "tone": 8,
       "junk": null
@@ -4692,8 +6607,12 @@
   "U+1B455": [
     {
       "syllable": "GGAM1",
-      "sounds": [
+      "roman": [
         "GG",
+        "am"
+      ],
+      "ipa": [
+        "q",
         "am"
       ],
       "tone": 1,
@@ -4703,9 +6622,13 @@
   "U+1B456": [
     {
       "syllable": "QBAAN3",
-      "sounds": [
+      "roman": [
         "QB",
         "aan"
+      ],
+      "ipa": [
+        "ʔb",
+        "aːn"
       ],
       "tone": 3,
       "junk": null
@@ -4714,9 +6637,13 @@
   "U+1B457": [
     {
       "syllable": "HEE4",
-      "sounds": [
+      "roman": [
         "H",
         "ee"
+      ],
+      "ipa": [
+        "h",
+        "e"
       ],
       "tone": 4,
       "junk": null
@@ -4725,9 +6652,13 @@
   "U+1B458": [
     {
       "syllable": "BEE1",
-      "sounds": [
+      "roman": [
         "B",
         "ee"
+      ],
+      "ipa": [
+        "p",
+        "e"
       ],
       "tone": 1,
       "junk": null
@@ -4736,9 +6667,13 @@
   "U+1B459": [
     {
       "syllable": "XGGAO3",
-      "sounds": [
+      "roman": [
         "XGG",
         "ao"
+      ],
+      "ipa": [
+        "ʁ",
+        "aːu"
       ],
       "tone": 3,
       "junk": null
@@ -4747,8 +6682,12 @@
   "U+1B45A": [
     {
       "syllable": "XU1",
-      "sounds": [
+      "roman": [
         "X",
+        "u"
+      ],
+      "ipa": [
+        "ɕ",
         "u"
       ],
       "tone": 1,
@@ -4756,8 +6695,12 @@
     },
     {
       "syllable": "YU3",
-      "sounds": [
+      "roman": [
         "Y",
+        "u"
+      ],
+      "ipa": [
+        "j",
         "u"
       ],
       "tone": 3,
@@ -4767,18 +6710,26 @@
   "U+1B45B": [
     {
       "syllable": "MEI4",
-      "sounds": [
+      "roman": [
         "M",
         "ei"
+      ],
+      "ipa": [
+        "m",
+        "ai"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "NNEI3",
-      "sounds": [
+      "roman": [
         "NN",
         "ei"
+      ],
+      "ipa": [
+        "ɳ",
+        "ai"
       ],
       "tone": 3,
       "junk": null
@@ -4787,17 +6738,25 @@
   "U+1B45C": [
     {
       "syllable": "MEE2",
-      "sounds": [
+      "roman": [
         "M",
         "ee"
+      ],
+      "ipa": [
+        "m",
+        "e"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "DU3",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 3,
@@ -4805,9 +6764,13 @@
     },
     {
       "syllable": "QDAO3",
-      "sounds": [
+      "roman": [
         "QD",
         "ao"
+      ],
+      "ipa": [
+        "ʔd",
+        "aːu"
       ],
       "tone": 3,
       "junk": null
@@ -4816,9 +6779,13 @@
   "U+1B45D": [
     {
       "syllable": "XEEN2",
-      "sounds": [
+      "roman": [
         "X",
         "een"
+      ],
+      "ipa": [
+        "ɕ",
+        "en"
       ],
       "tone": 2,
       "junk": null
@@ -4827,8 +6794,12 @@
   "U+1B45E": [
     {
       "syllable": "YEN2",
-      "sounds": [
+      "roman": [
         "Y",
+        "en"
+      ],
+      "ipa": [
+        "j",
         "en"
       ],
       "tone": 2,
@@ -4838,8 +6809,12 @@
   "U+1B45F": [
     {
       "syllable": "GWUN5",
-      "sounds": [
+      "roman": [
         "GW",
+        "un"
+      ],
+      "ipa": [
+        "kw",
         "un"
       ],
       "tone": 5,
@@ -4849,9 +6824,13 @@
   "U+1B460": [
     {
       "syllable": "VAANG1",
-      "sounds": [
+      "roman": [
         "V",
         "aang"
+      ],
+      "ipa": [
+        "v",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -4860,8 +6839,12 @@
   "U+1B461": [
     {
       "syllable": "GGAM4",
-      "sounds": [
+      "roman": [
         "GG",
+        "am"
+      ],
+      "ipa": [
+        "q",
         "am"
       ],
       "tone": 4,
@@ -4871,9 +6854,13 @@
   "U+1B462": [
     {
       "syllable": "JEEN2",
-      "sounds": [
+      "roman": [
         "J",
         "een"
+      ],
+      "ipa": [
+        "ȶ",
+        "en"
       ],
       "tone": 2,
       "junk": null
@@ -4882,8 +6869,12 @@
   "U+1B463": [
     {
       "syllable": "NDA1",
-      "sounds": [
+      "roman": [
         "ND",
+        "a"
+      ],
+      "ipa": [
+        "ⁿd",
         "a"
       ],
       "tone": 1,
@@ -4893,8 +6884,12 @@
   "U+1B464": [
     {
       "syllable": "BYA6",
-      "sounds": [
+      "roman": [
         "BY",
+        "a"
+      ],
+      "ipa": [
+        "pj",
         "a"
       ],
       "tone": 6,
@@ -4902,18 +6897,26 @@
     },
     {
       "syllable": "SEENG1",
-      "sounds": [
+      "roman": [
         "S",
         "eeng"
+      ],
+      "ipa": [
+        "s",
+        "eŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "DOU2",
-      "sounds": [
+      "roman": [
         "D",
         "ou"
+      ],
+      "ipa": [
+        "t",
+        "au"
       ],
       "tone": 2,
       "junk": null
@@ -4922,9 +6925,13 @@
   "U+1B465": [
     {
       "syllable": "SID7",
-      "sounds": [
+      "roman": [
         "S",
         "id"
+      ],
+      "ipa": [
+        "s",
+        "it"
       ],
       "tone": 7,
       "junk": null
@@ -4933,9 +6940,13 @@
   "U+1B466": [
     {
       "syllable": "GWAAN1",
-      "sounds": [
+      "roman": [
         "GW",
         "aan"
+      ],
+      "ipa": [
+        "kw",
+        "aːn"
       ],
       "tone": 1,
       "junk": null
@@ -4944,8 +6955,12 @@
   "U+1B467": [
     {
       "syllable": "QXGA5",
-      "sounds": [
+      "roman": [
         "QXG",
+        "a"
+      ],
+      "ipa": [
+        "ʔɣ",
         "a"
       ],
       "tone": 5,
@@ -4955,8 +6970,12 @@
   "U+1B468": [
     {
       "syllable": "DA6",
-      "sounds": [
+      "roman": [
         "D",
+        "a"
+      ],
+      "ipa": [
+        "t",
         "a"
       ],
       "tone": 6,
@@ -4966,8 +6985,12 @@
   "U+1B469": [
     {
       "syllable": "GWON3",
-      "sounds": [
+      "roman": [
         "GW",
+        "on"
+      ],
+      "ipa": [
+        "kw",
         "on"
       ],
       "tone": 3,
@@ -4975,9 +6998,14 @@
     },
     {
       "syllable": "QYEN5",
-      "sounds": [
+      "roman": [
         "Q",
         "Y",
+        "en"
+      ],
+      "ipa": [
+        "ȶʰ",
+        "j",
         "en"
       ],
       "tone": 5,
@@ -4987,8 +7015,12 @@
   "U+1B46A": [
     {
       "syllable": "ZAN6",
-      "sounds": [
+      "roman": [
         "Z",
+        "an"
+      ],
+      "ipa": [
+        "ts",
         "an"
       ],
       "tone": 6,
@@ -4997,20 +7029,32 @@
   ],
   "U+1B46B": [
     {
-      "syllable": "NNAO6-B",
-      "sounds": [
+      "syllable": "NNAO6",
+      "roman": [
         "NN",
         "ao"
       ],
+      "ipa": [
+        "ɳ",
+        "aːu"
+      ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B46C": [
     {
       "syllable": "QXGA5",
-      "sounds": [
+      "roman": [
         "QXG",
+        "a"
+      ],
+      "ipa": [
+        "ʔɣ",
         "a"
       ],
       "tone": 5,
@@ -5018,8 +7062,12 @@
     },
     {
       "syllable": "VA2",
-      "sounds": [
+      "roman": [
         "V",
+        "a"
+      ],
+      "ipa": [
+        "v",
         "a"
       ],
       "tone": 2,
@@ -5029,8 +7077,12 @@
   "U+1B46D": [
     {
       "syllable": "GU3",
-      "sounds": [
+      "roman": [
         "G",
+        "u"
+      ],
+      "ipa": [
+        "k",
         "u"
       ],
       "tone": 3,
@@ -5038,8 +7090,12 @@
     },
     {
       "syllable": "GGON4",
-      "sounds": [
+      "roman": [
         "GG",
+        "on"
+      ],
+      "ipa": [
+        "q",
         "on"
       ],
       "tone": 4,
@@ -5049,8 +7105,12 @@
   "U+1B46E": [
     {
       "syllable": "DON2",
-      "sounds": [
+      "roman": [
         "D",
+        "on"
+      ],
+      "ipa": [
+        "t",
         "on"
       ],
       "tone": 2,
@@ -5058,8 +7118,12 @@
     },
     {
       "syllable": "XGON2",
-      "sounds": [
+      "roman": [
         "XG",
+        "on"
+      ],
+      "ipa": [
+        "ɣ",
         "on"
       ],
       "tone": 2,
@@ -5069,18 +7133,26 @@
   "U+1B46F": [
     {
       "syllable": "TYEEN1",
-      "sounds": [
+      "roman": [
         "TY",
         "een"
+      ],
+      "ipa": [
+        "tʰj",
+        "en"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "GGAANG1",
-      "sounds": [
+      "roman": [
         "GG",
         "aang"
+      ],
+      "ipa": [
+        "q",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -5089,9 +7161,13 @@
   "U+1B470": [
     {
       "syllable": "MBAAN1",
-      "sounds": [
+      "roman": [
         "MB",
         "aan"
+      ],
+      "ipa": [
+        "ᵐb",
+        "aːn"
       ],
       "tone": 1,
       "junk": null
@@ -5100,9 +7176,13 @@
   "U+1B471": [
     {
       "syllable": "HONG5",
-      "sounds": [
+      "roman": [
         "H",
         "ong"
+      ],
+      "ipa": [
+        "h",
+        "oŋ"
       ],
       "tone": 5,
       "junk": null
@@ -5110,31 +7190,51 @@
   ],
   "U+1B472": [
     {
-      "syllable": "BYED8-B",
-      "sounds": [
+      "syllable": "BYED8",
+      "roman": [
         "BY",
         "ed"
       ],
+      "ipa": [
+        "pj",
+        "ə"
+      ],
       "tone": 8,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B473": [
     {
-      "syllable": "SOG8-B",
-      "sounds": [
+      "syllable": "SOG8",
+      "roman": [
         "S",
         "og"
       ],
+      "ipa": [
+        "s",
+        "ok"
+      ],
       "tone": 8,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B474": [
     {
       "syllable": "KUI3",
-      "sounds": [
+      "roman": [
         "K",
+        "ui"
+      ],
+      "ipa": [
+        "kʰ",
         "ui"
       ],
       "tone": 3,
@@ -5143,21 +7243,33 @@
   ],
   "U+1B475": [
     {
-      "syllable": "MAN6-B",
-      "sounds": [
+      "syllable": "MAN6",
+      "roman": [
         "M",
+        "an"
+      ],
+      "ipa": [
+        "m",
         "an"
       ],
       "tone": 6,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B476": [
     {
       "syllable": "JID7",
-      "sounds": [
+      "roman": [
         "J",
         "id"
+      ],
+      "ipa": [
+        "ȶ",
+        "it"
       ],
       "tone": 7,
       "junk": null
@@ -5166,9 +7278,13 @@
   "U+1B477": [
     {
       "syllable": "HAI1",
-      "sounds": [
+      "roman": [
         "H",
         "ai"
+      ],
+      "ipa": [
+        "h",
+        "aːi"
       ],
       "tone": 1,
       "junk": null
@@ -5177,9 +7293,13 @@
   "U+1B478": [
     {
       "syllable": "KKAAM3",
-      "sounds": [
+      "roman": [
         "KK",
         "aam"
+      ],
+      "ipa": [
+        "qʰ",
+        "aːm"
       ],
       "tone": 3,
       "junk": null
@@ -5188,9 +7308,13 @@
   "U+1B479": [
     {
       "syllable": "GGAD7",
-      "sounds": [
+      "roman": [
         "GG",
         "ad"
+      ],
+      "ipa": [
+        "q",
+        "at"
       ],
       "tone": 7,
       "junk": null
@@ -5199,9 +7323,13 @@
   "U+1B47A": [
     {
       "syllable": "ZI6",
-      "sounds": [
+      "roman": [
         "Z",
         "i"
+      ],
+      "ipa": [
+        "ts",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
@@ -5210,8 +7338,12 @@
   "U+1B47B": [
     {
       "syllable": "HUI6",
-      "sounds": [
+      "roman": [
         "H",
+        "ui"
+      ],
+      "ipa": [
+        "h",
         "ui"
       ],
       "tone": 6,
@@ -5219,9 +7351,13 @@
     },
     {
       "syllable": "DAANG2",
-      "sounds": [
+      "roman": [
         "D",
         "aang"
+      ],
+      "ipa": [
+        "t",
+        "aː"
       ],
       "tone": 2,
       "junk": null
@@ -5230,17 +7366,24 @@
   "U+1B47C": [
     {
       "syllable": "DAO5",
-      "sounds": [
+      "roman": [
         "D",
         "ao"
+      ],
+      "ipa": [
+        "t",
+        "aːu"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "AAN1",
-      "sounds": [
+      "roman": [
         "aan"
+      ],
+      "ipa": [
+        "aːn"
       ],
       "tone": 1,
       "junk": null
@@ -5249,9 +7392,13 @@
   "U+1B47D": [
     {
       "syllable": "LOG7",
-      "sounds": [
+      "roman": [
         "L",
         "og"
+      ],
+      "ipa": [
+        "l",
+        "ok"
       ],
       "tone": 7,
       "junk": null
@@ -5259,21 +7406,33 @@
   ],
   "U+1B47E": [
     {
-      "syllable": "PA5-A",
-      "sounds": [
+      "syllable": "PA5",
+      "roman": [
         "P",
+        "a"
+      ],
+      "ipa": [
+        "pʰ",
         "a"
       ],
       "tone": 5,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-A"
     }
   ],
   "U+1B47F": [
     {
       "syllable": "QNGEE3",
-      "sounds": [
+      "roman": [
         "QNG",
         "ee"
+      ],
+      "ipa": [
+        "ʔŋ",
+        "e"
       ],
       "tone": 3,
       "junk": null
@@ -5282,9 +7441,13 @@
   "U+1B480": [
     {
       "syllable": "HAAG8",
-      "sounds": [
+      "roman": [
         "H",
         "aag"
+      ],
+      "ipa": [
+        "h",
+        "aːk"
       ],
       "tone": 8,
       "junk": null
@@ -5293,8 +7456,11 @@
   "U+1B481": [
     {
       "syllable": "AO1",
-      "sounds": [
+      "roman": [
         "ao"
+      ],
+      "ipa": [
+        "aːu"
       ],
       "tone": 1,
       "junk": null
@@ -5303,18 +7469,26 @@
   "U+1B482": [
     {
       "syllable": "LAAG8",
-      "sounds": [
+      "roman": [
         "L",
         "aag"
+      ],
+      "ipa": [
+        "l",
+        "aːk"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "MBAAN1",
-      "sounds": [
+      "roman": [
         "MB",
         "aan"
+      ],
+      "ipa": [
+        "ᵐb",
+        "aːn"
       ],
       "tone": 1,
       "junk": null
@@ -5323,8 +7497,12 @@
   "U+1B483": [
     {
       "syllable": "NDU3",
-      "sounds": [
+      "roman": [
         "ND",
+        "u"
+      ],
+      "ipa": [
+        "ⁿd",
         "u"
       ],
       "tone": 3,
@@ -5334,9 +7512,13 @@
   "U+1B484": [
     {
       "syllable": "LANG6",
-      "sounds": [
+      "roman": [
         "L",
         "ang"
+      ],
+      "ipa": [
+        "l",
+        "aŋ"
       ],
       "tone": 6,
       "junk": null
@@ -5345,9 +7527,13 @@
   "U+1B485": [
     {
       "syllable": "DAAB7",
-      "sounds": [
+      "roman": [
         "D",
         "aab"
+      ],
+      "ipa": [
+        "t",
+        "aːp"
       ],
       "tone": 7,
       "junk": null
@@ -5356,17 +7542,25 @@
   "U+1B486": [
     {
       "syllable": "XING1",
-      "sounds": [
+      "roman": [
         "X",
         "ing"
+      ],
+      "ipa": [
+        "ɕ",
+        "iŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NDA1",
-      "sounds": [
+      "roman": [
         "ND",
+        "a"
+      ],
+      "ipa": [
+        "ⁿd",
         "a"
       ],
       "tone": 1,
@@ -5376,8 +7570,12 @@
   "U+1B487": [
     {
       "syllable": "BYA6",
-      "sounds": [
+      "roman": [
         "BY",
+        "a"
+      ],
+      "ipa": [
+        "pj",
         "a"
       ],
       "tone": 6,
@@ -5387,8 +7585,12 @@
   "U+1B488": [
     {
       "syllable": "DO1",
-      "sounds": [
+      "roman": [
         "D",
+        "o"
+      ],
+      "ipa": [
+        "t",
         "o"
       ],
       "tone": 1,
@@ -5396,9 +7598,13 @@
     },
     {
       "syllable": "FAANG1",
-      "sounds": [
+      "roman": [
         "F",
         "aang"
+      ],
+      "ipa": [
+        "f",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -5407,9 +7613,13 @@
   "U+1B489": [
     {
       "syllable": "HNNAANG3",
-      "sounds": [
+      "roman": [
         "HNN",
         "aang"
+      ],
+      "ipa": [
+        "ɳ̊",
+        "aː"
       ],
       "tone": 3,
       "junk": null
@@ -5418,9 +7628,13 @@
   "U+1B48A": [
     {
       "syllable": "MYEEN2",
-      "sounds": [
+      "roman": [
         "MY",
         "een"
+      ],
+      "ipa": [
+        "mj",
+        "en"
       ],
       "tone": 2,
       "junk": null
@@ -5429,9 +7643,14 @@
   "U+1B48B": [
     {
       "syllable": "QDYA1",
-      "sounds": [
+      "roman": [
         "QD",
         "Y",
+        "a"
+      ],
+      "ipa": [
+        "ʔd",
+        "j",
         "a"
       ],
       "tone": 1,
@@ -5441,9 +7660,13 @@
   "U+1B48C": [
     {
       "syllable": "SEE1",
-      "sounds": [
+      "roman": [
         "S",
         "ee"
+      ],
+      "ipa": [
+        "s",
+        "e"
       ],
       "tone": 1,
       "junk": null
@@ -5452,9 +7675,13 @@
   "U+1B48D": [
     {
       "syllable": "FAAM4",
-      "sounds": [
+      "roman": [
         "F",
         "aam"
+      ],
+      "ipa": [
+        "f",
+        "aːm"
       ],
       "tone": 4,
       "junk": null
@@ -5463,9 +7690,13 @@
   "U+1B48E": [
     {
       "syllable": "SAO5",
-      "sounds": [
+      "roman": [
         "S",
         "ao"
+      ],
+      "ipa": [
+        "s",
+        "aːu"
       ],
       "tone": 5,
       "junk": null
@@ -5474,18 +7705,26 @@
   "U+1B48F": [
     {
       "syllable": "BAI1",
-      "sounds": [
+      "roman": [
         "B",
         "ai"
+      ],
+      "ipa": [
+        "p",
+        "aːi"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "QNUG7",
-      "sounds": [
+      "roman": [
         "QN",
         "ug"
+      ],
+      "ipa": [
+        "ʔn",
+        "uk"
       ],
       "tone": 7,
       "junk": null
@@ -5494,9 +7733,13 @@
   "U+1B490": [
     {
       "syllable": "DEI2",
-      "sounds": [
+      "roman": [
         "D",
         "ei"
+      ],
+      "ipa": [
+        "t",
+        "ai"
       ],
       "tone": 2,
       "junk": null
@@ -5505,27 +7748,39 @@
   "U+1B491": [
     {
       "syllable": "MEI4",
-      "sounds": [
+      "roman": [
         "M",
         "ei"
+      ],
+      "ipa": [
+        "m",
+        "ai"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "NUG8",
-      "sounds": [
+      "roman": [
         "N",
         "ug"
+      ],
+      "ipa": [
+        "n",
+        "uk"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "SAO5",
-      "sounds": [
+      "roman": [
         "S",
         "ao"
+      ],
+      "ipa": [
+        "s",
+        "aːu"
       ],
       "tone": 5,
       "junk": null
@@ -5534,8 +7789,12 @@
   "U+1B492": [
     {
       "syllable": "GGAN5",
-      "sounds": [
+      "roman": [
         "GG",
+        "an"
+      ],
+      "ipa": [
+        "q",
         "an"
       ],
       "tone": 5,
@@ -5545,8 +7804,12 @@
   "U+1B493": [
     {
       "syllable": "HUI6",
-      "sounds": [
+      "roman": [
         "H",
+        "ui"
+      ],
+      "ipa": [
+        "h",
         "ui"
       ],
       "tone": 6,
@@ -5556,9 +7819,13 @@
   "U+1B494": [
     {
       "syllable": "YONG2",
-      "sounds": [
+      "roman": [
         "Y",
         "ong"
+      ],
+      "ipa": [
+        "j",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -5567,9 +7834,13 @@
   "U+1B495": [
     {
       "syllable": "NAI6",
-      "sounds": [
+      "roman": [
         "N",
         "ai"
+      ],
+      "ipa": [
+        "n",
+        "aːi"
       ],
       "tone": 6,
       "junk": null
@@ -5577,21 +7848,33 @@
   ],
   "U+1B496": [
     {
-      "syllable": "KKOU3-B",
-      "sounds": [
+      "syllable": "KKOU3",
+      "roman": [
         "KK",
         "ou"
       ],
+      "ipa": [
+        "qʰ",
+        "au"
+      ],
       "tone": 3,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B497": [
     {
       "syllable": "NDAAN5",
-      "sounds": [
+      "roman": [
         "ND",
         "aan"
+      ],
+      "ipa": [
+        "ⁿd",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
@@ -5599,41 +7882,65 @@
   ],
   "U+1B498": [
     {
-      "syllable": "DYUM1-B",
-      "sounds": [
+      "syllable": "DYUM1",
+      "roman": [
         "DY",
+        "um"
+      ],
+      "ipa": [
+        "tj",
         "um"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B499": [
     {
-      "syllable": "XEN1-B",
-      "sounds": [
+      "syllable": "XEN1",
+      "roman": [
         "X",
+        "en"
+      ],
+      "ipa": [
+        "ɕ",
         "en"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B49A": [
     {
       "syllable": "HAI1",
-      "sounds": [
+      "roman": [
         "H",
         "ai"
+      ],
+      "ipa": [
+        "h",
+        "aːi"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "GGONG1",
-      "sounds": [
+      "roman": [
         "GG",
         "ong"
+      ],
+      "ipa": [
+        "q",
+        "oŋ"
       ],
       "tone": 1,
       "junk": null
@@ -5642,9 +7949,13 @@
   "U+1B49B": [
     {
       "syllable": "VAANG6",
-      "sounds": [
+      "roman": [
         "V",
         "aang"
+      ],
+      "ipa": [
+        "v",
+        "aː"
       ],
       "tone": 6,
       "junk": null
@@ -5653,9 +7964,13 @@
   "U+1B49C": [
     {
       "syllable": "DANG1",
-      "sounds": [
+      "roman": [
         "D",
         "ang"
+      ],
+      "ipa": [
+        "t",
+        "aŋ"
       ],
       "tone": 1,
       "junk": null
@@ -5664,9 +7979,13 @@
   "U+1B49D": [
     {
       "syllable": "NDYEI3",
-      "sounds": [
+      "roman": [
         "NDY",
         "ei"
+      ],
+      "ipa": [
+        "ⁿdj",
+        "ai"
       ],
       "tone": 3,
       "junk": null
@@ -5675,9 +7994,13 @@
   "U+1B49E": [
     {
       "syllable": "ZUD7",
-      "sounds": [
+      "roman": [
         "Z",
         "ud"
+      ],
+      "ipa": [
+        "ts",
+        "ut"
       ],
       "tone": 7,
       "junk": null
@@ -5686,9 +8009,13 @@
   "U+1B49F": [
     {
       "syllable": "XI5",
-      "sounds": [
+      "roman": [
         "X",
         "i"
+      ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
       ],
       "tone": 5,
       "junk": null
@@ -5697,18 +8024,26 @@
   "U+1B4A0": [
     {
       "syllable": "XI5",
-      "sounds": [
+      "roman": [
         "X",
         "i"
+      ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
       ],
       "tone": 5,
       "junk": null
     },
     {
       "syllable": "HAAN5",
-      "sounds": [
+      "roman": [
         "H",
         "aan"
+      ],
+      "ipa": [
+        "h",
+        "aːn"
       ],
       "tone": 5,
       "junk": null
@@ -5717,7 +8052,10 @@
   "U+1B4A1": [
     {
       "syllable": "AM5",
-      "sounds": [
+      "roman": [
+        "am"
+      ],
+      "ipa": [
         "am"
       ],
       "tone": 5,
@@ -5727,9 +8065,13 @@
   "U+1B4A2": [
     {
       "syllable": "XEEN6",
-      "sounds": [
+      "roman": [
         "X",
         "een"
+      ],
+      "ipa": [
+        "ɕ",
+        "en"
       ],
       "tone": 6,
       "junk": null
@@ -5738,8 +8080,12 @@
   "U+1B4A3": [
     {
       "syllable": "JA1",
-      "sounds": [
+      "roman": [
         "J",
+        "a"
+      ],
+      "ipa": [
+        "ȶ",
         "a"
       ],
       "tone": 1,
@@ -5749,17 +8095,25 @@
   "U+1B4A4": [
     {
       "syllable": "BAAD7",
-      "sounds": [
+      "roman": [
         "B",
         "aad"
+      ],
+      "ipa": [
+        "p",
+        "aːt"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "BYEN2",
-      "sounds": [
+      "roman": [
         "BY",
+        "en"
+      ],
+      "ipa": [
+        "pj",
         "en"
       ],
       "tone": 2,
@@ -5769,8 +8123,12 @@
   "U+1B4A5": [
     {
       "syllable": "GUM1",
-      "sounds": [
+      "roman": [
         "G",
+        "um"
+      ],
+      "ipa": [
+        "k",
         "um"
       ],
       "tone": 1,
@@ -5780,18 +8138,26 @@
   "U+1B4A6": [
     {
       "syllable": "BYEEG7",
-      "sounds": [
+      "roman": [
         "BY",
         "eeg"
+      ],
+      "ipa": [
+        "pj",
+        "ek"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "LYEEG7",
-      "sounds": [
+      "roman": [
         "LY",
         "eeg"
+      ],
+      "ipa": [
+        "lj",
+        "ek"
       ],
       "tone": 7,
       "junk": null
@@ -5799,20 +8165,32 @@
   ],
   "U+1B4A7": [
     {
-      "syllable": "XED7-B",
-      "sounds": [
+      "syllable": "XED7",
+      "roman": [
         "X",
         "ed"
       ],
+      "ipa": [
+        "ɕ",
+        "ə"
+      ],
       "tone": 7,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B4A8": [
     {
       "syllable": "DO1",
-      "sounds": [
+      "roman": [
         "D",
+        "o"
+      ],
+      "ipa": [
+        "t",
         "o"
       ],
       "tone": 1,
@@ -5822,9 +8200,13 @@
   "U+1B4A9": [
     {
       "syllable": "SAI3",
-      "sounds": [
+      "roman": [
         "S",
         "ai"
+      ],
+      "ipa": [
+        "s",
+        "aːi"
       ],
       "tone": 3,
       "junk": null
@@ -5833,8 +8215,12 @@
   "U+1B4AA": [
     {
       "syllable": "HAN5",
-      "sounds": [
+      "roman": [
         "H",
+        "an"
+      ],
+      "ipa": [
+        "h",
         "an"
       ],
       "tone": 5,
@@ -5842,9 +8228,13 @@
     },
     {
       "syllable": "VI1",
-      "sounds": [
+      "roman": [
         "V",
         "i"
+      ],
+      "ipa": [
+        "v",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
@@ -5853,9 +8243,13 @@
   "U+1B4AB": [
     {
       "syllable": "HAI2",
-      "sounds": [
+      "roman": [
         "H",
         "ai"
+      ],
+      "ipa": [
+        "h",
+        "aːi"
       ],
       "tone": 2,
       "junk": null
@@ -5864,9 +8258,13 @@
   "U+1B4AC": [
     {
       "syllable": "BYAI2",
-      "sounds": [
+      "roman": [
         "BY",
         "ai"
+      ],
+      "ipa": [
+        "pj",
+        "aːi"
       ],
       "tone": 2,
       "junk": null
@@ -5875,18 +8273,26 @@
   "U+1B4AD": [
     {
       "syllable": "BYAI2",
-      "sounds": [
+      "roman": [
         "BY",
         "ai"
+      ],
+      "ipa": [
+        "pj",
+        "aːi"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "LAO4",
-      "sounds": [
+      "roman": [
         "L",
         "ao"
+      ],
+      "ipa": [
+        "l",
+        "aːu"
       ],
       "tone": 4,
       "junk": null
@@ -5895,8 +8301,12 @@
   "U+1B4AE": [
     {
       "syllable": "KUN1",
-      "sounds": [
+      "roman": [
         "K",
+        "un"
+      ],
+      "ipa": [
+        "kʰ",
         "un"
       ],
       "tone": 1,
@@ -5906,8 +8316,12 @@
   "U+1B4AF": [
     {
       "syllable": "GGO1",
-      "sounds": [
+      "roman": [
         "GG",
+        "o"
+      ],
+      "ipa": [
+        "q",
         "o"
       ],
       "tone": 1,
@@ -5915,8 +8329,12 @@
     },
     {
       "syllable": "JEN1",
-      "sounds": [
+      "roman": [
         "J",
+        "en"
+      ],
+      "ipa": [
+        "ȶ",
         "en"
       ],
       "tone": 1,
@@ -5925,20 +8343,32 @@
   ],
   "U+1B4B0": [
     {
-      "syllable": "PA5-B",
-      "sounds": [
+      "syllable": "PA5",
+      "roman": [
         "P",
+        "a"
+      ],
+      "ipa": [
+        "pʰ",
         "a"
       ],
       "tone": 5,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B4B1": [
     {
       "syllable": "DU3",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 3,
@@ -5946,8 +8376,12 @@
     },
     {
       "syllable": "ZEN3",
-      "sounds": [
+      "roman": [
         "Z",
+        "en"
+      ],
+      "ipa": [
+        "ts",
         "en"
       ],
       "tone": 3,
@@ -5957,8 +8391,12 @@
   "U+1B4B2": [
     {
       "syllable": "LUI5",
-      "sounds": [
+      "roman": [
         "L",
+        "ui"
+      ],
+      "ipa": [
+        "l",
         "ui"
       ],
       "tone": 5,
@@ -5968,8 +8406,12 @@
   "U+1B4B3": [
     {
       "syllable": "BU2",
-      "sounds": [
+      "roman": [
         "B",
+        "u"
+      ],
+      "ipa": [
+        "p",
         "u"
       ],
       "tone": 2,
@@ -5979,8 +8421,12 @@
   "U+1B4B4": [
     {
       "syllable": "DUI2",
-      "sounds": [
+      "roman": [
         "D",
+        "ui"
+      ],
+      "ipa": [
+        "t",
         "ui"
       ],
       "tone": 2,
@@ -5988,9 +8434,13 @@
     },
     {
       "syllable": "NDONG5",
-      "sounds": [
+      "roman": [
         "ND",
         "ong"
+      ],
+      "ipa": [
+        "ⁿd",
+        "oŋ"
       ],
       "tone": 5,
       "junk": null
@@ -5999,8 +8449,12 @@
   "U+1B4B5": [
     {
       "syllable": "JU3",
-      "sounds": [
+      "roman": [
         "J",
+        "u"
+      ],
+      "ipa": [
+        "ȶ",
         "u"
       ],
       "tone": 3,
@@ -6008,8 +8462,12 @@
     },
     {
       "syllable": "PEN1",
-      "sounds": [
+      "roman": [
         "P",
+        "en"
+      ],
+      "ipa": [
+        "pʰ",
         "en"
       ],
       "tone": 1,
@@ -6019,8 +8477,12 @@
   "U+1B4B6": [
     {
       "syllable": "JU3",
-      "sounds": [
+      "roman": [
         "J",
+        "u"
+      ],
+      "ipa": [
+        "ȶ",
         "u"
       ],
       "tone": 3,
@@ -6028,9 +8490,13 @@
     },
     {
       "syllable": "GGAO3",
-      "sounds": [
+      "roman": [
         "GG",
         "ao"
+      ],
+      "ipa": [
+        "q",
+        "aːu"
       ],
       "tone": 3,
       "junk": null
@@ -6039,9 +8505,13 @@
   "U+1B4B7": [
     {
       "syllable": "MAANG1",
-      "sounds": [
+      "roman": [
         "M",
         "aang"
+      ],
+      "ipa": [
+        "m",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -6050,8 +8520,12 @@
   "U+1B4B8": [
     {
       "syllable": "JUI3",
-      "sounds": [
+      "roman": [
         "J",
+        "ui"
+      ],
+      "ipa": [
+        "ȶ",
         "ui"
       ],
       "tone": 3,
@@ -6059,8 +8533,12 @@
     },
     {
       "syllable": "JUM1",
-      "sounds": [
+      "roman": [
         "J",
+        "um"
+      ],
+      "ipa": [
+        "ȶ",
         "um"
       ],
       "tone": 1,
@@ -6068,9 +8546,13 @@
     },
     {
       "syllable": "YAANG2",
-      "sounds": [
+      "roman": [
         "Y",
         "aang"
+      ],
+      "ipa": [
+        "j",
+        "aː"
       ],
       "tone": 2,
       "junk": null
@@ -6078,20 +8560,32 @@
   ],
   "U+1B4B9": [
     {
-      "syllable": "REN1-B",
-      "sounds": [
+      "syllable": "REN1",
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B4BA": [
     {
       "syllable": "DAN3",
-      "sounds": [
+      "roman": [
         "D",
+        "an"
+      ],
+      "ipa": [
+        "t",
         "an"
       ],
       "tone": 3,
@@ -6099,9 +8593,13 @@
     },
     {
       "syllable": "NDONG5",
-      "sounds": [
+      "roman": [
         "ND",
         "ong"
+      ],
+      "ipa": [
+        "ⁿd",
+        "oŋ"
       ],
       "tone": 5,
       "junk": null
@@ -6109,20 +8607,32 @@
   ],
   "U+1B4BB": [
     {
-      "syllable": "GGUI5-B",
-      "sounds": [
+      "syllable": "GGUI5",
+      "roman": [
         "GG",
+        "ui"
+      ],
+      "ipa": [
+        "q",
         "ui"
       ],
       "tone": 5,
       "junk": null
+    },
+    {
+      "syllable": null,
+      "glyph_suffix": "-B"
     }
   ],
   "U+1B4BC": [
     {
       "syllable": "NYU4",
-      "sounds": [
+      "roman": [
         "NY",
+        "u"
+      ],
+      "ipa": [
+        "nj",
         "u"
       ],
       "tone": 4,
@@ -6130,8 +8640,12 @@
     },
     {
       "syllable": "TU3",
-      "sounds": [
+      "roman": [
         "T",
+        "u"
+      ],
+      "ipa": [
+        "tʰ",
         "u"
       ],
       "tone": 3,
@@ -6139,9 +8653,13 @@
     },
     {
       "syllable": "FOG8",
-      "sounds": [
+      "roman": [
         "F",
         "og"
+      ],
+      "ipa": [
+        "f",
+        "ok"
       ],
       "tone": 8,
       "junk": null
@@ -6150,8 +8668,12 @@
   "U+1B4BD": [
     {
       "syllable": "REN1",
-      "sounds": [
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
@@ -6159,18 +8681,26 @@
     },
     {
       "syllable": "DEI2",
-      "sounds": [
+      "roman": [
         "D",
         "ei"
+      ],
+      "ipa": [
+        "t",
+        "ai"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "XAANG1",
-      "sounds": [
+      "roman": [
         "X",
         "aang"
+      ],
+      "ipa": [
+        "ɕ",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -6179,8 +8709,12 @@
   "U+1B4BE": [
     {
       "syllable": "REN1",
-      "sounds": [
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
@@ -6188,8 +8722,12 @@
     },
     {
       "syllable": "DYAM2",
-      "sounds": [
+      "roman": [
         "DY",
+        "am"
+      ],
+      "ipa": [
+        "tj",
         "am"
       ],
       "tone": 2,
@@ -6197,8 +8735,12 @@
     },
     {
       "syllable": "BYA2",
-      "sounds": [
+      "roman": [
         "BY",
+        "a"
+      ],
+      "ipa": [
+        "pj",
         "a"
       ],
       "tone": 2,
@@ -6208,18 +8750,26 @@
   "U+1B4BF": [
     {
       "syllable": "HEE4",
-      "sounds": [
+      "roman": [
         "H",
         "ee"
+      ],
+      "ipa": [
+        "h",
+        "e"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "FAAB7",
-      "sounds": [
+      "roman": [
         "F",
         "aab"
+      ],
+      "ipa": [
+        "f",
+        "aːp"
       ],
       "tone": 7,
       "junk": null
@@ -6228,8 +8778,12 @@
   "U+1B4C0": [
     {
       "syllable": "REN1",
-      "sounds": [
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
@@ -6237,18 +8791,26 @@
     },
     {
       "syllable": "DEI2",
-      "sounds": [
+      "roman": [
         "D",
         "ei"
+      ],
+      "ipa": [
+        "t",
+        "ai"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "JI2",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 2,
       "junk": null
@@ -6257,26 +8819,38 @@
   "U+1B4C1": [
     {
       "syllable": "DEI1",
-      "sounds": [
+      "roman": [
         "D",
         "ei"
+      ],
+      "ipa": [
+        "t",
+        "ai"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "ZOU6",
-      "sounds": [
+      "roman": [
         "Z",
         "ou"
+      ],
+      "ipa": [
+        "ts",
+        "au"
       ],
       "tone": 6,
       "junk": null
     },
     {
       "syllable": "REN1",
-      "sounds": [
+      "roman": [
         "R",
+        "en"
+      ],
+      "ipa": [
+        "z",
         "en"
       ],
       "tone": 1,
@@ -6286,8 +8860,12 @@
   "U+1B4C2": [
     {
       "syllable": "XGA2",
-      "sounds": [
+      "roman": [
         "XG",
+        "a"
+      ],
+      "ipa": [
+        "ɣ",
         "a"
       ],
       "tone": 2,
@@ -6295,17 +8873,25 @@
     },
     {
       "syllable": "FAI4",
-      "sounds": [
+      "roman": [
         "F",
         "ai"
+      ],
+      "ipa": [
+        "f",
+        "aːi"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "NU4",
-      "sounds": [
+      "roman": [
         "N",
+        "u"
+      ],
+      "ipa": [
+        "n",
         "u"
       ],
       "tone": 4,
@@ -6315,8 +8901,12 @@
   "U+1B4C3": [
     {
       "syllable": "LOI2",
-      "sounds": [
+      "roman": [
         "L",
+        "oi"
+      ],
+      "ipa": [
+        "l",
         "oi"
       ],
       "tone": 2,
@@ -6324,8 +8914,12 @@
     },
     {
       "syllable": "JUM1",
-      "sounds": [
+      "roman": [
         "J",
+        "um"
+      ],
+      "ipa": [
+        "ȶ",
         "um"
       ],
       "tone": 1,
@@ -6333,9 +8927,13 @@
     },
     {
       "syllable": "GGOU3",
-      "sounds": [
+      "roman": [
         "GG",
         "ou"
+      ],
+      "ipa": [
+        "q",
+        "au"
       ],
       "tone": 3,
       "junk": null
@@ -6344,17 +8942,25 @@
   "U+1B4C4": [
     {
       "syllable": "JI1",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NGA6",
-      "sounds": [
+      "roman": [
         "NG",
+        "a"
+      ],
+      "ipa": [
+        "ŋ",
         "a"
       ],
       "tone": 6,
@@ -6362,8 +8968,12 @@
     },
     {
       "syllable": "MA4",
-      "sounds": [
+      "roman": [
         "M",
+        "a"
+      ],
+      "ipa": [
+        "m",
         "a"
       ],
       "tone": 4,
@@ -6373,26 +8983,38 @@
   "U+1B4C5": [
     {
       "syllable": "SYAANG1",
-      "sounds": [
+      "roman": [
         "SY",
         "aang"
+      ],
+      "ipa": [
+        "sj",
+        "aː"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NNED8",
-      "sounds": [
+      "roman": [
         "NN",
         "ed"
+      ],
+      "ipa": [
+        "ɳ",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "MA4",
-      "sounds": [
+      "roman": [
         "M",
+        "a"
+      ],
+      "ipa": [
+        "m",
         "a"
       ],
       "tone": 4,
@@ -6402,8 +9024,12 @@
   "U+1B4C6": [
     {
       "syllable": "FA2",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 2,
@@ -6413,8 +9039,12 @@
   "U+1B4C7": [
     {
       "syllable": "GUI2",
-      "sounds": [
+      "roman": [
         "G",
+        "ui"
+      ],
+      "ipa": [
+        "k",
         "ui"
       ],
       "tone": 2,
@@ -6424,17 +9054,25 @@
   "U+1B4C8": [
     {
       "syllable": "JI1",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NGA6",
-      "sounds": [
+      "roman": [
         "NG",
+        "a"
+      ],
+      "ipa": [
+        "ŋ",
         "a"
       ],
       "tone": 6,
@@ -6442,8 +9080,12 @@
     },
     {
       "syllable": "HMU5",
-      "sounds": [
+      "roman": [
         "HM",
+        "u"
+      ],
+      "ipa": [
+        "m̥",
         "u"
       ],
       "tone": 5,
@@ -6453,8 +9095,12 @@
   "U+1B4C9": [
     {
       "syllable": "SAM5",
-      "sounds": [
+      "roman": [
         "S",
+        "am"
+      ],
+      "ipa": [
+        "s",
         "am"
       ],
       "tone": 5,
@@ -6462,8 +9108,12 @@
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -6471,8 +9121,12 @@
     },
     {
       "syllable": "YON2",
-      "sounds": [
+      "roman": [
         "Y",
+        "on"
+      ],
+      "ipa": [
+        "j",
         "on"
       ],
       "tone": 2,
@@ -6482,8 +9136,12 @@
   "U+1B4CA": [
     {
       "syllable": "MA4",
-      "sounds": [
+      "roman": [
         "M",
+        "a"
+      ],
+      "ipa": [
+        "m",
         "a"
       ],
       "tone": 4,
@@ -6493,8 +9151,12 @@
   "U+1B4CB": [
     {
       "syllable": "MON6",
-      "sounds": [
+      "roman": [
         "M",
+        "on"
+      ],
+      "ipa": [
+        "m",
         "on"
       ],
       "tone": 6,
@@ -6504,8 +9166,12 @@
   "U+1B4CC": [
     {
       "syllable": "HOI3",
-      "sounds": [
+      "roman": [
         "H",
+        "oi"
+      ],
+      "ipa": [
+        "h",
         "oi"
       ],
       "tone": 3,
@@ -6513,8 +9179,12 @@
     },
     {
       "syllable": "FA3",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 3,
@@ -6522,9 +9192,13 @@
     },
     {
       "syllable": "XGGOU1",
-      "sounds": [
+      "roman": [
         "XGG",
         "ou"
+      ],
+      "ipa": [
+        "ʁ",
+        "au"
       ],
       "tone": 1,
       "junk": null
@@ -6533,8 +9207,12 @@
   "U+1B4CD": [
     {
       "syllable": "SU1",
-      "sounds": [
+      "roman": [
         "S",
+        "u"
+      ],
+      "ipa": [
+        "s",
         "u"
       ],
       "tone": 1,
@@ -6542,17 +9220,25 @@
     },
     {
       "syllable": "NNED8",
-      "sounds": [
+      "roman": [
         "NN",
         "ed"
+      ],
+      "ipa": [
+        "ɳ",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "SU1",
-      "sounds": [
+      "roman": [
         "S",
+        "u"
+      ],
+      "ipa": [
+        "s",
         "u"
       ],
       "tone": 1,
@@ -6562,26 +9248,38 @@
   "U+1B4CE": [
     {
       "syllable": "FONG2",
-      "sounds": [
+      "roman": [
         "F",
         "ong"
+      ],
+      "ipa": [
+        "f",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
     },
     {
       "syllable": "NNED8",
-      "sounds": [
+      "roman": [
         "NN",
         "ed"
+      ],
+      "ipa": [
+        "ɳ",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "TU5",
-      "sounds": [
+      "roman": [
         "T",
+        "u"
+      ],
+      "ipa": [
+        "tʰ",
         "u"
       ],
       "tone": 5,
@@ -6591,17 +9289,25 @@
   "U+1B4CF": [
     {
       "syllable": "BYED7",
-      "sounds": [
+      "roman": [
         "BY",
         "ed"
+      ],
+      "ipa": [
+        "pj",
+        "ə"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "FA3",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 3,
@@ -6609,8 +9315,12 @@
     },
     {
       "syllable": "ZU1",
-      "sounds": [
+      "roman": [
         "Z",
+        "u"
+      ],
+      "ipa": [
+        "ts",
         "u"
       ],
       "tone": 1,
@@ -6620,17 +9330,25 @@
   "U+1B4D0": [
     {
       "syllable": "DEE1",
-      "sounds": [
+      "roman": [
         "D",
         "ee"
+      ],
+      "ipa": [
+        "t",
+        "e"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "TU3",
-      "sounds": [
+      "roman": [
         "T",
+        "u"
+      ],
+      "ipa": [
+        "tʰ",
         "u"
       ],
       "tone": 3,
@@ -6638,9 +9356,13 @@
     },
     {
       "syllable": "LAAG8",
-      "sounds": [
+      "roman": [
         "L",
         "aag"
+      ],
+      "ipa": [
+        "l",
+        "aːk"
       ],
       "tone": 8,
       "junk": null
@@ -6649,17 +9371,25 @@
   "U+1B4D1": [
     {
       "syllable": "NI4",
-      "sounds": [
+      "roman": [
         "N",
         "i"
+      ],
+      "ipa": [
+        "n",
+        "i,ɿ"
       ],
       "tone": 4,
       "junk": null
     },
     {
       "syllable": "FA3",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 3,
@@ -6667,8 +9397,12 @@
     },
     {
       "syllable": "HU3",
-      "sounds": [
+      "roman": [
         "H",
+        "u"
+      ],
+      "ipa": [
+        "h",
         "u"
       ],
       "tone": 3,
@@ -6678,8 +9412,12 @@
   "U+1B4D2": [
     {
       "syllable": "NNU2",
-      "sounds": [
+      "roman": [
         "NN",
+        "u"
+      ],
+      "ipa": [
+        "ɳ",
         "u"
       ],
       "tone": 2,
@@ -6687,8 +9425,12 @@
     },
     {
       "syllable": "JUM1",
-      "sounds": [
+      "roman": [
         "J",
+        "um"
+      ],
+      "ipa": [
+        "ȶ",
         "um"
       ],
       "tone": 1,
@@ -6696,8 +9438,12 @@
     },
     {
       "syllable": "NNU2",
-      "sounds": [
+      "roman": [
         "NN",
+        "u"
+      ],
+      "ipa": [
+        "ɳ",
         "u"
       ],
       "tone": 2,
@@ -6707,18 +9453,26 @@
   "U+1B4D3": [
     {
       "syllable": "SEENG1",
-      "sounds": [
+      "roman": [
         "S",
         "eeng"
+      ],
+      "ipa": [
+        "s",
+        "eŋ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "LAO4",
-      "sounds": [
+      "roman": [
         "L",
         "ao"
+      ],
+      "ipa": [
+        "l",
+        "aːu"
       ],
       "tone": 4,
       "junk": null
@@ -6727,17 +9481,25 @@
   "U+1B4D4": [
     {
       "syllable": "JI1",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
     },
     {
       "syllable": "NGA6",
-      "sounds": [
+      "roman": [
         "NG",
+        "a"
+      ],
+      "ipa": [
+        "ŋ",
         "a"
       ],
       "tone": 6,
@@ -6745,9 +9507,13 @@
     },
     {
       "syllable": "GGAI5",
-      "sounds": [
+      "roman": [
         "GG",
         "ai"
+      ],
+      "ipa": [
+        "q",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -6756,8 +9522,11 @@
   "U+1B4D5": [
     {
       "syllable": "EEB7",
-      "sounds": [
+      "roman": [
         "eeb"
+      ],
+      "ipa": [
+        "ep"
       ],
       "tone": 7,
       "junk": null
@@ -6766,9 +9535,13 @@
   "U+1B4D6": [
     {
       "syllable": "NGAAN6",
-      "sounds": [
+      "roman": [
         "NG",
         "aan"
+      ],
+      "ipa": [
+        "ŋ",
+        "aːn"
       ],
       "tone": 6,
       "junk": null
@@ -6777,8 +9550,12 @@
   "U+1B4D7": [
     {
       "syllable": "NYU4",
-      "sounds": [
+      "roman": [
         "NY",
+        "u"
+      ],
+      "ipa": [
+        "nj",
         "u"
       ],
       "tone": 4,
@@ -6786,16 +9563,23 @@
     },
     {
       "syllable": "NNOD8",
-      "sounds": [
+      "roman": [
         "NN",
         "od"
+      ],
+      "ipa": [
+        "ɳ",
+        "ot"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "IN5",
-      "sounds": [
+      "roman": [
+        "in"
+      ],
+      "ipa": [
         "in"
       ],
       "tone": 5,
@@ -6805,8 +9589,12 @@
   "U+1B4D8": [
     {
       "syllable": "NGA2",
-      "sounds": [
+      "roman": [
         "NG",
+        "a"
+      ],
+      "ipa": [
+        "ŋ",
         "a"
       ],
       "tone": 2,
@@ -6814,18 +9602,26 @@
     },
     {
       "syllable": "NNID8",
-      "sounds": [
+      "roman": [
         "NN",
         "id"
+      ],
+      "ipa": [
+        "ɳ",
+        "it"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "JI1",
-      "sounds": [
+      "roman": [
         "J",
         "i"
+      ],
+      "ipa": [
+        "ȶ",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
@@ -6834,25 +9630,36 @@
   "U+1B4D9": [
     {
       "syllable": "BYED7",
-      "sounds": [
+      "roman": [
         "BY",
         "ed"
+      ],
+      "ipa": [
+        "pj",
+        "ə"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "NNOD8",
-      "sounds": [
+      "roman": [
         "NN",
         "od"
+      ],
+      "ipa": [
+        "ɳ",
+        "ot"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "U1",
-      "sounds": [
+      "roman": [
+        "u"
+      ],
+      "ipa": [
         "u"
       ],
       "tone": 1,
@@ -6862,8 +9669,12 @@
   "U+1B4DA": [
     {
       "syllable": "NGA2",
-      "sounds": [
+      "roman": [
         "NG",
+        "a"
+      ],
+      "ipa": [
+        "ŋ",
         "a"
       ],
       "tone": 2,
@@ -6871,8 +9682,12 @@
     },
     {
       "syllable": "TU3",
-      "sounds": [
+      "roman": [
         "T",
+        "u"
+      ],
+      "ipa": [
+        "tʰ",
         "u"
       ],
       "tone": 3,
@@ -6880,9 +9695,13 @@
     },
     {
       "syllable": "DI6",
-      "sounds": [
+      "roman": [
         "D",
         "i"
+      ],
+      "ipa": [
+        "t",
+        "i,ɿ"
       ],
       "tone": 6,
       "junk": null
@@ -6891,27 +9710,39 @@
   "U+1B4DB": [
     {
       "syllable": "XEEU3",
-      "sounds": [
+      "roman": [
         "X",
         "eeu"
+      ],
+      "ipa": [
+        "ɕ",
+        "eu"
       ],
       "tone": 3,
       "junk": null
     },
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "NGAAN6",
-      "sounds": [
+      "roman": [
         "NG",
         "aan"
+      ],
+      "ipa": [
+        "ŋ",
+        "aːn"
       ],
       "tone": 6,
       "junk": null
@@ -6920,17 +9751,25 @@
   "U+1B4DC": [
     {
       "syllable": "YED8",
-      "sounds": [
+      "roman": [
         "Y",
         "ed"
+      ],
+      "ipa": [
+        "j",
+        "ə"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "FA3",
-      "sounds": [
+      "roman": [
         "F",
+        "a"
+      ],
+      "ipa": [
+        "f",
         "a"
       ],
       "tone": 3,
@@ -6938,8 +9777,12 @@
     },
     {
       "syllable": "SYA2",
-      "sounds": [
+      "roman": [
         "SY",
+        "a"
+      ],
+      "ipa": [
+        "sj",
         "a"
       ],
       "tone": 2,
@@ -6949,8 +9792,12 @@
   "U+1B4DD": [
     {
       "syllable": "GGAM5",
-      "sounds": [
+      "roman": [
         "GG",
+        "am"
+      ],
+      "ipa": [
+        "q",
         "am"
       ],
       "tone": 5,
@@ -6958,8 +9805,12 @@
     },
     {
       "syllable": "JUM1",
-      "sounds": [
+      "roman": [
         "J",
+        "um"
+      ],
+      "ipa": [
+        "ȶ",
         "um"
       ],
       "tone": 1,
@@ -6967,9 +9818,13 @@
     },
     {
       "syllable": "LYONG2",
-      "sounds": [
+      "roman": [
         "LY",
         "ong"
+      ],
+      "ipa": [
+        "lj",
+        "oŋ"
       ],
       "tone": 2,
       "junk": null
@@ -6978,8 +9833,12 @@
   "U+1B4DE": [
     {
       "syllable": "GGAM5",
-      "sounds": [
+      "roman": [
         "GG",
+        "am"
+      ],
+      "ipa": [
+        "q",
         "am"
       ],
       "tone": 5,
@@ -6987,18 +9846,26 @@
     },
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "GGAO1",
-      "sounds": [
+      "roman": [
         "GG",
         "ao"
+      ],
+      "ipa": [
+        "q",
+        "aːu"
       ],
       "tone": 1,
       "junk": null
@@ -7007,17 +9874,25 @@
   "U+1B4DF": [
     {
       "syllable": "BYED7",
-      "sounds": [
+      "roman": [
         "BY",
         "ed"
+      ],
+      "ipa": [
+        "pj",
+        "ə"
       ],
       "tone": 7,
       "junk": null
     },
     {
       "syllable": "SUI3",
-      "sounds": [
+      "roman": [
         "S",
+        "ui"
+      ],
+      "ipa": [
+        "s",
         "ui"
       ],
       "tone": 3,
@@ -7025,9 +9900,13 @@
     },
     {
       "syllable": "XI1",
-      "sounds": [
+      "roman": [
         "X",
         "i"
+      ],
+      "ipa": [
+        "ɕ",
+        "i,ɿ"
       ],
       "tone": 1,
       "junk": null
@@ -7036,8 +9915,12 @@
   "U+1B4E0": [
     {
       "syllable": "MOM6",
-      "sounds": [
+      "roman": [
         "M",
+        "om"
+      ],
+      "ipa": [
+        "m",
         "om"
       ],
       "tone": 6,
@@ -7047,8 +9930,12 @@
   "U+1B4E1": [
     {
       "syllable": "VYEN5",
-      "sounds": [
+      "roman": [
         "VY",
+        "en"
+      ],
+      "ipa": [
+        "vj",
         "en"
       ],
       "tone": 5,
@@ -7056,8 +9943,12 @@
     },
     {
       "syllable": "MOM6",
-      "sounds": [
+      "roman": [
         "M",
+        "om"
+      ],
+      "ipa": [
+        "m",
         "om"
       ],
       "tone": 6,
@@ -7067,8 +9958,12 @@
   "U+1B4E2": [
     {
       "syllable": "LU4",
-      "sounds": [
+      "roman": [
         "L",
+        "u"
+      ],
+      "ipa": [
+        "l",
         "u"
       ],
       "tone": 4,
@@ -7076,8 +9971,12 @@
     },
     {
       "syllable": "TU3",
-      "sounds": [
+      "roman": [
         "T",
+        "u"
+      ],
+      "ipa": [
+        "tʰ",
         "u"
       ],
       "tone": 3,
@@ -7085,9 +9984,13 @@
     },
     {
       "syllable": "ZAANG1",
-      "sounds": [
+      "roman": [
         "Z",
         "aang"
+      ],
+      "ipa": [
+        "ts",
+        "aː"
       ],
       "tone": 1,
       "junk": null
@@ -7096,8 +9999,12 @@
   "U+1B4E3": [
     {
       "syllable": "DU4",
-      "sounds": [
+      "roman": [
         "D",
+        "u"
+      ],
+      "ipa": [
+        "t",
         "u"
       ],
       "tone": 4,
@@ -7105,18 +10012,26 @@
     },
     {
       "syllable": "MOG8",
-      "sounds": [
+      "roman": [
         "M",
         "og"
+      ],
+      "ipa": [
+        "m",
+        "ok"
       ],
       "tone": 8,
       "junk": null
     },
     {
       "syllable": "HAI5",
-      "sounds": [
+      "roman": [
         "H",
         "ai"
+      ],
+      "ipa": [
+        "h",
+        "aːi"
       ],
       "tone": 5,
       "junk": null
@@ -7125,8 +10040,12 @@
   "U+1B4E4": [
     {
       "syllable": "LU1",
-      "sounds": [
+      "roman": [
         "L",
+        "u"
+      ],
+      "ipa": [
+        "l",
         "u"
       ],
       "tone": 1,
@@ -7136,12 +10055,786 @@
   "U+1B4E5": [
     {
       "syllable": "ZING5",
-      "sounds": [
+      "roman": [
         "Z",
         "ing"
+      ],
+      "ipa": [
+        "ts",
+        "iŋ"
       ],
       "tone": 5,
       "junk": null
     }
-  ]
+  ],
+  "_sound_table": {
+    "B": {
+      "row": 1,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "p"
+    },
+    "P": {
+      "row": 1,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "pʰ"
+    },
+    "MB": {
+      "row": 1,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ᵐb"
+    },
+    "QB": {
+      "row": 1,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔb"
+    },
+    "BY": {
+      "row": 1,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "pj"
+    },
+    "PY": {
+      "row": 1,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "pʰj"
+    },
+    "MBY": {
+      "row": 1,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ᵐbj"
+    },
+    "MPY": {
+      "row": 1,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "ʔbj"
+    },
+    "M": {
+      "row": 2,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "m"
+    },
+    "HM": {
+      "row": 2,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "m̥"
+    },
+    "QM": {
+      "row": 2,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔm"
+    },
+    "MY": {
+      "row": 2,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "mj"
+    },
+    "HMY": {
+      "row": 2,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "m̥j"
+    },
+    "F": {
+      "row": 3,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "f"
+    },
+    "V": {
+      "row": 3,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "v"
+    },
+    "W": {
+      "row": 3,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "w"
+    },
+    "QW": {
+      "row": 7,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔw"
+    },
+    "FY": {
+      "row": 3,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "fj"
+    },
+    "VY": {
+      "row": 3,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "vj"
+    },
+    "D": {
+      "row": 4,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "t"
+    },
+    "T": {
+      "row": 4,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "tʰ"
+    },
+    "ND": {
+      "row": 4,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ⁿd"
+    },
+    "QD": {
+      "row": 4,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔd"
+    },
+    "DY": {
+      "row": 4,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "tj"
+    },
+    "TY": {
+      "row": 4,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "tʰj"
+    },
+    "NDY": {
+      "row": 4,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ⁿdj"
+    },
+    "NTY": {
+      "row": 4,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "ʔdj"
+    },
+    "N": {
+      "row": 5,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "n"
+    },
+    "HN": {
+      "row": 5,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "n̥"
+    },
+    "QN": {
+      "row": 5,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔn"
+    },
+    "DW": {
+      "row": 5,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "tw"
+    },
+    "NDW": {
+      "row": 5,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ⁿdw"
+    },
+    "QDW": {
+      "row": 5,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "ʔdw"
+    },
+    "NN": {
+      "row": 6,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ɳ"
+    },
+    "HNN": {
+      "row": 6,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "ɳ̊"
+    },
+    "QNN": {
+      "row": 6,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔɳ"
+    },
+    "NY": {
+      "row": 6,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "nj"
+    },
+    "HNY": {
+      "row": 6,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "n̥j"
+    },
+    "QNY": {
+      "row": 6,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔnj"
+    },
+    "L": {
+      "row": 7,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "l"
+    },
+    "Y": {
+      "row": 7,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "j"
+    },
+    "LY": {
+      "row": 7,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "lj"
+    },
+    "LW": {
+      "row": 7,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "lw"
+    },
+    "G": {
+      "row": 8,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "k"
+    },
+    "K": {
+      "row": 8,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "kʰ"
+    },
+    "XG": {
+      "row": 8,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ɣ"
+    },
+    "QXG": {
+      "row": 8,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔɣ"
+    },
+    "GW": {
+      "row": 8,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "kw"
+    },
+    "KW": {
+      "row": 8,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "kʰw"
+    },
+    "NG": {
+      "row": 9,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ŋ"
+    },
+    "HNG": {
+      "row": 9,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "ŋ̊"
+    },
+    "QNG": {
+      "row": 9,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔŋ"
+    },
+    "NGW": {
+      "row": 9,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "ŋw"
+    },
+    "QNGW": {
+      "row": 9,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "ʔŋw"
+    },
+    "GG": {
+      "row": 10,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "q"
+    },
+    "KK": {
+      "row": 10,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "qʰ"
+    },
+    "XGG": {
+      "row": 10,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ʁ"
+    },
+    "H": {
+      "row": 10,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "h"
+    },
+    "Z": {
+      "row": 11,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ts"
+    },
+    "C": {
+      "row": 11,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "tsʰ"
+    },
+    "S": {
+      "row": 11,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "s"
+    },
+    "R": {
+      "row": 11,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "z"
+    },
+    "ZY": {
+      "row": 11,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "tsj"
+    },
+    "CY": {
+      "row": 11,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "tsʰj"
+    },
+    "SY": {
+      "row": 11,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "sj"
+    },
+    "RY": {
+      "row": 11,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "zj"
+    },
+    "J": {
+      "row": 12,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ȶ"
+    },
+    "Q": {
+      "row": 12,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "ȶʰ"
+    },
+    "X": {
+      "row": 12,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ɕ"
+    },
+    "XX": {
+      "row": 12,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "x"
+    },
+    "ZW": {
+      "row": 12,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "tsw"
+    },
+    "CW": {
+      "row": 12,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "tsʰw"
+    },
+    "SW": {
+      "row": 12,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "sw"
+    },
+    "A": {
+      "row": 1,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "a"
+    },
+    "AA": {
+      "row": 1,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "aː"
+    },
+    "O": {
+      "row": 1,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "o"
+    },
+    "E": {
+      "row": 1,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "ə"
+    },
+    "EE": {
+      "row": 1,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "e"
+    },
+    "I": {
+      "row": 1,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "i,ɿ"
+    },
+    "U": {
+      "row": 1,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "u"
+    },
+    "AI": {
+      "row": 2,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "aːi"
+    },
+    "EI": {
+      "row": 2,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "ai"
+    },
+    "AO": {
+      "row": 2,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aːu"
+    },
+    "OU": {
+      "row": 2,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "au"
+    },
+    "EEU": {
+      "row": 3,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "eu"
+    },
+    "OI": {
+      "row": 3,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "oi"
+    },
+    "UI": {
+      "row": 3,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "ui"
+    },
+    "IU": {
+      "row": 3,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "iu"
+    },
+    "IM": {
+      "row": 4,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "im"
+    },
+    "EEM": {
+      "row": 4,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "em"
+    },
+    "AAM": {
+      "row": 4,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aːm"
+    },
+    "AM": {
+      "row": 4,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "am"
+    },
+    "OM": {
+      "row": 4,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "om"
+    },
+    "UM": {
+      "row": 4,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "um"
+    },
+    "IN": {
+      "row": 5,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "in"
+    },
+    "EEN": {
+      "row": 5,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "en"
+    },
+    "AAN": {
+      "row": 5,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aːn"
+    },
+    "AN": {
+      "row": 5,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "an"
+    },
+    "ON": {
+      "row": 5,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "on"
+    },
+    "UN": {
+      "row": 5,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "un"
+    },
+    "EN": {
+      "row": 5,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "en"
+    },
+    "ING": {
+      "row": 6,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "iŋ"
+    },
+    "EENG": {
+      "row": 6,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "eŋ"
+    },
+    "AANG": {
+      "row": 6,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aː"
+    },
+    "ANG": {
+      "row": 6,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "aŋ"
+    },
+    "ONG": {
+      "row": 6,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "oŋ"
+    },
+    "UNG": {
+      "row": 6,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "uŋ"
+    },
+    "ENG": {
+      "row": 6,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ə"
+    },
+    "IB": {
+      "row": 7,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "ip"
+    },
+    "EEB": {
+      "row": 7,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "ep"
+    },
+    "AAB": {
+      "row": 7,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aːp"
+    },
+    "AB": {
+      "row": 7,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "ap"
+    },
+    "OBː": {
+      "row": 7,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "op"
+    },
+    "UB": {
+      "row": 7,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "up"
+    },
+    "ID": {
+      "row": 8,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "it"
+    },
+    "EED": {
+      "row": 8,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "et"
+    },
+    "AAD": {
+      "row": 8,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aːt"
+    },
+    "AD": {
+      "row": 8,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "at"
+    },
+    "OD": {
+      "row": 8,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "ot"
+    },
+    "UD": {
+      "row": 8,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "ut"
+    },
+    "ED": {
+      "row": 8,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ə"
+    },
+    "IG": {
+      "row": 9,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "ik"
+    },
+    "EEG": {
+      "row": 9,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "ek"
+    },
+    "AAG": {
+      "row": 9,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "aːk"
+    },
+    "AG": {
+      "row": 9,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "ak"
+    },
+    "OG": {
+      "row": 9,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "ok"
+    },
+    "UG": {
+      "row": 9,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "uk"
+    },
+    "EG": {
+      "row": 9,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ə"
+    }
+  }
 }

@@ -69,6 +69,13 @@
           return r;
         };
       };
+
+      // short notation to get last member from an array
+      if (!Array.prototype.last) {
+        Array.prototype.last = function() {
+          return this[ this.length - 1];
+        };
+      };
    
       // -------------------------------------------------------
       Object.prototype.getSyllable = function(doCapitalize, ignoreTone) {
@@ -105,9 +112,17 @@
           sep = " ";
         }
 
-        return this.map(function(syl){
+        var charName = this.map(function(syl){
           return syl.getSyllable(doCapitalize, ignoreTone);
+        }).filter(function(syl){
+          return (syl != null);
         }).join(sep);
+
+        if (this.last().glyph_suffix) {
+          charName += this.last().glyph_suffix;
+        }
+
+        return charName;
       };
 
       // -------------------------------------------------------
@@ -138,7 +153,9 @@
       Opts.queryForUcs = function(queryText) {
         var uResults = $("#ucs_results > ol");
         var ucsFounds = new Array();
-        Object.keys(Opts.hex2sounds).forEach(function(ucs){
+        Object.keys(Opts.hex2sounds).filter(function(ucs){
+          return (ucs.slice(0,2).toUpperCase() == "U+");
+        }).forEach(function(ucs){
           var charName = Opts.hex2sounds[ucs].getCharName("", false, true);
           console.log("q=" + queryText + " charName=" + charName);
           if (charName.toLowerCase().replace(/[^0-9A-Za-z]/, "").startsWith(queryText)) {

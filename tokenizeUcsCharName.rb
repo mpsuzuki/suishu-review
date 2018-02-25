@@ -6,10 +6,8 @@ require "./getOpts.rb"
 require "json"
 
 module Syllable
-  attr_accessor(:roman, :junk, :ipa, :tone, :glyph_suffix)
+  attr_accessor(:roman, :junk, :ipa, :tone)
   def self.extended(str)
-    str.glyph_suffix = nil
-    str.glyph_suffix = str.split("-").last if (str =~ /-[A-Z]$/)
     str.roman = Array.new
     str.ipa = Array.new
     word = str.upcase
@@ -42,21 +40,19 @@ module Syllable
         break
       end
     end
-    STDERR.puts ("*** consonant conjunct?: " + str.to_hs.inspect) if (str.roman.length > 2)
-    STDERR.puts ("*** parse failure: " + str.to_hs.inspect) if (str.junk != nil)
+    STDERR.puts ("*** consonant conjunct?: " + str.to_hs.delete_if{|k,v| k == "ipa"}.inspect) if (str.roman.length > 2)
+    STDERR.puts ("*** parse failure: " + str.to_hs.delete_if{|k,v| k == "ipa"}.inspect) if (str.junk != nil)
     return self
   end
 
 
   def to_hs
     return {
-      "char_name" => self,
-      "syllable" => @glyph_suffix ? self.upcase[0..-3] : self,
+      "syllable" => self,
       "roman" => @roman,
       "ipa" => @ipa,
       "tone" => @tone,
-      "junk" => @junk,
-      "glyph_suffix" => @glyph_suffix
+      "junk" => @junk
     }
   end
 end
@@ -96,7 +92,14 @@ js = Hash.new
 fh = File::open(Opts.charname_list, "r")
 while (fh.gets)
   ucs, charName = $_.chomp.split("\t")
-  js[ucs] = charName.gsub(/SHUISHU LOGOGRAM /, "").split(/\s+/).collect{|t| t.extend(Syllable).to_hs}
+  charNameTokens = charName.gsub(/SHUISHU LOGOGRAM /, "").split(/\s+/)
+  glyphSuffix = nil
+  if (charNameTokens.last =~ /-[A-Z]$/)
+    glyphSuffix = charNameTokens.last[-2..-1]
+    charNameTokens[ charNameTokens.length - 1 ] = charNameTokens[ charNameTokens.length - 1 ][0..-3]
+  end
+  js[ucs] = charNameTokens.collect{|t| t.extend(Syllable).to_hs}
+  js[ucs] << { "syllable" => nil, "glyph_suffix" => glyphSuffix } if (glyphSuffix)
 end
 fh.close
 js["_sound_table"] = Opts.sound_table
