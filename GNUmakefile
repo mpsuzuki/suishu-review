@@ -1,5 +1,5 @@
 PDF_TEXT = ShuishuLogogramNameList.txt ShuishuRadicalNameList.txt
-DERIVED_JSON = ShuishuLogogramNameList.json
+DERIVED_JSON = ShuishuLogogramNameList.json SDYZSound.json
 
 all:
 	make -C srcPDF
@@ -9,6 +9,9 @@ all:
 
 ShuishuLogogramNameList.json: $(PDF_TEXT)
 	./tokenizeUcsCharName.rb --charname-list=$< --sounds=sounds_wg2n4696.txt > $@
+
+SDYZSound.json: 
+	./makeSoundTableJson.rb sounds_.txt < sounds_SDYZ2007.txt > $@
 
 ShuishuLogogramNameList.txt: srcPDF/17366r-n4922-5th-ed-pdam2-2-chart.pdf
 	pdftotext -raw -f 87 -l 92 srcPDF/17366r-n4922-5th-ed-pdam2-2-chart.pdf ${@:.txt=.dat}

@@ -1,2 +1,760 @@
 {
+  "_sound_table": {
+    "B": {
+      "row": 1,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "p"
+    },
+    "P": {
+      "row": 1,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "ph"
+    },
+    "MB": {
+      "row": 1,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "mb"
+    },
+    "QB": {
+      "row": 1,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔb"
+    },
+    "HM": {
+      "row": 1,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "m̥"
+    },
+    "M": {
+      "row": 1,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "m"
+    },
+    "QM": {
+      "row": 1,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔm"
+    },
+    "F": {
+      "row": 1,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "f"
+    },
+    "V": {
+      "row": 1,
+      "col": 9,
+      "isInitial": true,
+      "ipa": "v"
+    },
+    "QW": {
+      "row": 1,
+      "col": 10,
+      "isInitial": true,
+      "ipa": "ʔw"
+    },
+    "D": {
+      "row": 2,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "t"
+    },
+    "T": {
+      "row": 2,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "th"
+    },
+    "ND": {
+      "row": 2,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "nd"
+    },
+    "QD": {
+      "row": 2,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔd"
+    },
+    "HN": {
+      "row": 2,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "n̥"
+    },
+    "N": {
+      "row": 2,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "n"
+    },
+    "QN": {
+      "row": 2,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔn"
+    },
+    "L": {
+      "row": 2,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "l"
+    },
+    "Z": {
+      "row": 3,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ts"
+    },
+    "C": {
+      "row": 3,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "tsh*"
+    },
+    "S": {
+      "row": 3,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "s"
+    },
+    "R": {
+      "row": 3,
+      "col": 9,
+      "isInitial": true,
+      "ipa": "z"
+    },
+    "J": {
+      "row": 4,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ȶ"
+    },
+    "Q": {
+      "row": 4,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "ȶh"
+    },
+    "HNN": {
+      "row": 4,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "ȵ̥"
+    },
+    "NN": {
+      "row": 4,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "ȵ"
+    },
+    "QNN": {
+      "row": 4,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔȵ"
+    },
+    "X": {
+      "row": 4,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "ɕ"
+    },
+    "Y": {
+      "row": 4,
+      "col": 9,
+      "isInitial": true,
+      "ipa": "j"
+    },
+    "_TBD1_": {
+      "row": 4,
+      "col": 10,
+      "isInitial": true,
+      "ipa": "ʔj"
+    },
+    "G": {
+      "row": 5,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "k"
+    },
+    "K": {
+      "row": 5,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "kh"
+    },
+    "HNG": {
+      "row": 5,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "ŋ̥"
+    },
+    "NG": {
+      "row": 5,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "ŋ"
+    },
+    "QNG": {
+      "row": 5,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔŋ"
+    },
+    "XG": {
+      "row": 5,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "ɣ"
+    },
+    "QXG": {
+      "row": 5,
+      "col": 9,
+      "isInitial": true,
+      "ipa": "ʔɣ"
+    },
+    "GG": {
+      "row": 6,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "q"
+    },
+    "KK": {
+      "row": 6,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "qh"
+    },
+    "XGG": {
+      "row": 6,
+      "col": 9,
+      "isInitial": true,
+      "ipa": "ʁ"
+    },
+    "_TBD2_": {
+      "row": 7,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "ʔ"
+    },
+    "H": {
+      "row": 7,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "h"
+    },
+    "BY": {
+      "row": 8,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "pj"
+    },
+    "PY": {
+      "row": 8,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "phj"
+    },
+    "MBY": {
+      "row": 8,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "mbj"
+    },
+    "MPY": {
+      "row": 8,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔbj"
+    },
+    "HMY": {
+      "row": 8,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "m̥j"
+    },
+    "MY": {
+      "row": 8,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "mj"
+    },
+    "FY": {
+      "row": 8,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "fj"
+    },
+    "VY": {
+      "row": 8,
+      "col": 9,
+      "isInitial": true,
+      "ipa": "vj"
+    },
+    "DY": {
+      "row": 9,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "tj"
+    },
+    "TY": {
+      "row": 9,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "thj"
+    },
+    "NDY": {
+      "row": 9,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ndj"
+    },
+    "NTY": {
+      "row": 9,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔdj"
+    },
+    "HNY": {
+      "row": 9,
+      "col": 5,
+      "isInitial": true,
+      "ipa": "n̥j"
+    },
+    "NY": {
+      "row": 9,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "nj"
+    },
+    "QNY": {
+      "row": 9,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔnj"
+    },
+    "LY": {
+      "row": 9,
+      "col": 10,
+      "isInitial": true,
+      "ipa": "lj"
+    },
+    "ZY": {
+      "row": 10,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "tsj"
+    },
+    "CY": {
+      "row": 10,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "tshj*"
+    },
+    "SY": {
+      "row": 10,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "sj"
+    },
+    "DW": {
+      "row": 11,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "tw"
+    },
+    "NDW": {
+      "row": 11,
+      "col": 3,
+      "isInitial": true,
+      "ipa": "ndw"
+    },
+    "QDW": {
+      "row": 11,
+      "col": 4,
+      "isInitial": true,
+      "ipa": "ʔdw"
+    },
+    "ZW": {
+      "row": 12,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "tsw*"
+    },
+    "CW": {
+      "row": 12,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "tshw*"
+    },
+    "SW": {
+      "row": 12,
+      "col": 8,
+      "isInitial": true,
+      "ipa": "sw"
+    },
+    "LW": {
+      "row": 12,
+      "col": 10,
+      "isInitial": true,
+      "ipa": "lw"
+    },
+    "GW": {
+      "row": 13,
+      "col": 1,
+      "isInitial": true,
+      "ipa": "kw"
+    },
+    "KW": {
+      "row": 13,
+      "col": 2,
+      "isInitial": true,
+      "ipa": "khw"
+    },
+    "NGW": {
+      "row": 13,
+      "col": 6,
+      "isInitial": true,
+      "ipa": "ŋw"
+    },
+    "QNGW": {
+      "row": 13,
+      "col": 7,
+      "isInitial": true,
+      "ipa": "ʔŋw"
+    },
+    "I": {
+      "row": 1,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "i"
+    },
+    "EE": {
+      "row": 1,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "e"
+    },
+    "A": {
+      "row": 1,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a"
+    },
+    "O": {
+      "row": 1,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "o"
+    },
+    "U": {
+      "row": 1,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "u"
+    },
+    "E": {
+      "row": 1,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ə"
+    },
+    "_TBD3_": {
+      "row": 1,
+      "col": 8,
+      "isRhyme": true,
+      "ipa": "ɿ"
+    },
+    "AI": {
+      "row": 2,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:i"
+    },
+    "EI": {
+      "row": 2,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "ai"
+    },
+    "OI": {
+      "row": 2,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "oi"
+    },
+    "UI": {
+      "row": 2,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "ui"
+    },
+    "IU": {
+      "row": 3,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "iu"
+    },
+    "EEU": {
+      "row": 3,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "eu"
+    },
+    "AO": {
+      "row": 3,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:u"
+    },
+    "OU": {
+      "row": 3,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "au"
+    },
+    "IM": {
+      "row": 4,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "im"
+    },
+    "EEM": {
+      "row": 4,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "em"
+    },
+    "AAM": {
+      "row": 4,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:"
+    },
+    "AM": {
+      "row": 4,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "am"
+    },
+    "OM": {
+      "row": 4,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "om"
+    },
+    "UM": {
+      "row": 4,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "um"
+    },
+    "IN": {
+      "row": 5,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "in"
+    },
+    "EEN": {
+      "row": 5,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "en"
+    },
+    "AAN": {
+      "row": 7,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:p"
+    },
+    "AN": {
+      "row": 5,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "an"
+    },
+    "ON": {
+      "row": 5,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "on"
+    },
+    "UN": {
+      "row": 5,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "un"
+    },
+    "EN": {
+      "row": 5,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ən"
+    },
+    "ING": {
+      "row": 6,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "iŋ"
+    },
+    "EENG": {
+      "row": 6,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "eŋ"
+    },
+    "AANG": {
+      "row": 6,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:ŋ"
+    },
+    "ANG": {
+      "row": 6,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "aŋ"
+    },
+    "ONG": {
+      "row": 6,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "oŋ"
+    },
+    "UNG": {
+      "row": 6,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "ŋ"
+    },
+    "ENG": {
+      "row": 6,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "əŋ"
+    },
+    "IB": {
+      "row": 7,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "ip"
+    },
+    "EEB": {
+      "row": 7,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "ep"
+    },
+    "AB": {
+      "row": 7,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "ap"
+    },
+    "OB": {
+      "row": 7,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "op"
+    },
+    "UB": {
+      "row": 7,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "up"
+    },
+    "ID": {
+      "row": 8,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "it"
+    },
+    "EED": {
+      "row": 8,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "et"
+    },
+    "AAD": {
+      "row": 8,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:t"
+    },
+    "AD": {
+      "row": 8,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "at"
+    },
+    "OD": {
+      "row": 8,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "ot"
+    },
+    "UD": {
+      "row": 8,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "ut"
+    },
+    "ED": {
+      "row": 8,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ət"
+    },
+    "IG": {
+      "row": 9,
+      "col": 1,
+      "isRhyme": true,
+      "ipa": "ik"
+    },
+    "EEG": {
+      "row": 9,
+      "col": 2,
+      "isRhyme": true,
+      "ipa": "ek"
+    },
+    "AAG": {
+      "row": 9,
+      "col": 3,
+      "isRhyme": true,
+      "ipa": "a:k"
+    },
+    "AG": {
+      "row": 9,
+      "col": 4,
+      "isRhyme": true,
+      "ipa": "ak"
+    },
+    "OG": {
+      "row": 9,
+      "col": 5,
+      "isRhyme": true,
+      "ipa": "ok"
+    },
+    "UG": {
+      "row": 9,
+      "col": 6,
+      "isRhyme": true,
+      "ipa": "uk"
+    },
+    "EG": {
+      "row": 9,
+      "col": 7,
+      "isRhyme": true,
+      "ipa": "ək"
+    }
+  }
 }
