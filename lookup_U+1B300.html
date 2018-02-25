@@ -287,7 +287,7 @@
         }
 
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", jsonUrl, false);
+        xhr.open("GET", jsonUrl);
         xhr.onload = function(evt) {
           if (xhr.readyState == 4 && (!Opts.isRemote || xhr.status == 200)) {
             var db = JSON.parse( xhr.responseText );
