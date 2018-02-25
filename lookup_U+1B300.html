@@ -10,7 +10,7 @@
         width: 100%;
         background-color: #E0E0E0;
       }
-      span {
+      span.sound {
         display: inline-block;
         width: 150px;
         margin-left: 25px;
@@ -24,14 +24,14 @@
   </head>
   <body>
     <div class="navigator">
-      <input id="phonetic_value" type="text" disabled>
+      <input id="phonetic_roman" type="text" disabled>
     </div>
     <div class="results">
       <div id="sdyz_ipa_results">
-        <ol></ol>
+        <ul></ul>
       </div>
       <div id="ucs_results">
-        <ol></ol>
+        <ul></ul>
       </div>
     </div>
     <script>
@@ -157,10 +157,12 @@
       var Opts = new Object();
       Opts.keyupTimeout = 100;
       Opts.isRemote = (document.location.protocol != "file:");
-      Opts.textPhonetic = $("#phonetic_value");
+      document.rPhonetic = $("#phonetic_roman");
+      document.zResults = $("#sdyz_ipa_results > ul");
+      document.uResults = $("#ucs_results > ul");
+
 
       Opts.queryForSdyzIpa = function(queryText) {
-        var zResults = $("#sdyz_ipa_results > ol");
         var sdyzIpaFounds = new Array();
         Object.keys(Opts.sdyzSounds).forEach(function(ipa_sound){
           if (Opts.sdyzSounds[ipa_sound].includes(queryText)) {
@@ -173,12 +175,11 @@
           jqImg.attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[i] + ".gif");
           jqImg.css("height", "30px");
           jqImg.attr("title", sdyzIpaFounds[i]);
-          jqImg.appendTo(zResults);
+          jqImg.appendTo(document.zResults);
         };
       };
 
       Opts.queryForUcs = function(queryText) {
-        var uResults = $("#ucs_results > ol");
         var ucsFounds = new Array();
         Object.keys(Opts.hex2sounds).filter(function(ucs){
           return (ucs.slice(0,2).toUpperCase() == "U+");
@@ -193,7 +194,10 @@
         for (var i = 0; i < ucsFounds.length; i += 1) {
           var ucs = ucsFounds[i];
           var jqLi = $("<li>");
-          jqLi.appendTo(uResults);
+          jqLi.appendTo(document.uResults);
+
+          var jqSpan = $("<span>").addClass("ucs-hex");
+          jqSpan.append(ucs).appendTo(jqLi);
 
           var jqImg = $("<img>").addClass("img-ucs");
           jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
@@ -201,44 +205,41 @@
           jqImg.attr("title", ucs);
           jqImg.appendTo(jqLi);
 
-          var jqSpan = $("<span>").addClass("ucs-roman");
+          var jqSpan = $("<span>").addClass("sound").addClass("ucs-roman");
           jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false));
           jqSpan.appendTo(jqLi);
 
-          var jqSpan = $("<span>").addClass("ucs-ipa");
+          var jqSpan = $("<span>").addClass("sound").addClass("ucs-ipa");
           jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
           jqSpan.appendTo(jqLi);
         };
       };
 
       Opts.funcQuery = function() {
-        var zResults = $("#sdyz_ipa_results > ol");
-        var uResults = $("#ucs_results > ol");
+        document.zResults.empty();
+        document.uResults.empty();
 
-        zResults.empty();
-        uResults.empty();
-
-        var queryText = Opts.textPhonetic.val().replace(/[^0-9A-Za-z]/, "");
+        var queryText = document.rPhonetic.val().replace(/[^0-9A-Za-z]/, "");
         // Opts.queryForZidian(queryText);
         Opts.queryForUcs(queryText);
       };
 
       Opts.queryTimer = null;
-      Opts.textPhonetic.keyup(function(evt)
+      document.rPhonetic.keyup(function(evt)
         {
-          Opts.textPhonetic.css("background-color", "white");
+          document.rPhonetic.css("background-color", "white");
 
           if (Opts.queryTimer) {
             clearTimeout(Opts.queryTimer);
           }
-          if (Opts.textPhonetic.val().length != Opts.textPhonetic.prop("oldStringLength")) {
+          if (document.rPhonetic.val().length != document.rPhonetic.prop("oldStringLength")) {
             Opts.queryTimer = setTimeout(function(){Opts.funcQuery();}, Opts.keyupTimeout);
           }
-          Opts.textPhonetic.prop("oldStringLength", Opts.textPhonetic.val().length);
+          document.rPhonetic.prop("oldStringLength", document.rPhonetic.val().length);
         }
       );
 
-      Opts.textPhonetic.focusout(function(){Opts.funcQuery();});
+      document.rPhonetic.focusout(function(){Opts.funcQuery();});
 
 
 
@@ -276,7 +277,7 @@
       };
 
       var enableUi = function(){
-        $("#phonetic_value").prop("disabled", false);
+        document.rPhonetic.prop("disabled", false);
       };
 
       $.when(loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
