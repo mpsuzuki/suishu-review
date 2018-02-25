@@ -1,24 +1,24 @@
 initials:
-B	P	MB	QB	BY	PY	MBY	MPY
-M	HM		QM	MY	HMY
-F	V	W	QW	FY	VY
-D	T	ND	QD	DY	TY	NDY	NTY
-N	HN		QN	DW		NDW	QDW
-NN	HNN		QNN	NY	HNY	QNY
-L		Y	QW	LY	LW
-G	K	XG	QXG	GW	KW
-NG	HNG		QNG	NGW	QNGW
-GG	KK	XGG	H
-Z	C	S	R	ZY	CY	SY	RY
-J	Q	X	XX	ZW	CW	SW
+p/B	pʰ/P	ᵐb/MB	ʔb/QB	pj/BY	pʰj/PY	ᵐbj/MBY	ʔbj/MPY
+m/M	m̥/HM		ʔm/QM	mj/MY	m̥j/HMY
+f/F	v/V	w/W	ʔw/QW	fj/FY	vj/VY
+t/D	tʰ/T	ⁿd/ND	ʔd/QD	tj/DY	tʰj/TY	ⁿdj/NDY	ʔdj/NTY
+n/N	n̥/HN		ʔn/QN	tw/DW		ⁿdw/NDW	ʔdw/QDW
+ɳ/NN	ɳ̊/HNN		ʔɳ/QNN	nj/NY	n̥j/HNY	ʔnj/QNY
+l/L		j/Y	ʔw/QW	lj/LY	lw/LW
+k/G	kʰ/K	ɣ/XG	ʔɣ/QXG	kw/GW	kʰw/KW
+ŋ/NG	ŋ̊/HNG		ʔŋ/QNG	ŋw/NGW	ʔŋw/QNGW
+q/GG	qʰ/KK	ʁ/XGG	h/H
+ts/Z	tsʰ/C	s/S	z/R	tsj/ZY	tsʰj/CY	sj/SY	zj/RY
+ȶ/J	ȶʰ/Q	ɕ/X	x/XX	tsw/ZW	tsʰw/CW	sw/SW
 
 rhymes:
-A	AA	O	E	EE	I	U
-AI	EI	AO	OU
-EEU	OI	UI	IU
-IM	EEM	AAM	AM	OM	UM
-IN	EEN	AAN	AN	ON	UN	EN
-ING	EENG	AANG	ANG	ONG	UNG	ENG
-IB	EEB	AAB	AB	OB	UB
-ID	EED	AAD	AD	OD	UD	ED
-IG	EEG	AAG	AG	OG	UG	EG
+a/A	aː/AA	o/O	ə/E	e/EE	i,ɿ/I	u/U
+aːi/AI	ai/EI	aːu/AO	au/OU
+eu/EEU	oi/OI	ui/UI	iu/IU
+im/IM	em/EEM	aːm/AAM	am/AM	om/OM	um/UM
+in/IN	en/EEN	aːn/AAN	an/AN	on/ON	un/UN	en/EN
+iŋ/ING	eŋ/EENG	aː/AANG	aŋ/ANG	oŋ/ONG	uŋ/UNG	ə/ENG
+ip/IB	ep/EEB	aːp/AAB	ap/AB	op/OBː	up/UB
+it/ID	et/EED	aːt/AAD	at/AD	ot/OD	ut/UD	ə/ED
+ik/IG	ek/EEG	aːk/AAG	ak/AG	ok/OG	uk/UG	ə/EG
