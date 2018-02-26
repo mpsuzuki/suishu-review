@@ -19,6 +19,6 @@ eu/EEU	oi/OI	ui/UI	iu/IU
 im/IM	em/EEM	aːm/AAM	am/AM	om/OM	um/UM
 in/IN	en/EEN	aːn/AAN	an/AN	on/ON	un/UN	en/EN
 iŋ/ING	eŋ/EENG	aːŋ/AANG	aŋ/ANG	oŋ/ONG	uŋ/UNG	ə/ENG
-ip/IB	ep/EEB	aːp/AAB	ap/AB	op/OBː	up/UB
+ip/IB	ep/EEB	aːp/AAB	ap/AB	op/OB	up/UB
 it/ID	et/EED	aːt/AAD	at/AD	ot/OD	ut/UD	ə/ED
 ik/IG	ek/EEG	aːk/AAG	ak/AG	ok/OG	uk/UG	ə/EG
