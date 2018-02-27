@@ -62,6 +62,7 @@ class Hash
 
   def isPinyin
     return false if (!self.testFontFamilyAndSize("Pinyin"))
+    return false if (self.s =~ /^S[0-9]+\s*$/) # exclude "Origin" column syntax
     return false if (self.s !~ /[\-0-9A-Z]/ || (0 != self.s.gsub(/<20>/, "").gsub(/\s/, "").gsub(/[\-0-9A-Z]/, "").length))
     return true
   end
@@ -242,7 +243,6 @@ while (STDIN.gets)
 
   if ($_ =~ /^\s+word: x=.* \'.*\'$/)
     if (!Opts.check_pages || Opts.check_pages.include?(pageNumber))
-      p [pageNumber, $_]
       word = Rect.new
       pages.last.words << word
       toks = $_.chomp.gsub(/^\s*/, "").gsub(/\s*$/, "").split(/\s+/, 8)
@@ -258,6 +258,13 @@ while (STDIN.gets)
         # "space"      => toks[3].split("=").last.to_f,
         "s"        => toks[4][1..-2]
       }
+      wordClasses = []
+      wordClasses << "number" if (word.isNewNumber)
+      wordClasses << "pinyin" if (word.isPinyin)
+      wordClasses << "ipa" if (word.isIpa)
+      wordClasses << "meaning" if (word.isMeaning)
+      wordClasses << "origin" if (word.isOrigin)
+      p [pageNumber, $_, wordClasses.join("+")]
     end
   end
 end
