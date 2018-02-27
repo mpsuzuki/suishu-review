@@ -69,6 +69,7 @@ class Hash
 
   def isIpa
     return false if (!self.testFontFamilyAndSize("Ipa"))
+    return false if (self.s =~ /[A-Z]{2,}[0-9]/) # in some long phrase, pinyin + ipa is concatenated
     return true if (["<2070>",
                      "<B9>", "<B2>", "<B3>",
                      "<2074>", "<2075>", "<2076>", "<2077>", "<2078>", "<2079>"
@@ -144,10 +145,10 @@ class Page
     xRangeMeaning = (xRangeMeaning.min)..(xRangeMeaning.max)
     xRangeOrigin  = (xRangeOrigin.min )..(xRangeOrigin.max)
 
-    @wordsPinyin  = @words.select{|w| w.isPinyin  && w.x2 < xRangeIpa.min}
-    @wordsIpa     = @words.select{|w| w.isIpa     && w.x2 < xRangeMeaning.min}
-    @wordsMeaning = @words.select{|w| w.isMeaning && w.x2 < xRangeOrigin.min}
-    @wordsOrigin  = @words.select{|w| w.isOrigin  && w.x1 > xRangeMeaning.max}
+    @wordsPinyin  = @words.select{|w| w.isPinyin  && (xRangeIpa.min     == nil || w.x2 < xRangeIpa.min    )}
+    @wordsIpa     = @words.select{|w| w.isIpa     && (xRangeMeaning.min == nil || w.x2 < xRangeMeaning.min)}
+    @wordsMeaning = @words.select{|w| w.isMeaning && (xRangeOrigin.min  == nil || w.x2 < xRangeOrigin.min )}
+    @wordsOrigin  = @words.select{|w| w.isOrigin  && (xRangeMeaning.max == nil || w.x1 > xRangeMeaning.max)}
 
     # p [ @wordsNewNumber, @wordsPinyin, @wordsIpa, @wordsMeaning, @wordsOrigin]
     STDERR.printf("*** page %d has no New Number!\n", @pageNumber) if (@wordsNewNumber.length == 0)
@@ -224,7 +225,6 @@ while (STDIN.gets)
 
   # once page beginning is found, skip to flows
   if ($_.include?("*** TextOutputDev::startPage "))
-    p $_
     pageNumber = $_.split(/\s+/)[2].to_i
     if (pages.last && !pages.last.isEmpty)
       pastXRanges = pages.select{|pg| !pg.isEmpty && pg.wordsNewNumber}.collect{|pg| pg.wordsNewNumber.collect{|w| w.data.cell.getXRange}}.flatten
@@ -264,7 +264,7 @@ while (STDIN.gets)
       wordClasses << "ipa" if (word.isIpa)
       wordClasses << "meaning" if (word.isMeaning)
       wordClasses << "origin" if (word.isOrigin)
-      p [pageNumber, $_, wordClasses.join("+")]
+      # p [pageNumber, $_, wordClasses.join("+")]
     end
   end
 end
