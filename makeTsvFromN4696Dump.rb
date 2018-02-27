@@ -202,15 +202,31 @@ class Page
   end
 
   def to_tsv
+    rs = []
     @wordsNewNumber.each do |wnn|
-      puts [
-        "seq=" + wnn.data.s,
-        "pinyin=" + wnn.data["pinyin"].collect{|w| w.data.s}.join("+"),
-        "ipa=" + wnn.data["ipa"].collect{|w| w.data.s}.join("+"),
-        "meaning=" + wnn.data["meaning"].collect{|w| w.data.s}.join("+"),
-        "origin=" + wnn.data["origin"].collect{|w| w.data.s}.join("+")
+      rs << [
+        wnn.data.s,
+        wnn.data["pinyin" ].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "")}.join("|"),
+        wnn.data["ipa"    ].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "")}.join("|"),
+        wnn.data["meaning"].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "")}.join("|"),
+        wnn.data["origin" ].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "")}.join("|")
       ].join("\t")
     end
+    return rs
+  end
+
+  def to_tsv_utf8
+    rs = []
+    @wordsNewNumber.each do |wnn|
+      rs << [
+        wnn.data.s,
+        wnn.data["pinyin" ].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "").decodeQuotedHex}.join("|"),
+        wnn.data["ipa"    ].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "").decodeQuotedHex}.join("|"),
+        wnn.data["meaning"].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "").decodeQuotedHex}.join("|"),
+        wnn.data["origin" ].collect{|w| w.data.s.gsub(/^\s*/, "").gsub(/\s*$/, "").decodeQuotedHex}.join("|")
+      ].join("\t")
+    end
+    return rs
   end
 
   def getContentAsArrayOfHash
@@ -260,8 +276,14 @@ while (STDIN.gets)
       pastXRangeXMax = pastXRanges.collect{|xrng| xrng.last}.max
       xRangeMostLeftColumn = pastXRangeXMin..pastXRangeXMax
       # pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.to_tsv
-      rs = pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.getContentAsArrayOfHash
-      js += rs
+      if (Opts.gen_json)
+        rs = pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.getContentAsArrayOfHash
+        js << rs
+      else
+        rs = pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.to_tsv_utf8
+        js += rs
+      end
+   
       # puts JSON.pretty_generate( rs )
     end
     pages << Page.new
@@ -300,4 +322,10 @@ while (STDIN.gets)
   end
 end
 
-puts JSON.pretty_generate(js)
+if (Opts.gen_json)
+  puts JSON.pretty_generate(js)
+else
+  js.each do |aTsvLine|
+    puts aTsvLine
+  end
+end
