@@ -19,6 +19,8 @@ require "./getOpts.rb"
 require "./libRect.rb"
 require "./xString.rb"
 
+require "json"
+
 Opts["check-pages"] = Opts.check_pages.split(",").collect{|t|
   if (t.class == String)
     arr = Array.new
@@ -210,10 +212,36 @@ class Page
       ].join("\t")
     end
   end
+
+  def getContentAsArrayOfHash
+    rs = Array.new
+    @wordsNewNumber.each do |wnn|
+      row = Rect.new.from_s(wnn.to_s)
+      ["pinyin", "ipa", "meaning", "origin"].each do |clmn|
+        if (wnn.data.include?(clmn) && wnn.data[clmn] != nil)
+          wnn.data[clmn].each do |wfrag|
+            row.extendToCover(wfrag)
+          end
+        end
+      end
+      rs << {
+          "seq" => wnn.data.s,
+          "pinyin" => wnn.data["pinyin"].collect{|w| w.data.s.decodeQuotedHex}.join("\n"),
+          "ipa" => wnn.data["ipa"].collect{|w| w.data.s.decodeQuotedHex}.join("\n"),
+          "meaning" => wnn.data["meaning"].collect{|w| w.data.s.decodeQuotedHex}.join("\n"),
+          "origin" => wnn.data["origin"].collect{|w| w.data.s.decodeQuotedHex}.join("\n"),
+          "page" => @pageNumber,
+          "geometry" => row.to_s
+      }
+    end
+    return rs
+  end
+
 end
 
 pages = Array.new
 pageNumber = nil
+js = Array.new
 while (STDIN.gets)
   # once line fragments are found, skip to next page
   if ($_.include?("*** line fragments ***"))
@@ -231,7 +259,10 @@ while (STDIN.gets)
       pastXRangeXMin = pastXRanges.collect{|xrng| xrng.first}.min
       pastXRangeXMax = pastXRanges.collect{|xrng| xrng.last}.max
       xRangeMostLeftColumn = pastXRangeXMin..pastXRangeXMax
-      pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.to_tsv
+      # pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.to_tsv
+      rs = pages.last.classifyWords(xRangeMostLeftColumn).setCellSizeForNewNumber.assignNewNumberToColumns.getContentAsArrayOfHash
+      js += rs
+      # puts JSON.pretty_generate( rs )
     end
     pages << Page.new
     pages.last.pageNumber = pageNumber
@@ -268,3 +299,5 @@ while (STDIN.gets)
     end
   end
 end
+
+puts JSON.pretty_generate(js)
