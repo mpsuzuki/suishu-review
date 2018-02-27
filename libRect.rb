@@ -253,4 +253,11 @@ class Rect
     return self
   end
 
+  def getXRange
+    return ((self.x1)..(self.x2))
+  end
+
+  def getYRange
+    return ((self.y1)..(self.y2))
+  end
 end
