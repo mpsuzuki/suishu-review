@@ -95,13 +95,34 @@
         };
       };
 
+      // -------------------------------------------------------
+
       // short notation to get last member from an array
       if (!Array.prototype.last) {
         Array.prototype.last = function() {
           return this[ this.length - 1];
         };
       };
-   
+
+      // split the string into the array of "string" and "single XML entity reference"
+      if (!String.prototype.splitForEntityRef) {
+        String.prototype.splitForEntityRef = function() {
+          var r = new Array();
+          var r0 = this.split("&");
+          if (r0[0].length > 0) {
+            r.push( r0.shift() );
+          }
+
+          while (r0.length > 0) {
+            var origToken = "&" + r0.shift();
+            var r1 = origToken.split(";", 2);
+            r.push( r1[0] + ";" );
+            r.push( r1[1] );
+          }
+          return r;
+        }
+      }
+
       // -------------------------------------------------------
       Object.prototype.getSyllable = function(doCapitalize, ignoreTone) {
         if (!this.roman || this.roman.length == 0) {
@@ -256,15 +277,20 @@
 
       Opts.queryForUcs = function(queryText) {
         var ucsFounds = new Array();
-        Object.keys(Opts.hex2sounds).filter(function(ucs){
-          return (ucs.slice(0,2).toUpperCase() == "U+");
-        }).forEach(function(ucs){
-          var charName = Opts.hex2sounds[ucs].getCharName("", false, true);
-          console.log("q=" + queryText + " charName=" + charName);
-          if (charName.toLowerCase().replace(/[^0-9A-Za-z]/, "").startsWith(queryText)) {
-            ucsFounds.push(ucs);
-          }
-        });
+        if (/^(U\+1B[3-5][0-9A-F]{2},?)+.*$/.test(queryText)) {
+          ucsFounds = queryText.split(",").filter(function(tok){return /U\+1B[3-5][0-9A-F]/.test(tok);});
+        } else {
+          queryText = queryText.replace(/[^0-9A-Za-z]/, "");
+          Object.keys(Opts.hex2sounds).filter(function(ucs){
+            return (ucs.slice(0,2).toUpperCase() == "U+");
+          }).forEach(function(ucs){
+            var charName = Opts.hex2sounds[ucs].getCharName("", false, true);
+            console.log("q=" + queryText + " charName=" + charName);
+            if (charName.toLowerCase().replace(/[^0-9A-Za-z]/, "").startsWith(queryText)) {
+              ucsFounds.push(ucs);
+            }
+          });
+        }
 
         if (ucsFounds.length == 0) {
           $("#ucs_results > div.desc-for-empty-list").show();
@@ -304,7 +330,7 @@
 
         var queryText = document.rPhonetic.val();
         Opts.queryForSdyzIpa( queryText );
-        Opts.queryForUcs( queryText.replace(/[^0-9A-Za-z]/, "") );
+        Opts.queryForUcs( queryText )
       };
 
       Opts.queryTimer = null;
