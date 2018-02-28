@@ -68,9 +68,9 @@
 67	DI6-A	ti⁶	第	S4
 68	DI6-B	ti⁶	代	S8
 69	DI6HAANG1FAN1	ti⁶ haːŋ¹ fan¹	人丁发达	S5
-70	DIG7	tik⁷	满	S6
-71	DIG7	tik⁷	满足	S8
-72	DIG7	tik⁷	满,盈	S8
+70	DIG7-C	tik⁷	满	S6	DIG7-A
+71	DIG7-A	tik⁷	满足	S8	DIG7-B
+72	DIG7-B	tik⁷	满,盈	S8	DIG7-C
 73	DIG7XGAAN2	tik⁷ ɣaːn²	满屋	S8
 74	DIN2	tin²	石	S3
 75	DO1	to¹	门	S4
@@ -142,8 +142,8 @@
 141	GGEENG1	qeŋ¹	庚	S8
 142	GGO1JEN1	qo¹ ȶən¹	队伍慢步移动	S5
 143	GGOU3RAI5	qau³ zaːi⁵	抓;钩住	S5
-144	GGUI5	qui⁵	槌	S4
-145	GGUI5	qui⁵	击打	S4
+144	GGUI5-A	qui⁵	槌	S4
+145	GGUI5-B	qui⁵	击打	S4
 146	GING3	kiŋ³	美丽	S6
 147	GON5	kon⁵	先	S6
 148	GU3GGON4	ku³ qon⁴	姑短(条目名称)	S7
@@ -175,8 +175,8 @@
 174	HED8	hət⁸	尾巴	S6
 175	HEE4	he⁴	造;做	S6
 176	HEE4FAAB7	he⁴ faːp⁷	作法	S1
-177	HEN2	hən²	地方	S6
-178	HEN2	hən²	地域	S4
+177	HEN2-B	hən²	地方	S6	HEN2-A
+178	HEN2-A	hən²	地域	S4	HEN2-B
 179	HEN5	hən⁵	巽	S8
 180	HMA3	a³	赚	S6
 181	HMAAG7	aːk⁷	劈	S6
@@ -223,8 +223,8 @@
 222	KKAANG1	qʰaːŋ¹	椽子	S6
 223	KKAG7	qʰak⁷	相克	S1
 224	KKOU1	qʰau¹	勾	S4
-225	KKOU3	qʰau³	男仆	S6
-226	KKOU3	qʰau³	女佣	S8
+225	KKOU3-A	qʰau³	男仆	S6
+226	KKOU3-B	qʰau³	女佣	S8
 227	KKUI1MOG8LAANG2	qʰui¹ mok⁸ laːŋ²	奎木狼	S1	KKUI1MOK8LAANG2
 228	KUI3	kʰui³	衰败	S6
 229	KUN1	kʰun¹	路	S6
@@ -304,8 +304,8 @@
 303	NI4	ni⁴	母	S6
 304	NI4FA3HU3	ni⁴ fa³ hu³	尾火虎	S3
 305	NNAAN1	ȵaːn¹	铜鼓	S4
-306	NNAO6	ȵaːu⁶	在	S6
-307	NNAO6	ȵaːu⁶	坐落	S8
+306	NNAO6-B	ȵaːu⁶	在	S6	NNAO6-A
+307	NNAO6-A	ȵaːu⁶	坐落	S8	NNAO6-B
 308	NNI6	ȵi⁶/ ɣa²	二	S3
 309	NNI6SUB8	ȵi⁶ sup⁸	二十	S4
 310	NNUN2	ȵun²	恨	S6
@@ -424,8 +424,8 @@
 423	XEEN2	ɕen²	钱	S6
 424	XEEN2BYED8XGAAN2	ɕen² pjət⁸ ɣaːn²	财满屋	S8
 425	XEEN6	ɕen⁶	辛苦	S6
-426	XEN1	ɕən¹	成	S6
-427	XEN1	ɕən¹	辛	S1
+426	XEN1-B	ɕən¹	成	S6	XEN1-A
+427	XEN1-A	ɕən¹	辛	S1	XEN1-B
 428	XEEU3MOG8NGAAN6	ɕeu³ mok⁸ ŋaːn⁶	井木犴	S3
 429	XGA2FAI4NU4	ɣa² faːi⁴ nu⁴	两兄弟	S4
 430	XGAAN2	ɣaːn²	房屋	S1

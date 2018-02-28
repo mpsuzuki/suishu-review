@@ -11255,6 +11255,27 @@
       "N4696_meaning": "人丁发达",
       "N4696_origin": "S5"
     },
+    "U+1B41F": {
+      "N4696_seq": "70",
+      "N4696_ipa": "tik⁷",
+      "N4696_meaning": "满",
+      "N4696_origin": "S6",
+      "N4696_pinyin (if differ)": "DIG7-A"
+    },
+    "U+1B36A": {
+      "N4696_seq": "71",
+      "N4696_ipa": "tik⁷",
+      "N4696_meaning": "满足",
+      "N4696_origin": "S8",
+      "N4696_pinyin (if differ)": "DIG7-B"
+    },
+    "U+1B374": {
+      "N4696_seq": "72",
+      "N4696_ipa": "tik⁷",
+      "N4696_meaning": "满,盈",
+      "N4696_origin": "S8",
+      "N4696_pinyin (if differ)": "DIG7-C"
+    },
     "U+1B425": {
       "N4696_seq": "73",
       "N4696_ipa": "tik⁷ ɣaːn²",
@@ -11684,6 +11705,18 @@
       "N4696_meaning": "抓;钩住",
       "N4696_origin": "S5"
     },
+    "U+1B31B": {
+      "N4696_seq": "144",
+      "N4696_ipa": "qui⁵",
+      "N4696_meaning": "槌",
+      "N4696_origin": "S4"
+    },
+    "U+1B4BB": {
+      "N4696_seq": "145",
+      "N4696_ipa": "qui⁵",
+      "N4696_meaning": "击打",
+      "N4696_origin": "S4"
+    },
     "U+1B3B0": {
       "N4696_seq": "146",
       "N4696_ipa": "kiŋ³",
@@ -11870,6 +11903,20 @@
       "N4696_ipa": "he⁴ faːp⁷",
       "N4696_meaning": "作法",
       "N4696_origin": "S1"
+    },
+    "U+1B451": {
+      "N4696_seq": "177",
+      "N4696_ipa": "hən²",
+      "N4696_meaning": "地方",
+      "N4696_origin": "S6",
+      "N4696_pinyin (if differ)": "HEN2-A"
+    },
+    "U+1B3A5": {
+      "N4696_seq": "178",
+      "N4696_ipa": "hən²",
+      "N4696_meaning": "地域",
+      "N4696_origin": "S4",
+      "N4696_pinyin (if differ)": "HEN2-B"
     },
     "U+1B424": {
       "N4696_seq": "179",
@@ -12147,6 +12194,18 @@
       "N4696_ipa": "qʰau¹",
       "N4696_meaning": "勾",
       "N4696_origin": "S4"
+    },
+    "U+1B344": {
+      "N4696_seq": "225",
+      "N4696_ipa": "qʰau³",
+      "N4696_meaning": "男仆",
+      "N4696_origin": "S6"
+    },
+    "U+1B496": {
+      "N4696_seq": "226",
+      "N4696_ipa": "qʰau³",
+      "N4696_meaning": "女佣",
+      "N4696_origin": "S8"
     },
     "U+1B3B9": {
       "N4696_seq": "227",
@@ -12628,6 +12687,20 @@
       "N4696_ipa": "ȵaːn¹",
       "N4696_meaning": "铜鼓",
       "N4696_origin": "S4"
+    },
+    "U+1B46B": {
+      "N4696_seq": "306",
+      "N4696_ipa": "ȵaːu⁶",
+      "N4696_meaning": "在",
+      "N4696_origin": "S6",
+      "N4696_pinyin (if differ)": "NNAO6-A"
+    },
+    "U+1B331": {
+      "N4696_seq": "307",
+      "N4696_ipa": "ȵaːu⁶",
+      "N4696_meaning": "坐落",
+      "N4696_origin": "S8",
+      "N4696_pinyin (if differ)": "NNAO6-B"
     },
     "U+1B31A": {
       "N4696_seq": "308",
@@ -13347,6 +13420,20 @@
       "N4696_ipa": "ɕen⁶",
       "N4696_meaning": "辛苦",
       "N4696_origin": "S6"
+    },
+    "U+1B499": {
+      "N4696_seq": "426",
+      "N4696_ipa": "ɕən¹",
+      "N4696_meaning": "成",
+      "N4696_origin": "S6",
+      "N4696_pinyin (if differ)": "XEN1-A"
+    },
+    "U+1B321": {
+      "N4696_seq": "427",
+      "N4696_ipa": "ɕən¹",
+      "N4696_meaning": "辛",
+      "N4696_origin": "S1",
+      "N4696_pinyin (if differ)": "XEN1-B"
     },
     "U+1B4DB": {
       "N4696_seq": "428",
