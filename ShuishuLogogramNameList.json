@@ -10988,6 +10988,13 @@
       "N4696_meaning": "六畜兴旺",
       "N4696_origin": "S8"
     },
+    "U+1B3F9": {
+      "N4696_seq": "26",
+      "N4696_ipa": "pjaːn⁶",
+      "N4696_meaning": "散开",
+      "N4696_origin": "S6",
+      "N4696_pinyin (if differ)": "BYAAN6"
+    },
     "U+1B4AC": {
       "N4696_seq": "27",
       "N4696_ipa": "pjaːi²",
@@ -12732,6 +12739,13 @@
       "N4696_ipa": "pʰja³",
       "N4696_meaning": "翻",
       "N4696_origin": "S6"
+    },
+    "U+1B42E": {
+      "N4696_seq": "326",
+      "N4696_ipa": "pʰjaːn⁶",
+      "N4696_meaning": "破散",
+      "N4696_origin": "S6",
+      "N4696_pinyin (if differ)": "PYAAN6"
     },
     "U+1B3CE": {
       "N4696_seq": "327",
