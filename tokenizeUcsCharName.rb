@@ -78,4 +78,34 @@ end
 fh.close
 js["_sound_table"] = Opts.sound_table
 
+if (Opts.n4696_attr_tsv)
+  name2ucs = Hash.new
+  js.each do |ucs, syllables|
+    next if (ucs !~ /^U\+1B/)
+    # s = syllables.collect{|s| s["syllable"]}.compact.join(" ")
+    s = syllables.collect{|s| s["syllable"]}.compact.join("")
+    s += syllables.last["glyph_suffix"] if (syllables.last["glyph_suffix"])
+    name2ucs[s] = Array.new if (name2ucs[s] == nil)
+    name2ucs[s] << ucs
+  end
+
+  js["_n4696_attr"] = Hash.new
+  fh = File::open(Opts.n4696_attr_tsv, "r")
+  keys = fh.gets.chomp.split("\t").collect{|tok| tok.gsub(/^\s*#\s*/, "")}
+  while (fh.gets)
+    hs = Hash.new
+    $_.chomp.split("\t").each_with_index do |v, i|
+      hs[ keys[i] ] = v
+    end
+    py = hs["PDAM22_pinyin"]
+    hs.delete("PDAM22_pinyin")
+    if (name2ucs.include?(py))
+      name2ucs[py].each do |ucs|
+        js["_n4696_attr"][ucs] = hs
+      end
+    end
+  end
+  fh.close
+end
+
 puts JSON.pretty_generate(js)
