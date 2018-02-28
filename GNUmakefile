@@ -32,7 +32,7 @@ DIST_SOURCES = \
 	gif-oe-n4922/*.gif 
 
 dist:
-	tar cvf - $(DIST_SOURCES) | xz -9v > lookup_U+1B300.tar.xz
+	tar cvpf - $(DIST_SOURCES) | xz -9v > lookup_U+1B300.tar.xz
 
 dist-zip:
 	zip -vr lookup_U+1B300.zip $(DIST_SOURCES)
