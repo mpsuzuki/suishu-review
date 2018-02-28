@@ -302,6 +302,12 @@
           document.uResults.show();
         }
 
+        if (Opts.hex2sounds._n4696_attr && Opts.config.sortBy == "n4696seq") {
+          ucsFounds = ucsFounds.sort(function(ucs1, ucs2){
+            return (parseInt(Opts.hex2sounds._n4696_attr[ucs1].N4696_seq) - parseInt(Opts.hex2sounds._n4696_attr[ucs2].N4696_seq));
+          });
+        }
+
         for (var i = 0; i < ucsFounds.length; i += 1) {
           var ucs = ucsFounds[i];
           var jqLi = $("<li>");
@@ -328,7 +334,7 @@
           if (!n4696_attr) continue;
 
           var jqSpan = $("<span>").addClass("meaning");
-          jqSpan.append(n4696_attr.N4696_meaning);
+          jqSpan.append(n4696_attr.N4696_seq + ":" + n4696_attr.N4696_meaning);
           jqSpan.appendTo(jqLi);
         };
       };
