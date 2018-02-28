@@ -1,3 +1,4 @@
+# N4696_seq	# PDAM22_pinyin	# N4696_ipa	# N4696_meaning	# N4696_origin	# N4696_pinyin (if differ)
 1	AAN1MA4	ʔaːn¹ ma⁴	马鞍	S1
 2	AAN1QWON5	ʔaːn¹ ʔwon⁵	安稳	S3
 3	AM5	ʔam⁵	披	S6
@@ -9,7 +10,7 @@
 9	BAI1	paːi¹	去	S6
 10	BAI1QNUG7	paːi¹ ʔnuk⁷	出去	S6
 11	BANG1	paŋ¹	垮	S6
-12	BANG6	paŋ⁶	"扶,撑"	S6
+12	BANG6	paŋ⁶	扶,撑	S6
 13	BEE1	pe¹	卖	S6
 14	BEEG7	pek⁷	百	S6
 15	BEN2DONG2	pən² toŋ²	铜盆	S6
@@ -36,7 +37,7 @@
 36	BYED8YING5	pjət⁸ jiŋ⁵	刚刚过山坳	S5
 37	BYEEG7LYEEG7	pjek⁷ ljek⁷	肮脏	S6
 38	BYEENG2	pjeŋ²	平	S1
-39	BYEENG2BYAG8	pjeŋ² pjak⁸	"平坦,平安"	S6
+39	BYEENG2BYAG8	pjeŋ² pjak⁸	平坦,平安	S6
 40	BYEENG3	pjeŋ³	丙	S1
 41	BYONG4	pjoŋ⁴	竹箧	S6
 42	DA3	ta³	山地	S6
@@ -61,7 +62,7 @@
 61	DEE5	te⁵	砍	S6
 62	DEI1	tai¹	死	S8
 63	DEI1ZOU6REN1	tai¹ tsau⁶ zən¹	一对人遭凶亡	S5
-64	DEI2	tai²	"拿,捏"	S6
+64	DEI2	tai²	拿,捏	S6
 65	DEI2JEN1	tai² ȶən¹	领队	S8
 66	DEN3	tən³	首	S6
 67	DI6-A	ti⁶	第	S4
@@ -69,7 +70,7 @@
 69	DI6HAANG1FAN1	ti⁶ haːŋ¹ fan¹	人丁发达	S5
 70	DIG7	tik⁷	满	S6
 71	DIG7	tik⁷	满足	S8
-72	DIG7	tik⁷	"满,盈"	S8
+72	DIG7	tik⁷	满,盈	S8
 73	DIG7XGAAN2	tik⁷ ɣaːn²	满屋	S8
 74	DIN2	tin²	石	S3
 75	DO1	to¹	门	S4
@@ -86,14 +87,14 @@
 86	DU3BYAI2	tu³ pjaːi²	并排	S1
 87	DU3DONG2	tu³ toŋ²	共同	S6
 88	DU3HA3	tu³ ha³	吵架	S6
-89	DU3QDAO3	tu³ ʔdaːu³	"和睦,和好"	S6
+89	DU3QDAO3	tu³ ʔdaːu³	和睦,和好	S6
 90	DU3ZEN3	tu³ ʦən³	争嘴	S3
 91	DU4MOG8HAI5	tu⁴ mok⁸ haːi⁵	斗木獬	S3
 92	DUI2NDONG5	tui² ⁿdoŋ⁵	打项圈	S1
 93	DUI4	tui⁴	碗	S6
 94	DYAB8	tjap⁸	砸	S6
 95	DYEENG1	tjeŋ¹	丁	S2
-96	DYOU3DED7	tjau³ tjət⁷	扫把星	S1
+96	DYOU3DYED7	tjau³ tjət⁷	扫把星	S1	DYOU3DED7
 97	DYU5	tju⁵	断	S6
 98	DYUM1-A	tjum¹	伞	S6
 99	DYUM1-B	tjum¹	积蓄	S8
@@ -132,10 +133,10 @@
 132	GGAM4	qam⁴	头	S3
 133	GGAM4MOG8	qam⁴ mok⁸	树桩	S1
 134	GGAM5JUM1LYONG2	qam⁵ ȶum¹ ljoŋ²	亢金龙	S3
-135	GGAM5MOK8GGAO1	qam⁵ mok⁸ qaːu¹	角木蛟	S8
+135	GGAM5MOG8GGAO1	qam⁵ mok⁸ qaːu¹	角木蛟	S8	GGAM5MOK8GGAO1
 136	GGAN5	qan⁵	艮	S8
 137	GGAO5	qaːu⁵	旧	S6
-138	GGED7DYU5	qat⁷ tju⁵	剪断	S6
+138	GGAD7DYU5	qat⁷ tju⁵	剪断	S6	GGED7DYU5
 139	GGEE4	qe⁴	集市	S6
 140	GGEEN1	qen¹	聪明	S6
 141	GGEENG1	qeŋ¹	庚	S8
@@ -151,10 +152,10 @@
 151	GUI2	kui²	牛	S7
 152	GUM1	kum¹	碓	S6
 153	GUNG2	kuŋ²	多	S6
-154	GWAAI5	kwaːi⁵	鬼怪	S4
+154	GWAI5	kwaːi⁵	鬼怪	S4	GWAAI5
 155	GWAAN1	kwaːn¹	斧	S4
-156	GWE1	kwə¹	"摇摇欲坠,稀疏"	S8
-157	GWON1QYEN5	kwon³ ʔjən⁵	官印	S4
+156	GWE1	kwə¹	摇摇欲坠,稀疏	S8
+157	GWON3QYEN5	kwon³ ʔjən⁵	官印	S4
 158	GWUN5	kwun⁵	根本	S6
 159	HA3	ha³	杀	S6
 160	HAAD8	haːt⁸	爬	S6
@@ -187,7 +188,7 @@
 187	HOI3FA3XGGOU1	hoi³ fa³ ʁau¹	觜火猴	S1
 188	HONG5	hoŋ⁵	虫蛀	S3
 189	HUI6	hui⁶	坐	S6
-190	HUI6DAANG2	hui⁶ taːŋ²	"堂,坐堂"	S8
+190	HUI6DAANG2	hui⁶ taːŋ²	堂,坐堂	S8
 191	HUN4	hun⁴	送	S1
 192	JA1	ȶa¹	架子	S6
 193	JA6	ȶa⁶	假	S6
@@ -210,7 +211,7 @@
 210	JU2	ȶu²	巨	S1
 211	JU3	ȶu³	九	S7
 212	JU3GGAO3	ȶu³ qaːu³	九膏(条目名称)	S7
-213	JU3GGAO3/JU3PEN1	ȶu³ pʰən¹	九喷(条目名称)	S7
+213	JU3PEN1	ȶu³ pʰən¹	九喷(条目名称)	S7	JU3GGAO3/JU3PEN1
 214	JU3SUI3BEEU5	ȶu³ sui³ peu⁵	箕水豹	S3
 215	JUI3JUM1YAANG2	ȶui³ ȶum¹ jaːŋ²	鬼金羊	S1
 216	JUI3SAAD7JA1	ȶui³ saːt⁷ ȶa¹	鬼转家	S5
@@ -224,7 +225,7 @@
 224	KKOU1	qʰau¹	勾	S4
 225	KKOU3	qʰau³	男仆	S6
 226	KKOU3	qʰau³	女佣	S8
-227	KKUI1MOK8LAANG2	qʰui¹ mok⁸ laːŋ²	奎木狼	S1
+227	KKUI1MOG8LAANG2	qʰui¹ mok⁸ laːŋ²	奎木狼	S1	KKUI1MOK8LAANG2
 228	KUI3	kʰui³	衰败	S6
 229	KUN1	kʰun¹	路	S6
 230	LA1	la¹	架设	S3
@@ -268,13 +269,13 @@
 268	MEE2DU3QDAO3	me² tu³ ʔdaːu³	不团结	S6
 269	MEI4DYED7	mai⁴ tjət⁷	扫帚	S1
 270	MEI4NNEI3	mai⁴ ȵai³	木鞭	S6
-271	HMAAN3	mai⁴ nuk⁸ aːn³	黄(饭花)	S3
+271	HMAAN3	mai⁴ nuk⁸ aːn³	黄(饭花)	S3	MEI4NUG8SAO5/HMAAN3
 272	MI6	mi⁶	未	S1
 273	MID8	mit⁸	刀	S3
 274	MING6	miŋ⁶	命	S3
 275	MYEED8	mjet⁸	灭	S6
 276	MOG8	mok⁸	木	S4
-277	MOK8FONG2	mok⁸ foŋ²	缠绕	S5
+277	MOG8FONG2	mok⁸ foŋ²	缠绕	S5	MOK8FONG2
 278	MOM6	mom⁶	鱼	S3
 279	MON1	mon¹	雾	S3
 280	MON6	mon⁶	猴	S4
@@ -320,10 +321,10 @@
 320	NYUM5	njum⁵	顺	S6
 321	PA5-A	pʰa⁵	破军星	S5;S6
 322	PA5-B	pʰa⁵	坏	S6
-323	PAAD7BYEN2	paːt⁷ pjən²	八平(条目名称)	S4
+323	BAAD7BYEN2	paːt⁷ pjən²	八平(条目名称)	S4	PAAD7BYEN2
 324	PEEU1NNAN2	pʰeu¹ ȵan²	银包	S4
 325	PYA3	pʰja³	翻	S6
-326	PYAAN6	pʰjaːn⁶	破散	S6
+326	BYAAN6	pʰjaːn⁶	破散	S6	PYAAN6
 327	PYEE1	pʰje¹	低能	S6
 328	PYEI5	pʰjai⁵	近	S6
 329	QBA3	ʔba³	蝴蝶	S6
@@ -345,7 +346,7 @@
 345	QNNAM5	ʔȵam⁵	晚上	S6
 346	QXGA5	ʔɣa⁵	田	S4
 347	QXGA5VA2	ʔɣa⁵ va²	荒田	S4
-348	QXGEN5JA1	ʔjau⁵ ȶa¹	败财	S1
+348	QYOU5JA1	ʔjau⁵ ȶa¹	败财	S1	QXGEN5JA1
 349	QXGOG7	ʔɣok⁷	涨	S6
 350	QYAM1	ʔjam¹	深	S6
 351	QYED7-A	ʔjət⁷/ to²	一	S7
@@ -364,14 +365,14 @@
 364	REN1LAO4	zən¹ laːu⁴	逝世	S1
 365	SA1BONG2	sa¹ poŋ²	沙朋(条目名称)	S4
 366	SA5	sa⁵	增殖	S6
-367	SA5SJEENG1	sa⁵ sjeŋ¹	杀伤(条目名称)	S5
+367	SA5SYEENG1	sa⁵ sjeŋ¹	杀伤(条目名称)	S5	SA5SJEENG1
 368	SA5XEEN2	sa⁵ ɕen²	挣钱	S8
 369	SAAM3	saːm³	走	S6
 370	SAM5SUI3YON2	sam⁵ sui³ jon²	参水猿	S1
 371	SAAN1	saːn¹	宫(掌宫)	S8
 372	SAI3	saːi³	问	S6
 373	SAI6FAN1	saːi⁶ fan¹	竹林	S6
-374	SAM5	sam⁵	"倒,败"	S6
+374	SAM5	sam⁵	倒,败	S6
 375	SEE1	se¹	梳子	S1
 376	SEENG1LAO4	seŋ¹ laːu⁴	大牲口	S4
 377	SEI5	sai⁵	诬害	S4
@@ -400,7 +401,7 @@
 400	TAAM1	tʰaːm¹	贪狼星	S1
 401	TIN1	tin¹	脚	S6
 402	TU3	tʰu³	土	S1
-403	TYEEN1DYEEN6	tʰjen¹ tjen⁶	宫殿	S6
+403	TYEEN1DYEEN6	tʰjen¹ tjen⁶	宫殿	S6	TYEEN1DYEEN6
 404	TYEEN1GGAANG1	tʰjen¹ qaːŋ¹	天罡	S3
 405	TYEEN1GGAANG1OU4	tʰjen¹ qaːŋ¹ au⁴	米天罡	S5
 406	U1	ʔu¹	上	S6
@@ -450,10 +451,10 @@
 450	XU1YU3	ɕu¹ ju³	清澈	S6
 451	XUM1NNOD8U1	ɕum¹ ȵot⁸ ʔu¹	心月狐	S1
 452	YA3	ja³	夏	S4
-453	YA4FU5	ja⁴ fu⁵	富人	S8
+453	YA4FU5	ja⁴ fu⁵	富人	S8	YA4FU5
 454	YAANG2	jaːŋ²	阳	S8
 455	YED8FA3SYA2	jət⁸ fa³ sja²	翼火蛇	S3
-456	YED8MYA1	jat⁸ mja¹	牵手	S1
+456	YAD8MYA1	jat⁸ mja¹	牵手	S1	YED8MYA1
 457	YEENG3GA1	jeŋ³ ka¹	彩虹	S4
 458	YEN2	jən²	齐全	S6
 459	YEN2YUI2	jən² jui²	整齐	S6
@@ -477,7 +478,7 @@
 477	ZI6	tsi⁶	忌	S6
 478	ZING3	ʦiŋ³	收藏	S6
 479	ZING5	tsiŋ⁵	枝	S7
-480	ZYE1	ʦje¹	吃	S6
+480	ZYEE1	ʦje¹	吃	S6	ZYE1
 481	ZYEENG1	tsjeŋ¹	正	S1
 482	ZON5	ʦon⁵	转	S6
 483	ZONG2	tsoŋ²	层	S8
