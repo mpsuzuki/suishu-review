@@ -29,6 +29,8 @@
       span.pat-sdyz {
         margin-right: 25px;
       }
+      span.ucs-meaning {
+      }
     </style>
   </head>
   <body>
@@ -320,6 +322,13 @@
 
           var jqSpan = $("<span>").addClass("sound").addClass("ucs-ipa");
           jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
+          jqSpan.appendTo(jqLi);
+
+          var n4696_attr = Opts.hex2sounds._n4696_attr ?  Opts.hex2sounds._n4696_attr[ucs] : null;
+          if (!n4696_attr) continue;
+
+          var jqSpan = $("<span>").addClass("meaning");
+          jqSpan.append(n4696_attr.N4696_meaning);
           jqSpan.appendTo(jqLi);
         };
       };
