@@ -31,8 +31,8 @@
 30	BYED7FA3ZU1	pjət⁷ fa³ tsu¹	室火猪	S3
 31	BYED7NNOD8U1	pjət⁷ȵot⁸ ʔu¹	毕月乌	S3
 32	BYED7SUI3XI1	pjət⁷ sui³ ɕi¹	壁水貐	S5
-33	BYED8-A	pjət⁸	回环	S8
-34	BYED8-B	pjət⁸	右弼星	S8
+33	BYED8-B	pjət⁸	回环	S8	BYED8-A
+34	BYED8-A	pjət⁸	右弼星	S8	BYED8-B
 35	BYED8XONG1	pjət⁸ ɕoŋ¹	绕凶	S8
 36	BYED8YING5	pjət⁸ jiŋ⁵	刚刚过山坳	S5
 37	BYEEG7LYEEG7	pjek⁷ ljek⁷	肮脏	S6
@@ -253,14 +253,14 @@
 252	LYEEM2	ljem²	廉贞星	S8
 253	LYEEU4JA1XOD7	ljeu⁴ ȶa¹ ɕot⁷	家产破败	S5
 254	LYEEU2	ljeu²	了	S6
-255	LYOG8-A	ljok⁸	禄	S8
-256	LYOG8-B	ljok⁸	六	S5
+255	LYOG8-B	ljok⁸	禄	S8	LYOG8-A
+256	LYOG8-A	ljok⁸	六	S5	LYOG8-B
 257	LYU2LI2SUI3	lju² li² sui³	哭丧	S5
 258	MA4	ma⁴	马	S4
 259	MAANG1	maːŋ¹	鬼	S1
 260	MAN1	man¹	他	S3
-261	MAN6-A	man⁶	留下	S6
-262	MAN6-B	man⁶	丢下	S6
+261	MAN6-B	man⁶	留下	S6	MAN6-A
+262	MAN6-A	man⁶	丢下	S6	MAN6-B
 263	MAO4	maːu⁴	卯	S1
 264	MBAAN1	ᵐbaːn¹	男	S3
 265	MBEE1	ᵐbe¹	年	S1
@@ -269,7 +269,7 @@
 268	MEE2DU3QDAO3	me² tu³ ʔdaːu³	不团结	S6
 269	MEI4DYED7	mai⁴ tjət⁷	扫帚	S1
 270	MEI4NNEI3	mai⁴ ȵai³	木鞭	S6
-271	HMAAN3	mai⁴ nuk⁸ aːn³	黄(饭花)	S3	MEI4NUG8SAO5/HMAAN3
+271	MEI4NUG8SAO5	mai⁴ nuk⁸ aːn³	黄(饭花)	S3	MEI4NUG8SAO5/HMAAN3
 272	MI6	mi⁶	未	S1
 273	MID8	mit⁸	刀	S3
 274	MING6	miŋ⁶	命	S3
@@ -319,8 +319,8 @@
 318	NYU4NNOD8IN5	nju⁴ ȵot⁸ ʔin⁵	危月燕	S3
 319	NYU4TU3FOG8	nju⁴ tʰu³ fok⁸	女土蝠	S3
 320	NYUM5	njum⁵	顺	S6
-321	PA5-A	pʰa⁵	破军星	S5;S6
-322	PA5-B	pʰa⁵	坏	S6
+321	PA5-B	pʰa⁵	破军星	S5;S6	PA5-A
+322	PA5-A	pʰa⁵	坏	S6	PA5-B
 323	BAAD7BYEN2	paːt⁷ pjən²	八平(条目名称)	S4	PAAD7BYEN2
 324	PEEU1NNAN2	pʰeu¹ ȵan²	银包	S4
 325	PYA3	pʰja³	翻	S6
@@ -354,8 +354,8 @@
 353	QYEN5DI4	ʔjən⁵ ti⁴	引提(条目名称)	S1
 354	QYON1	ʔjon¹	站	S6
 355	QYU3	ʔju³	伸	S6
-356	QYUM5-A	ʔjum⁵	漫	S8
-357	QYUM5-B	ʔjum⁵	遍布	S4
+356	QYUM5-B	ʔjum⁵	漫	S8	QYUM5-A
+357	QYUM5-A	ʔjum⁵	遍布	S4	QYUM5-B
 358	RED7	zət⁷	星辰	S8
 359	REN1-A	zən¹	人才	S8
 360	REN1-B	zən¹	人	S1
@@ -401,7 +401,7 @@
 400	TAAM1	tʰaːm¹	贪狼星	S1
 401	TIN1	tin¹	脚	S6
 402	TU3	tʰu³	土	S1
-403	TYEEN1DYEEN6	tʰjen¹ tjen⁶	宫殿	S6	TYEEN1DYEEN6
+403	DYEEN6	tʰjen¹ tjen⁶	宫殿	S6	TYEEN1DYEEN6
 404	TYEEN1GGAANG1	tʰjen¹ qaːŋ¹	天罡	S3
 405	TYEEN1GGAANG1OU4	tʰjen¹ qaːŋ¹ au⁴	米天罡	S5
 406	U1	ʔu¹	上	S6
@@ -418,8 +418,8 @@
 417	VYEN5MOM6	vjən⁵ mom⁶	供鱼	S3
 418	XA3	ɕa³	媳妇	S3
 419	XAM3	ɕam³	箭	S6
-420	XED7-A	ɕət⁷	早上	S4
-421	XED7-B	ɕət⁷	七	S6
+420	XED7-B	ɕət⁷	早上	S4	XED7-A
+421	XED7-A	ɕət⁷	七	S6	XED7-B
 422	XEEN1	ɕen¹	千	S8
 423	XEEN2	ɕen²	钱	S6
 424	XEEN2BYED8XGAAN2	ɕen² pjət⁸ ɣaːn²	财满屋	S8
@@ -451,7 +451,7 @@
 450	XU1YU3	ɕu¹ ju³	清澈	S6
 451	XUM1NNOD8U1	ɕum¹ ȵot⁸ ʔu¹	心月狐	S1
 452	YA3	ja³	夏	S4
-453	YA4FU5	ja⁴ fu⁵	富人	S8	YA4FU5
+453	NI4FU5	ja⁴ fu⁵	富人	S8	YA4FU5
 454	YAANG2	jaːŋ²	阳	S8
 455	YED8FA3SYA2	jət⁸ fa³ sja²	翼火蛇	S3
 456	YAD8MYA1	jat⁸ mja¹	牵手	S1	YED8MYA1
