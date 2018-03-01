@@ -32,6 +32,7 @@
       span.ucs-meaning {
       }
     </style>
+    <link href="gif-oe-n4922.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="navigator">
@@ -277,6 +278,16 @@
         };
       };
 
+      Opts.getPageFromUcs = function(ucs) {
+        for (var i = 0; i < Opts.config.ucs2page.length; i += 1) {
+          var itm = Opts.config.ucs2page[i];
+          if (itm.range[0] <= ucs && ucs <= itm.range[1]) {
+            return itm.page; 
+          }
+        };
+        return -1;
+      };
+
       Opts.queryForUcs = function(queryText) {
         var ucsFounds = new Array();
         if (/^(U\+1B[3-5][0-9A-F]{2},?)+.*$/.test(queryText)) {
@@ -316,8 +327,11 @@
           var jqSpan = $("<span>").addClass("ucs-hex");
           jqSpan.append(ucs).appendTo(jqLi);
 
-          var jqImg = $("<img>").addClass("img-ucs");
-          jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
+          var jqImg = $("<img>")
+            .addClass("img-ucs")
+            .addClass(ucs.replace("+", "-"))
+            .addClass("n4922-" + Opts.getPageFromUcs(ucs).toString() );
+          // jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
           // jqImg.css("height", "50px");
           jqImg.attr("title", ucs);
           jqImg.appendTo(jqLi);
