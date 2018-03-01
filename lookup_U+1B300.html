@@ -48,8 +48,8 @@
   <body>
     <div class="navigator">
       <div class="img_retr_sel">
-        <input type="radio" name="img_retr" value="css_sprite" checked>CSS sprite
-        <input type="radio" name="img_retr" value="cropped">cropped
+        <input type="radio" class="img_retr" name="img_retr" id="radio_css_sprite" value="css_sprite" checked>CSS sprite
+        <input type="radio" class="img_retr" name="img_retr" id="radio_cropped"    value="cropped">cropped
       </div>
 
       <input class="text" id="phonetic_roman" type="text" disabled>
@@ -348,7 +348,7 @@
           var jqImg = $("<img>")
                       .addClass("img-ucs")
                       .attr("title", ucs);
-          if (!Opts.config.cssSprite) {
+          if (!Opts.config.cssSprite || !$("#radio_css_sprite")[0].checked) {
             // cropped glyph images
             jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
           } else {
@@ -437,10 +437,10 @@
               dest_db[k] = db[k];
             });
             jqd.resolve();
-          } else
-          if (xhr.readyState == 4) {
-            jqd.reject(); 
           }
+        };
+        xhr.onerror = function(evt) {
+          jqd.reject(); 
         };
         xhr.send();
         return jqd.promise();
@@ -456,6 +456,8 @@
         var jqd2 = loadSingleJson(Opts.config.imgDir.ucs + "/cssSprite.json", "config.cssSprite.ucs");
         jqd2.fail(function(){
           Opts.config.cssSprite = false;
+          $("div.img_retr_sel > input").val(["cropped"]);
+          $("div.img_retr_sel > input").prop("disabled", true);
           jqd.resolve();
         });
         jqd2.done(function(){
@@ -479,7 +481,7 @@
       };
 
       var enableUi = function(){
-        $("input").prop("disabled", false);
+        $("input:not(.img_retr)").prop("disabled", false);
       };
 
       $.when(loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
