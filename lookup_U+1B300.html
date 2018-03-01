@@ -328,13 +328,11 @@
           jqSpan.append(ucs).appendTo(jqLi);
 
           var jqImg = $("<img>")
+            .attr("title", ucs)
             .attr("src", "1x1.gif")
             .addClass("img-ucs")
             .addClass(ucs.replace("+", "-"))
             .addClass("n4922-" + Opts.getPageFromUcs(ucs).toString() );
-          // jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
-          // jqImg.css("height", "50px");
-          jqImg.attr("title", ucs);
           jqImg.appendTo(jqLi);
 
           var jqSpan = $("<span>").addClass("sound").addClass("ucs-roman");
