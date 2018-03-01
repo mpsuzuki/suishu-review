@@ -328,6 +328,7 @@
           jqSpan.append(ucs).appendTo(jqLi);
 
           var jqImg = $("<img>")
+            .attr("src", "1x1.gif")
             .addClass("img-ucs")
             .addClass(ucs.replace("+", "-"))
             .addClass("n4922-" + Opts.getPageFromUcs(ucs).toString() );
