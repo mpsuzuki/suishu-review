@@ -26,6 +26,7 @@ clean:
 
 DIST_SOURCES = \
 	lookup_U+1B300.html \
+	1x1.gif \
 	*.css \
 	*.js \
 	*.json \
