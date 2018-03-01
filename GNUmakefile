@@ -26,6 +26,7 @@ clean:
 
 DIST_SOURCES = \
 	lookup_U+1B300.html \
+	*.css \
 	*.js \
 	*.json \
 	gif-sdyz-ipa/*.gif \
