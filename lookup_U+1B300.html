@@ -32,7 +32,6 @@
       span.ucs-meaning {
       }
     </style>
-    <link href="gif-oe-n4922.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="navigator">
@@ -278,9 +277,10 @@
         };
       };
 
-      Opts.getPageFromUcs = function(ucs) {
-        for (var i = 0; i < Opts.config.ucs2page.length; i += 1) {
-          var itm = Opts.config.ucs2page[i];
+      Opts.getPageForCssSpriteFromUcs = function(ucs) {
+        var ucs2page = Opts.config.cssSprite.ucs.ucs2page;
+        for (var i = 0; i < ucs2page.length; i += 1) {
+          var itm = ucs2page[i];
           if (itm.range[0] <= ucs && ucs <= itm.range[1]) {
             return itm.page; 
           }
@@ -328,11 +328,17 @@
           jqSpan.append(ucs).appendTo(jqLi);
 
           var jqImg = $("<img>")
-            .attr("title", ucs)
-            .attr("src", "1x1.gif")
-            .addClass("img-ucs")
-            .addClass(ucs.replace("+", "-"))
-            .addClass("n4922-" + Opts.getPageFromUcs(ucs).toString() );
+                      .addClass("img-ucs")
+                      .attr("title", ucs);
+          if (!Opts.config.cssSprite) {
+            // cropped glyph images
+            jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
+          } else {
+            // css sprite
+            jqImg.attr("src", "1x1.gif")
+                 .addClass(ucs.replace("+", "-"))
+                 .addClass("n4922-" + Opts.getPageForCssSpriteFromUcs(ucs).toString() );
+          };
           jqImg.appendTo(jqLi);
 
           var jqSpan = $("<span>").addClass("sound").addClass("ucs-roman");
@@ -399,18 +405,50 @@
         xhr.onload = function(evt) {
           if (xhr.readyState == 4 && (!Opts.isRemote || xhr.status == 200)) {
             var db = JSON.parse( xhr.responseText );
-            if (Opts[objname] == undefined) {
-              Opts[objname] = db;
-            } else {
-              Object.keys(db).forEach(function(k){
-                Opts[objname][k] = db[k];
-              });
+
+            var objname_toks = objname.split(".");
+            var dest_db = Opts;
+            while (objname_toks.length > 0) {
+              var objname_tok = objname_toks.shift();
+              if (dest_db[objname_tok] == undefined || dest_db[objname_tok] == true) {
+                dest_db[objname_tok] = new Object();
+              }
+              dest_db = dest_db[objname_tok];
             }
+            Object.keys(db).forEach(function(k){
+              dest_db[k] = db[k];
+            });
             jqd.resolve();
+          } else
+          if (xhr.readyState == 4) {
+            jqd.reject(); 
           }
         };
         xhr.send();
         return jqd.promise();
+      };
+
+      var setupCssSprite = function() {
+        var jqd = $.Deferred();
+        if (!Opts.config.cssSprite) {
+          jqd.resolve();
+          return jqd.promise();
+        }
+
+        var jqd2 = loadSingleJson(Opts.config.imgDir.ucs + "/cssSprite.json", "config.cssSprite.ucs");
+        jqd2.fail(function(){
+          Opts.config.cssSprite = false;
+          jqd.resolve();
+        });
+        jqd2.done(function(){
+          var jqLink = $("<link>")
+                       .attr("href", Opts.config.imgDir.ucs + "/cssSprite.css")
+                       .attr("rel", "stylesheet")
+                       .attr("type", "text/css");
+          $(document.head).append(jqLink);
+          jqd.resolve();
+        });
+        return jqd.promise(); 
       };
 
       var setupSdyz = function(){
@@ -430,6 +468,7 @@
              loadSingleJson("SDYZSound.json", "sdyzSounds"),
              loadSingleJson("config.json")
       ).then(setupSdyz)
+       .then(setupCssSprite)
        .then(enableUi);
 
       $("div.results").css("margin-top", $("div.navigator").height() + 10);

@@ -1,10 +1,6 @@
 {
 	"sortBy": "n4696seq",
-	"ucs2page": [
-		{"range": [ "U+1B300", "U+1B3FF" ], "page": 85},
-		{"range": [ "U+1B400", "U+1B4FF" ], "page": 86},
-		{"range": [ "U+1B500", "U+1B52F" ], "page": 93}
-	],
+	"cssSprite": true,
 	"imgDir": {
 		"ucs": "gif-oe-n4922",
 		"sdyz_ipa": "gif-sdyz-ipa"
