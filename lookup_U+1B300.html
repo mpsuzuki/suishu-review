@@ -31,11 +31,29 @@
       }
       span.ucs-meaning {
       }
+      div.img_retr_sel {
+        position: fixed !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: right;
+        z-index: -1;
+      }
+      input.text {
+        width: 150px;
+      }
     </style>
   </head>
   <body>
     <div class="navigator">
-      <input id="phonetic_roman" type="text" disabled>
+      <div class="img_retr_sel">
+        <input type="radio" name="img_retr" value="css_sprite" checked>CSS sprite
+        <input type="radio" name="img_retr" value="cropped">cropped
+      </div>
+
+      <input class="text" id="phonetic_roman" type="text" disabled>
+ 
     </div>
     <div class="results">
       <div id="sdyz_ipa_results">
@@ -461,7 +479,7 @@
       };
 
       var enableUi = function(){
-        document.rPhonetic.prop("disabled", false);
+        $("input").prop("disabled", false);
       };
 
       $.when(loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
