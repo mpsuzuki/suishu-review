@@ -14,7 +14,7 @@ while (STDIN.gets)
 
   if (stylePerPage[page.to_s] == nil)
     stylePerPage[page.to_s]  = sprintf("img.n4922-%2d {\n", page)
-    stylePerPage[page.to_s] += sprintf("\tbackground: url(\"gif-oe-n4922/n4922-r075-%03d.gif\") no-repeat;\n", page)
+    stylePerPage[page.to_s] += sprintf("\tbackground: url(\"n4922-r075-%03d.gif\") no-repeat;\n", page)
     stylePerPage[page.to_s] += sprintf("\twidth: %dpx;\n", w)
     stylePerPage[page.to_s] += sprintf("\theight: %dpx;\n", h)
     stylePerPage[page.to_s] += sprintf("}\n")
