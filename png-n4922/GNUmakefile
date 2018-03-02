@@ -1,4 +1,7 @@
 all: ../srcPDF/17366r-n4922-5th-ed-pdam2-2-chart.pdf
+	pdftoppm -png -r 600 -f 85 -l 93 $< n4922-r600
+
+cropped: ../srcPDF/17366r-n4922-5th-ed-pdam2-2-chart.pdf
 	ucsIntFirst=`echo "ibase=16 ; 1B300" | bc` ; \
 	ucsIntLast=`echo "ibase=16 ; 1B52F" | bc` ; \
 	for ucsInt in `seq $$ucsIntFirst $$ucsIntLast` ; \
