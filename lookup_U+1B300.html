@@ -40,7 +40,7 @@
         text-align: right;
         z-index: -1;
       }
-      input.quert-text {
+      input.query-text {
         width: 150px;
       }
     </style>
@@ -53,6 +53,8 @@
       </div>
 
       <input type="text" class="query-text" id="phonetic_roman" disabled>
+      <input type="text" class="query-text" id="phonetic_ipa" disabled>
+      <input type="text" class="query-text" id="meaning_han" disabled>
  
     </div>
     <div class="results">
@@ -256,7 +258,7 @@
       document.zResults = $("#sdyz_ipa_results > ul");
       document.uResults = $("#ucs_results > ul");
 
-      Opts.queryForSdyzIpa = function(queryText) {
+      Opts.queryForSdyzIpa = function(queryText, queryTextIsGrowing) {
         var sdyzIpaFounds = new Array();
         var pats = queryText.toUpperCase().split("/");
         pats.forEach(function(t){
@@ -305,7 +307,7 @@
         return -1;
       };
 
-      Opts.queryForUcs = function(queryText) {
+      Opts.queryForUcs = function(queryText, queryTextIsGrowing) {
         var ucsFounds = new Array();
         if (/^(U\+1B[3-5][0-9A-F]{2},?)+.*$/.test(queryText)) {
           ucsFounds = queryText.split(",").filter(function(tok){return /U\+1B[3-5][0-9A-F]/.test(tok);});
@@ -336,9 +338,18 @@
           });
         }
 
+        $("li.ucs").get().reverse().forEach(function(elm){
+          if (!(ucsFounds.includes($(elm).attr("ucs")))) {
+            $(elm).hide();
+          }
+        });
+        // $("li.ucs:hidden").remove();
+
         for (var i = 0; i < ucsFounds.length; i += 1) {
           var ucs = ucsFounds[i];
-          var jqLi = $("<li>");
+          var jqLi = $("<li>")
+                     .addClass("ucs")
+                     .attr("ucs", ucs);
           jqLi.appendTo(document.uResults);
 
           var jqSpan = $("<span>").addClass("ucs-hex");
@@ -375,32 +386,51 @@
         };
       };
 
-      Opts.funcQuery = function() {
-        document.zResults.empty();
-        document.uResults.empty();
+      Opts.funcQuery = function(elmTrigger, queryTextIsGrowing) {
+        var queryText = $(elmTrigger).val();
 
-        var queryText = $("input.query-text").val();
-        Opts.queryForSdyzIpa( queryText );
-        Opts.queryForUcs( queryText )
+        switch (elmTrigger.id) {
+          case "phonetic_roman":
+          case "phonetic_ipa":
+            document.zResults.empty();
+            if (!queryTextIsGrowing) {
+              document.uResults.empty();
+            }
+            Opts.queryForSdyzIpa( queryText, queryTextIsGrowing );
+            Opts.queryForUcs( queryText, queryTextIsGrowing );
+            break;
+          case "meaning_han":
+            if (!queryTextIsGrowing) {
+              document.uResults.empty();
+            }
+            Opts.queryForUcs( queryText, queryTextIsGrowing );
+            break;
+        }
       };
 
       Opts.queryTimer = null;
       $("input.query-text").keyup(function(evt)
         {
-          $("input.query-text").css("background-color", "white");
+          var jq_tgt = $(evt.target);
+          jq_tgt.css("background-color", "white");
 
           if (Opts.queryTimer) {
             clearTimeout(Opts.queryTimer);
           }
-          if ($("input.query-text").val().length != $("input.query-text").prop("oldStringLength")) {
-            Opts.queryTimer = setTimeout(function(){Opts.funcQuery();}, Opts.keyupTimeout);
+          if (jq_tgt.val().length != jq_tgt.prop("oldStringLength")) {
+            var queryTextIsGrowing = ( jq_tgt.val().length > jq_tgt.prop("oldStringLength") );
+            Opts.queryTimer = setTimeout(function(){
+              Opts.funcQuery(evt.target, queryTextIsGrowing);
+            }, Opts.keyupTimeout);
           }
-          $("input.query-text").prop("oldStringLength", $("input.query-text").val().length);
+          jq_tgt.prop("oldStringLength", jq_tgt.val().length);
         }
       );
 
-      $("input.query-text").focusout(function(){Opts.funcQuery();});
-
+      $("input.query-text").focusout(function(evt){
+          Opts.funcQuery(evt.target, false);
+        }
+      );
 
 
       var loadSingleJson = function(basename, objname) {
