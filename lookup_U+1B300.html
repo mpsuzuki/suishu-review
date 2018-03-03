@@ -269,19 +269,21 @@
       }
 
       Opts.queryForSdyzIpa = function(queryText, queryTextIsGrowing) {
-        var sdyzIpaFounds = new Array();
+        var sdyzIpaFounds = new Object();
         var pats = queryText.toUpperCase().split("/");
         pats.forEach(function(t){
           if (t.length == 0) {
-            return [];
+            return true;
           }
           var foundKeys = Opts.sdyzRomanKeys.filter(function(rk){
             return rk.startsWith(t);
           });
-          sdyzIpaFounds.push(foundKeys);
+          sdyzIpaFounds[t] = foundKeys;
         });
 
-        if (sdyzIpaFounds.length == 0) {
+        // pat without no corresponding syllable is removed
+        pats = Object.keys(sdyzIpaFounds);
+        if (pats.length == 0) {
           $("#sdyz_ipa_results > div.desc-for-empty-list").show();
           document.zResults.hide();
         } else {
@@ -289,18 +291,22 @@
           document.zResults.show();
         }
 
-        for (var i = 0; i < sdyzIpaFounds.length; i += 1) {
+        for (var i = 0; i < pats.length; i += 1) {
+          var pat = pats[i];
           var jqLi = $("<li>");
           jqLi.appendTo(document.zResults);
 
-          var jqSpan = $("<span>");
-          jqSpan.append(pats[i] + "...").addClass("pat-sdyz").appendTo(jqLi);
+          var jqSpan = $("<span>")
+                       .append(pat + "...")
+                       .addClass("pat-sdyz");
+          jqSpan.appendTo(jqLi);
 
-          for (var j = 0; j < sdyzIpaFounds[i].length; j += 1) {
-            var jqImg = $("<img>").addClass("img-sdyz-ipa");
-            jqImg.attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[i][j] + ".gif");
-            jqImg.css("height", "50px");
-            jqImg.attr("title", sdyzIpaFounds[i][j]);
+          for (var j = 0; j < sdyzIpaFounds[pat].length; j += 1) {
+            var jqImg = $("<img>")
+                        .addClass("img-sdyz-ipa")
+                        .attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[pat][j] + ".gif")
+                        .css("height", "50px")
+                        .attr("title", sdyzIpaFounds[pat][j]);
             jqImg.appendTo(jqLi);
           };
         };
