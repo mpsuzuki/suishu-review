@@ -258,6 +258,16 @@
       document.zResults = $("#sdyz_ipa_results > ul");
       document.uResults = $("#ucs_results > ul");
 
+      Opts.childAttrStartsWith = function(elm, attr, prefix) {
+        for (var i = 0; i < elm.children.length; i += 1) {
+          var attrValue = elm.children[i].getAttribute(attr);
+          if (attrValue && attrValue.startsWith(prefix)) {
+            return true;
+          }
+        }
+        return false;
+      }
+
       Opts.queryForSdyzIpa = function(queryText, queryTextIsGrowing) {
         var sdyzIpaFounds = new Array();
         var pats = queryText.toUpperCase().split("/");
@@ -339,8 +349,9 @@
         }
 
         $("li.ucs").get().reverse().forEach(function(elm){
-          if (!(ucsFounds.includes($(elm).attr("ucs")))) {
-            $(elm).hide();
+          var jqe = $(elm);
+          if (!(ucsFounds.includes(jqe.attr("ucs")))) {
+            jqe.hide();
           }
         });
         // $("li.ucs:hidden").remove();
