@@ -266,11 +266,10 @@
           }
         }
         return false;
-      }
+      };
 
-      Opts.queryForSdyzIpa = function(queryText, queryTextIsGrowing) {
+      Opts.getSdyzIpaFromPats = function(pats) {
         var sdyzIpaFounds = new Object();
-        var pats = queryText.toUpperCase().split("/");
         pats.forEach(function(t){
           if (t.length == 0) {
             return true;
@@ -280,9 +279,10 @@
           });
           sdyzIpaFounds[t] = foundKeys;
         });
+        return sdyzIpaFounds;
+      };
 
-        // pat without no corresponding syllable is removed
-        pats = Object.keys(sdyzIpaFounds);
+      Opts.showHideSdyzPlaceHolder = function(pats) {
         if (pats.length == 0) {
           $("#sdyz_ipa_results > div.desc-for-empty-list").show();
           document.zResults.hide();
@@ -290,10 +290,19 @@
           $("#sdyz_ipa_results > div.desc-for-empty-list").hide();
           document.zResults.show();
         }
+      };
+ 
+      Opts.queryForSdyzIpa = function(queryText, queryTextIsGrowing) {
+        var pats = queryText.toUpperCase().split("/");
+        var sdyzIpaFounds = Opts.getSdyzIpaFromPats(pats);
+
+        pats = Object.keys(sdyzIpaFounds);
+        Opts.showHideSdyzPlaceHolder(pats);
 
         for (var i = 0; i < pats.length; i += 1) {
           var pat = pats[i];
-          var jqLi = $("<li>");
+          var jqLi = $("<li>")
+                     .addClass("sdyz-ipa");
           jqLi.appendTo(document.zResults);
 
           var jqSpan = $("<span>")
