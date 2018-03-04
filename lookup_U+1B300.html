@@ -341,7 +341,7 @@
         return -1;
       };
 
-      Opts.queryForUcs = function(queryText, queryTextIsGrowing) {
+      Opts.lookupUcsByPinyin = function(queryText, queryTextIsGrowing) {
         var ucsFounds = new Array();
         if (/^(U\+1B[3-5][0-9A-F]{2},?)+.*$/.test(queryText)) {
           ucsFounds = queryText.split(",").filter(function(tok){return /U\+1B[3-5][0-9A-F]/.test(tok);});
@@ -356,8 +356,11 @@
               ucsFounds.push(ucs);
             }
           });
-        }
+        };
+        return ucsFounds;
+      };
 
+      Opts.showHideUcsPlaceHolder = function(ucsFounds) {
         if (ucsFounds.length == 0) {
           $("#ucs_results > div.desc-for-empty-list").show();
           document.uResults.hide();
@@ -366,20 +369,48 @@
           document.uResults.show();
         }
 
-        if (Opts.hex2sounds._n4696_attr && Opts.config.sortBy == "n4696seq") {
-          ucsFounds = ucsFounds.sort(function(ucs1, ucs2){
-            return (parseInt(Opts.hex2sounds._n4696_attr[ucs1].N4696_seq) - parseInt(Opts.hex2sounds._n4696_attr[ucs2].N4696_seq));
-          });
-        }
-
         $("li.ucs").get().reverse().forEach(function(elm){
           var jqe = $(elm);
           if (!(ucsFounds.includes(jqe.attr("ucs")))) {
             jqe.hide();
           }
         });
-        // $("li.ucs:hidden").remove();
+      };
 
+      Opts.showUcsGlyph = function(jqLi, ucs) {
+        var jqImg = $("<img>")
+                    .addClass("img-ucs")
+                    .attr("title", ucs);
+        if (!Opts.config.cssSprite || !$("#radio_css_sprite")[0].checked) {
+          // cropped glyph images
+          jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
+        } else {
+          // css sprite
+          jqImg.attr("src", "1x1.gif")
+               .addClass(ucs.replace("+", "-"))
+               .addClass("n4922-" + Opts.getPageForCssSpriteFromUcs(ucs).toString() );
+        };
+        jqImg.appendTo(jqLi);
+      };
+
+      Opts.showExtraContentAfterUcs = function(jqLi, ucs) {
+        var jqSpan = $("<span>").addClass("sound").addClass("ucs-roman");
+        jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false));
+        jqSpan.appendTo(jqLi);
+
+        var jqSpan = $("<span>").addClass("sound").addClass("ucs-ipa");
+        jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
+        jqSpan.appendTo(jqLi);
+
+        var n4696_attr = Opts.hex2sounds._n4696_attr ?  Opts.hex2sounds._n4696_attr[ucs] : null;
+        if (!n4696_attr) return;
+
+        var jqSpan = $("<span>").addClass("meaning");
+        jqSpan.append(n4696_attr.N4696_seq + ":" + n4696_attr.N4696_meaning);
+        jqSpan.appendTo(jqLi);
+      };
+
+      Opts.showUcsGlyphs = function(ucsFounds) {
         for (var i = 0; i < ucsFounds.length; i += 1) {
           var ucs = ucsFounds[i];
           var jqLi = $("<li>")
@@ -390,35 +421,36 @@
           var jqSpan = $("<span>").addClass("ucs-hex");
           jqSpan.append(ucs).appendTo(jqLi);
 
-          var jqImg = $("<img>")
-                      .addClass("img-ucs")
-                      .attr("title", ucs);
-          if (!Opts.config.cssSprite || !$("#radio_css_sprite")[0].checked) {
-            // cropped glyph images
-            jqImg.attr("src", Opts.config.imgDir.ucs + "/" + ucs + ".gif");
-          } else {
-            // css sprite
-            jqImg.attr("src", "1x1.gif")
-                 .addClass(ucs.replace("+", "-"))
-                 .addClass("n4922-" + Opts.getPageForCssSpriteFromUcs(ucs).toString() );
-          };
-          jqImg.appendTo(jqLi);
-
-          var jqSpan = $("<span>").addClass("sound").addClass("ucs-roman");
-          jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false));
-          jqSpan.appendTo(jqLi);
-
-          var jqSpan = $("<span>").addClass("sound").addClass("ucs-ipa");
-          jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
-          jqSpan.appendTo(jqLi);
-
-          var n4696_attr = Opts.hex2sounds._n4696_attr ?  Opts.hex2sounds._n4696_attr[ucs] : null;
-          if (!n4696_attr) continue;
-
-          var jqSpan = $("<span>").addClass("meaning");
-          jqSpan.append(n4696_attr.N4696_seq + ":" + n4696_attr.N4696_meaning);
-          jqSpan.appendTo(jqLi);
+          Opts.showUcsGlyph(jqLi, ucs);
+          Opts.showExtraContentAfterUcs(jqLi, ucs);
         };
+      };
+
+      Opts.sortUcsFounds = function(ucsFounds) {
+        if (Opts.hex2sounds._n4696_attr && Opts.config.sortBy == "n4696seq") {
+          return ucsFounds.sort(function(ucs1, ucs2){
+            return (parseInt(Opts.hex2sounds._n4696_attr[ucs1].N4696_seq) - parseInt(Opts.hex2sounds._n4696_attr[ucs2].N4696_seq));
+          });
+        } else {
+          return ucsFounfds;
+        }
+      };
+
+      Opts.queryForUcs = function(queryText, queryTextIsGrowing) {
+        var ucsFounds = Opts.lookupUcsByPinyin(queryText, queryTextIsGrowing);
+
+        Opts.showHideUcsPlaceHolder(ucsFounds);
+
+        ucsFounds = Opts.sortUcsFounds(ucsFounds);
+        // $("li.ucs:hidden").remove();
+
+        Opts.showUcsGlyphs(ucsFounds);
+      };
+
+      Opts.queryForUcsIpa = function(queryText, queryTextIsGrowing) {
+      };
+
+      Opts.queryForUcsMeaning = function(queryText, queryTextIsGrowing) {
       };
 
       Opts.funcQuery = function(elmTrigger, queryTextIsGrowing) {
@@ -426,7 +458,6 @@
 
         switch (elmTrigger.id) {
           case "phonetic_roman":
-          case "phonetic_ipa":
             document.zResults.empty();
             if (!queryTextIsGrowing) {
               document.uResults.empty();
@@ -434,11 +465,18 @@
             Opts.queryForSdyzIpa( queryText, queryTextIsGrowing );
             Opts.queryForUcs( queryText, queryTextIsGrowing );
             break;
+          case "phonetic_ipa":
+            if (!queryTextIsGrowing) {
+              document.uResults.empty();
+            }
+            Opts.queryForUcsIpa( queryText, queryTextIsGrowing );
+            break;
+
           case "meaning_han":
             if (!queryTextIsGrowing) {
               document.uResults.empty();
             }
-            Opts.queryForUcs( queryText, queryTextIsGrowing );
+            Opts.queryForUcsMeaning( queryText, queryTextIsGrowing );
             break;
         }
       };
