@@ -302,6 +302,7 @@
         for (var i = 0; i < pats.length; i += 1) {
           var pat = pats[i];
           var jqLi = $("<li>")
+                     .addClass("title", pat)
                      .addClass("sdyz-ipa");
           jqLi.appendTo(document.zResults);
 
@@ -318,6 +319,14 @@
                         .attr("title", sdyzIpaFounds[pat][j]);
             jqImg.appendTo(jqLi);
           };
+
+          var titles = new Array();
+          jqLi.children().get().forEach(function(e){
+            if (e.tagName == "IMG") {
+              titles.push(e.title);
+            }
+          });
+          jqLi.attr("included-imgs", titles.join(" "));     
         };
       };
 
