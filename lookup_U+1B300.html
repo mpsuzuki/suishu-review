@@ -554,21 +554,35 @@
           if (Opts.queryTimer) {
             clearTimeout(Opts.queryTimer);
           }
-          if (jq_tgt.val().length != jq_tgt.prop("oldStringLength")) {
-            var queryTextIsGrowing = ( jq_tgt.val().length > jq_tgt.prop("oldStringLength") );
+          if (jq_tgt.val().length != jq_tgt.attr("oldStringLength")) {
+            var queryTextIsGrowing = ( jq_tgt.val().length > jq_tgt.attr("oldStringLength") );
             Opts.queryTimer = setTimeout(function(){
               Opts.funcQuery(evt.target, queryTextIsGrowing);
             }, Opts.keyupTimeout);
           }
-          jq_tgt.prop("oldStringLength", jq_tgt.val().length);
+          jq_tgt.attr("oldStringLength", jq_tgt.val().length)
+                .attr("timeLastEdit", Date.now() + 0);
         }
       );
 
-      // $("input.query-text").focusout(function(evt){
-      //     Opts.funcQuery(evt.target, false);
-      //   }
-      // );
-
+      $("input.query-text").attr("timeLastEdit", Date.now() + 0);
+      $("input.query-text").focusout(function(evt){
+        var noQueryTextFocused = true;
+        $(":focus").get().forEach(function(elm){
+          if (elm.tagName == "INPUT") {
+            noQueryTextFocused = false;
+          }
+        });
+        if (noQueryTextFocused) {
+          var lastEditedForm = $("input.query-text")
+                                .get()
+                                .sort(function(a,b){
+                                   return (a.getAttribute("timeLastEdit") - b.getAttribute("timeLastEdit"));
+                                 })
+                                .pop();
+          Opts.funcQuery(lastEditedForm, false);
+        }
+      });
 
       var loadSingleJson = function(basename, objname) {
         var jqd = $.Deferred();
