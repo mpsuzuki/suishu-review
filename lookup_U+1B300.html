@@ -360,6 +360,32 @@
         return ucsFounds;
       };
 
+      Opts.lookupUcsByIpa = function(queryText, queryTextIsGrowing) {
+        var queryToks = queryText.split("/");
+        var ucsFounds = new Array();
+        Object.keys(Opts.hex2sounds).filter(function(ucs){
+          return (ucs.slice(0,2).toUpperCase() == "U+");
+        }).forEach(function(ucs){
+          var ipas = new Array();
+          Opts.hex2sounds[ucs].forEach(function(hs){
+            if (hs.ipa && hs.ipa.length > 0) {
+              for (var i = 0; i < hs.ipa.length ; i += 1) {
+                ipas.push( hs.ipa[i] );
+              }
+            }
+          });
+          console.log("q=" + queryText + " ipa=<" + ipas.join("><") +">");
+          if (queryToks.some(function(qTok){ return !(0 > ipas.indexOf(qTok)); })) {
+            ucsFounds.push(ucs);
+          }
+        });
+        return ucsFounds;
+      };
+
+      Opts.lookupUcsByMeaning = function(queryText, queryTextIsGrowing) {
+        return [];
+      };
+
       Opts.showHideUcsPlaceHolder = function(ucsFounds) {
         if (ucsFounds.length == 0) {
           $("#ucs_results > div.desc-for-empty-list").show();
@@ -448,9 +474,25 @@
       };
 
       Opts.queryForUcsIpa = function(queryText, queryTextIsGrowing) {
+        var ucsFounds = Opts.lookupUcsByIpa(queryText, queryTextIsGrowing);
+
+        Opts.showHideUcsPlaceHolder(ucsFounds);
+
+        ucsFounds = Opts.sortUcsFounds(ucsFounds);
+        // $("li.ucs:hidden").remove();
+
+        Opts.showUcsGlyphs(ucsFounds);
       };
 
       Opts.queryForUcsMeaning = function(queryText, queryTextIsGrowing) {
+        var ucsFounds = Opts.lookupUcsByMeaning(queryText, queryTextIsGrowing);
+
+        Opts.showHideUcsPlaceHolder(ucsFounds);
+
+        ucsFounds = Opts.sortUcsFounds(ucsFounds);
+        // $("li.ucs:hidden").remove();
+
+        Opts.showUcsGlyphs(ucsFounds);
       };
 
       Opts.funcQuery = function(elmTrigger, queryTextIsGrowing) {
@@ -500,10 +542,10 @@
         }
       );
 
-      $("input.query-text").focusout(function(evt){
-          Opts.funcQuery(evt.target, false);
-        }
-      );
+      // $("input.query-text").focusout(function(evt){
+      //     Opts.funcQuery(evt.target, false);
+      //   }
+      // );
 
 
       var loadSingleJson = function(basename, objname) {
