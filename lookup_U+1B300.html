@@ -383,7 +383,29 @@
       };
 
       Opts.lookupUcsByMeaning = function(queryText, queryTextIsGrowing) {
-        return [];
+        var queryToks = queryText.split("");
+        var ucsFounds = new Array();
+        Object.keys(Opts.hex2sounds).filter(function(ucs){
+          return (ucs.slice(0,2).toUpperCase() == "U+");
+        }).forEach(function(ucs){
+          var hs = Opts.hex2sounds._n4696_attr[ucs];
+          if (!hs || !hs.N4696_meaning) {
+            return;
+          };
+
+          var has_overlap = false;
+          hs.N4696_meaning.split("").forEach(function(mean_ucs){
+            if (queryToks.indexOf(mean_ucs) >= 0) {
+              has_overlap = true;
+            };
+          });
+
+          if (has_overlap) {
+            console.log("q=" + queryText + " overlapWith=" + hs.N4696_meaning);
+            ucsFounds.push(ucs);
+          }
+        });
+        return ucsFounds;
       };
 
       Opts.showHideUcsPlaceHolder = function(ucsFounds) {
