@@ -416,13 +416,6 @@
           $("#ucs_results > div.desc-for-empty-list").hide();
           document.uResults.show();
         }
-
-        $("li.ucs").get().reverse().forEach(function(elm){
-          var jqe = $(elm);
-          if (!(ucsFounds.includes(jqe.attr("ucs")))) {
-            jqe.hide();
-          }
-        });
       };
 
       Opts.showUcsGlyph = function(jqLi, ucs) {
@@ -490,7 +483,6 @@
         Opts.showHideUcsPlaceHolder(ucsFounds);
 
         ucsFounds = Opts.sortUcsFounds(ucsFounds);
-        // $("li.ucs:hidden").remove();
 
         Opts.showUcsGlyphs(ucsFounds);
       };
@@ -501,7 +493,6 @@
         Opts.showHideUcsPlaceHolder(ucsFounds);
 
         ucsFounds = Opts.sortUcsFounds(ucsFounds);
-        // $("li.ucs:hidden").remove();
 
         Opts.showUcsGlyphs(ucsFounds);
       };
@@ -512,13 +503,16 @@
         Opts.showHideUcsPlaceHolder(ucsFounds);
 
         ucsFounds = Opts.sortUcsFounds(ucsFounds);
-        // $("li.ucs:hidden").remove();
 
         Opts.showUcsGlyphs(ucsFounds);
       };
 
       Opts.funcQuery = function(elmTrigger, queryTextIsGrowing) {
         var queryText = $(elmTrigger).val();
+
+        if (queryText.length == 0) {
+          return;
+        }
 
         switch (elmTrigger.id) {
           case "phonetic_roman":
