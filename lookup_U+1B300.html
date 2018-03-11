@@ -43,6 +43,15 @@
       input.query-text {
         width: 150px;
       }
+      span.label-over-input-text {
+        font-size: 11px;
+        text-align: center;
+        display: inline-block;
+        width: 150px;
+      }
+      span.label-over-input-text > input {
+        display: none;
+      }
     </style>
   </head>
   <body>
@@ -52,9 +61,27 @@
         <input type="radio" class="img_retr" name="img_retr" id="radio_cropped"    value="cropped">cropped
       </div>
 
-      <input type="text" class="query-text" id="phonetic_roman" disabled>
-      <input type="text" class="query-text" id="phonetic_ipa" disabled>
-      <input type="text" class="query-text" id="meaning_han" disabled>
+      <div>
+        <div>
+          <span class="label-over-input-text">
+            ASCII PinYin
+            <input type="checkbox" class="and_or" name="radio_pinyin" id="radio_pinyin" value="and">
+          </span>
+          <span class="label-over-input-text">
+            IPA
+            <input type="checkbox" class="and_or" name="radio_ipa" id="radio_pinyin" value="and">
+          </span>
+          <span class="label-over-input-text">
+            meaning
+            <input type="checkbox" class="and_or" name="radio_meaning" id="radio_pinyin" value="and">
+          </span>
+        </div>
+        <div>
+          <input type="text" class="query-text" id="phonetic_roman" disabled>
+          <input type="text" class="query-text" id="phonetic_ipa" disabled>
+          <input type="text" class="query-text" id="meaning_han" disabled>
+        </div>
+      </div>
  
     </div>
     <div class="results">
