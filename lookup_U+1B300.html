@@ -543,6 +543,7 @@
 
         switch (elmTrigger.id) {
           case "phonetic_roman":
+            $("input.query-text:not(#phonetic_roman)").css("background-color", "gray");
             document.zResults.empty();
             if (!queryTextIsGrowing) {
               document.uResults.empty();
@@ -551,6 +552,7 @@
             Opts.queryForUcs( queryText, queryTextIsGrowing );
             break;
           case "phonetic_ipa":
+            $("input.query-text:not(#phonetic_ipa)").css("background-color", "gray");
             if (!queryTextIsGrowing) {
               document.uResults.empty();
             }
@@ -558,6 +560,7 @@
             break;
 
           case "meaning_han":
+            $("input.query-text:not(#meaning_han)").css("background-color", "gray");
             if (!queryTextIsGrowing) {
               document.uResults.empty();
             }
