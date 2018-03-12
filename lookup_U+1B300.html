@@ -50,7 +50,7 @@
         width: 150px;
       }
       span.label-over-input-text > input {
-        display: none;
+        // display: none;
       }
     </style>
   </head>
@@ -65,15 +65,18 @@
         <div>
           <span class="label-over-input-text">
             ASCII PinYin
-            <input type="checkbox" class="and_or" name="radio_pinyin" id="radio_pinyin" value="and">
+            <input type="checkbox" class="all_or_any" name="pinyin_all" id="pinyin_all" value="and">
+            needs all
           </span>
           <span class="label-over-input-text">
             IPA
-            <input type="checkbox" class="and_or" name="radio_ipa" id="radio_pinyin" value="and">
+            <input type="checkbox" class="all_or_any" name="ipa_all" id="ipa_all" value="and">
+            needs all
           </span>
           <span class="label-over-input-text">
             meaning
-            <input type="checkbox" class="and_or" name="radio_meaning" id="radio_pinyin" value="and">
+            <input type="checkbox" class="all_or_any" name="meaning_all" id="meaning_all" value="and">
+            needs all
           </span>
         </div>
         <div>
@@ -388,7 +391,9 @@
       };
 
       Opts.lookupUcsByIpa = function(queryText, queryTextIsGrowing) {
-        var queryToks = queryText.split("/");
+        var queryToks = queryText
+                        .split("/")
+                        .filter(function(t){return (t.length > 0);});
         var ucsFounds = new Array();
         Object.keys(Opts.hex2sounds).filter(function(ucs){
           return (ucs.slice(0,2).toUpperCase() == "U+");
@@ -402,6 +407,11 @@
             }
           });
           console.log("q=" + queryText + " ipa=<" + ipas.join("><") +">");
+          if ($("#ipa_all")[0].checked) {
+            if (queryToks.every(function(qTok){ return !(0 > ipas.indexOf(qTok)); })) {
+              ucsFounds.push(ucs);
+            }
+          } else
           if (queryToks.some(function(qTok){ return !(0 > ipas.indexOf(qTok)); })) {
             ucsFounds.push(ucs);
           }
