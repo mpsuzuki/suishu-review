@@ -9,6 +9,7 @@ All informations in here do not guarantee the
 existence of the characters or glyph in the reality.
 
 Placeholder:
+
 The images, gif-oe-n4922/n4922-r075-{085,086,093}.gif,
 are just placeholders for the users trying this tool
 via rawgit.com etc. Their glyphs are very poorly drawn
