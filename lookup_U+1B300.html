@@ -49,6 +49,10 @@
         display: inline-block;
         width: 150px;
       }
+      div.label-over-input-text {
+        display: block;
+        width: 500px;
+      }
       span.label-over-input-text > input {
         // display: none;
       }
@@ -61,8 +65,8 @@
         <input type="radio" class="img_retr" name="img_retr" id="radio_cropped"    value="cropped">cropped
       </div>
 
-      <div>
-        <div>
+
+        <div class="label-over-input-text">
           <span class="label-over-input-text">
             ASCII PinYin
             <input type="checkbox" class="all_or_any" name="pinyin_all" id="pinyin_all" value="and">
@@ -79,12 +83,10 @@
             needs all
           </span>
         </div>
-        <div>
+
           <input type="text" class="query-text" id="phonetic_roman" disabled>
           <input type="text" class="query-text" id="phonetic_ipa" disabled>
           <input type="text" class="query-text" id="meaning_han" disabled>
-        </div>
-      </div>
  
     </div>
     <div class="results">
