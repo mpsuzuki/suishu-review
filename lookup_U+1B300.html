@@ -427,20 +427,20 @@
         Object.keys(Opts.hex2sounds).filter(function(ucs){
           return (ucs.slice(0,2).toUpperCase() == "U+");
         }).forEach(function(ucs){
-          var hs = Opts.hex2sounds._n4696_attr[ucs];
-          if (!hs || !hs.N4696_meaning) {
+          var hs = Opts.hex2sounds._n4758_attr[ucs];
+          if (!hs || !hs.N4758_meaning) {
             return;
           };
 
           var has_overlap = false;
-          hs.N4696_meaning.split("").forEach(function(mean_ucs){
+          hs.N4758_meaning.split("").forEach(function(mean_ucs){
             if (queryToks.indexOf(mean_ucs) >= 0) {
               has_overlap = true;
             };
           });
 
           if (has_overlap) {
-            console.log("q=" + queryText + " overlapWith=" + hs.N4696_meaning);
+            console.log("q=" + queryText + " overlapWith=" + hs.N4758_meaning);
             ucsFounds.push(ucs);
           }
         });
@@ -482,11 +482,11 @@
         jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
         jqSpan.appendTo(jqLi);
 
-        var n4696_attr = Opts.hex2sounds._n4696_attr ?  Opts.hex2sounds._n4696_attr[ucs] : null;
-        if (!n4696_attr) return;
+        var n4758_attr = Opts.hex2sounds._n4758_attr ?  Opts.hex2sounds._n4758_attr[ucs] : null;
+        if (!n4758_attr) return;
 
         var jqSpan = $("<span>").addClass("meaning");
-        jqSpan.append(n4696_attr.N4696_seq + ":" + n4696_attr.N4696_meaning);
+        jqSpan.append(n4758_attr.N4758_seq + ":" + n4758_attr.N4758_meaning);
         jqSpan.appendTo(jqLi);
       };
 
@@ -507,9 +507,9 @@
       };
 
       Opts.sortUcsFounds = function(ucsFounds) {
-        if (Opts.hex2sounds._n4696_attr && Opts.config.sortBy == "n4696seq") {
+        if (Opts.hex2sounds._n4758_attr && Opts.config.sortBy == "n4758seq") {
           return ucsFounds.sort(function(ucs1, ucs2){
-            return (parseInt(Opts.hex2sounds._n4696_attr[ucs1].N4696_seq) - parseInt(Opts.hex2sounds._n4696_attr[ucs2].N4696_seq));
+            return (parseInt(Opts.hex2sounds._n4758_attr[ucs1].N4758_seq) - parseInt(Opts.hex2sounds._n4758_attr[ucs2].N4758_seq));
           });
         } else {
           return ucsFounfds;

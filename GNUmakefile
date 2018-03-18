@@ -8,7 +8,7 @@ all:
 	make $(DERIVED_JSON)
 
 ShuishuLogogramNameList.json: $(PDF_TEXT)
-	./tokenizeUcsCharName.rb --charname-list=$< --sounds=sounds_wg2n4696.txt > $@
+	./tokenizeUcsCharName.rb --charname-list=$< --sounds=sounds_wg2n4758.txt > $@
 
 SDYZSound.json: 
 	./makeSoundTableJson.rb sounds_.txt < sounds_SDYZ2007.txt > $@

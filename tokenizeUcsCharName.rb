@@ -78,7 +78,7 @@ end
 fh.close
 js["_sound_table"] = Opts.sound_table
 
-if (Opts.n4696_attr_tsv)
+if (Opts.n4758_attr_tsv)
   name2ucs = Hash.new
   js.each do |ucs, syllables|
     next if (ucs !~ /^U\+1B/)
@@ -89,8 +89,8 @@ if (Opts.n4696_attr_tsv)
     name2ucs[s] << ucs
   end
 
-  js["_n4696_attr"] = Hash.new
-  fh = File::open(Opts.n4696_attr_tsv, "r")
+  js["_n4758_attr"] = Hash.new
+  fh = File::open(Opts.n4758_attr_tsv, "r")
   keys = fh.gets.chomp.split("\t").collect{|tok| tok.gsub(/^\s*#\s*/, "")}
   while (fh.gets)
     hs = Hash.new
@@ -101,7 +101,7 @@ if (Opts.n4696_attr_tsv)
     hs.delete("PDAM22_pinyin")
     if (name2ucs.include?(py))
       name2ucs[py].each do |ucs|
-        js["_n4696_attr"][ucs] = hs
+        js["_n4758_attr"][ucs] = hs
       end
     end
   end
