@@ -56,6 +56,9 @@
       span.label-over-input-text > input {
         // display: none;
       }
+      pre {
+        font-size: 8pt;
+      }
     </style>
   </head>
   <body>
@@ -93,13 +96,13 @@
     <div class="results">
       <div id="sdyz_ipa_results">
         <div class="desc-for-empty-list">
-        elementary sounds in SDYZ2007.
+        [elementary sounds in SDYZ2007]
         </div>
         <ul style="display: none;"></ul>
       </div>
       <div id="ucs_results">
         <div class="desc-for-empty-list">
-        characters in WG2 N4922.
+        [characters in WG2 N4922]
         </div>
         <ul style="display: none;"></ul>
       </div>
@@ -663,29 +666,59 @@
       );
       $("#exec_query").click(Opts.queryForLastEditedForm);
 
-
-
-      var loadSingleJson = function(basename, objname) {
+      var loadSingleFile = function(args) {
         var jqd = $.Deferred();
 
-        if (objname == null) {
-          objname = basename.split(".")[0];
-        }
-        var jsonUrl = basename;
+        var targetUrl = args.basename;
         if (Opts.isRemote) {
           var toks = document.location.href.split("/");
           toks.pop();
-          toks.push(basename);
-          jsonUrl = toks.join("/");
+          toks.push(args.basename);
+          targetUrl = toks.join("/");
         }
 
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", jsonUrl);
-        xhr.onload = function(evt) {
-          if (xhr.readyState == 4 && (!Opts.isRemote || xhr.status == 200)) {
-            var db = JSON.parse( xhr.responseText );
+        xhr.args = args;
+        xhr.args.jqd = jqd;
+        xhr.open("GET", targetUrl);
+        xhr.onload = args.onload;
+        xhr.onerror = function(evt) {
+          jqd.reject();
+        };
+        xhr.send();
+        return jqd.promise();
+      };
 
-            var objname_toks = objname.split(".");
+      var loadSingleText = function(basename, cssSelector) {
+        var args = new Object();
+
+        args.basename = basename;
+        args.cssSelector = cssSelector;
+        args.onload = function(evt) {
+          if (this.readyState == 4 && (!Opts.isRemote || this.status == 200)) {
+            $("<pre>").append(this.responseText)
+                      .prependTo( $(cssSelector) );
+            this.args.jqd.resolve();
+          }
+        };
+        return loadSingleFile(args);
+      };
+
+      var loadSingleJson = function(basename, objname) {
+        var args = new Object();
+
+        args.basename = basename;
+
+        if (objname == null) {
+          objname = basename.split(".")[0];
+        };
+        args.objname = objname;
+
+        args.onload = function(evt) {
+          if (this.readyState == 4 && (!Opts.isRemote || this.status == 200)) {
+            var db = JSON.parse( this.responseText );
+
+            var objname_toks = this.args.objname.split(".");
             var dest_db = Opts;
             while (objname_toks.length > 0) {
               var objname_tok = objname_toks.shift();
@@ -697,14 +730,10 @@
             Object.keys(db).forEach(function(k){
               dest_db[k] = db[k];
             });
-            jqd.resolve();
+            this.args.jqd.resolve();
           }
         };
-        xhr.onerror = function(evt) {
-          jqd.reject(); 
-        };
-        xhr.send();
-        return jqd.promise();
+        return loadSingleFile(args);
       };
 
       var setupCssSprite = function() {
@@ -745,7 +774,8 @@
         $("input.query-text").prop("disabled", false);
       };
 
-      $.when(loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
+      $.when(loadSingleText("howto.md", "#sdyz_ipa_results > div.desc-for-empty-list"),
+             loadSingleJson("ShuishuLogogramNameList.json", "hex2sounds"),
              loadSingleJson("SDYZSound.json", "sdyzSounds"),
              loadSingleJson("config.json")
       ).then(setupSdyz)
