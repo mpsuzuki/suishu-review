@@ -87,7 +87,8 @@
           <input type="text" class="query-text" id="phonetic_roman" disabled>
           <input type="text" class="query-text" id="phonetic_ipa" disabled>
           <input type="text" class="query-text" id="meaning_han" disabled>
- 
+
+          <input type="button" id="exec_query" value="search"> 
     </div>
     <div class="results">
       <div id="sdyz_ipa_results">
@@ -601,6 +602,16 @@
         }
       );
 
+      Opts.queryForLastEditedForm = function() {
+        var lastEditedForm = $("input.query-text")
+                              .get()
+                              .sort(function(a,b){
+                                 return (a.getAttribute("timeLastEdit") - b.getAttribute("timeLastEdit"));
+                               })
+                              .pop();
+        Opts.funcQuery(lastEditedForm, false);
+      };
+
       $("input.query-text").attr("timeLastEdit", Date.now() + 0);
       $("input.query-text").focusout(function(evt){
         var noQueryTextFocused = true;
@@ -610,15 +621,49 @@
           }
         });
         if (noQueryTextFocused) {
-          var lastEditedForm = $("input.query-text")
-                                .get()
-                                .sort(function(a,b){
-                                   return (a.getAttribute("timeLastEdit") - b.getAttribute("timeLastEdit"));
-                                 })
-                                .pop();
-          Opts.funcQuery(lastEditedForm, false);
+          Opts.queryForLastEditedForm();
         }
       });
+
+      // intercept TAB key to change the behaviour from
+      //   form1 -> form2 -> form3
+      // to
+      //   form1 -> [search] btn -> form2 -> [search] btn -> form3 ->
+      // 
+      $("input.query-text").keydown(function(evt){
+          if (9 == evt.which) {
+            evt.preventDefault();
+
+            var formIds = $("input.query-text").get().map(function(e){return e.id});
+            // var delta = evt.shiftKey ? -1 : +1;
+            var delta = 1;
+            // JavaScript's modulo leave the negative value as it is.
+            var formIdPrev = formIds[ (formIds.indexOf(evt.target.id) - delta + formIds.length ) % (formIds.length) ];
+            var formIdNext = formIds[ (formIds.indexOf(evt.target.id) + delta ) % (formIds.length) ];
+            $("#exec_query").attr("form-id-prev", formIdPrev)
+                            .attr("form-id-next", formIdNext)
+                            .focus();
+          }
+        }
+      );
+      $("#exec_query").keydown(function(evt){
+          if (9 == evt.which) {
+            var formIdPrev = evt.target.getAttribute("form-id-prev");
+            var formIdNext = evt.target.getAttribute("form-id-next");
+            if (evt.shiftKey && formIdPrev) {
+              $(document.getElementById(formIdPrev)).focus();
+              evt.preventDefault();
+            } else
+            if (formIdNext) {
+              $(document.getElementById(formIdNext)).focus();
+              evt.preventDefault();
+            }
+          }
+        }
+      );
+      $("#exec_query").click(Opts.queryForLastEditedForm);
+
+
 
       var loadSingleJson = function(basename, objname) {
         var jqd = $.Deferred();
