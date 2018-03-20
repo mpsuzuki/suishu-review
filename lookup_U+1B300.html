@@ -551,6 +551,8 @@
       };
 
       Opts.funcQuery = function(elmTrigger, queryTextIsGrowing) {
+        $(document.getElementById("howto-md")).hide();
+
         var queryText = $(elmTrigger).val();
 
         if (queryText.length == 0) {
@@ -696,7 +698,8 @@
         args.cssSelector = cssSelector;
         args.onload = function(evt) {
           if (this.readyState == 4 && (!Opts.isRemote || this.status == 200)) {
-            $("<pre>").append(this.responseText)
+            $("<pre>").attr("id", "howto-md")
+                      .append(this.responseText)
                       .prependTo( $(cssSelector) );
             this.args.jqd.resolve();
           }
