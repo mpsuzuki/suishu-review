@@ -327,7 +327,7 @@
           document.zResults.show();
         }
       };
- 
+
       Opts.queryForSdyzIpa = function(queryText, queryTextIsGrowing) {
         var pats = queryText.toUpperCase().split("/");
         var sdyzIpaFounds = Opts.getSdyzIpaFromPats(pats);
@@ -353,6 +353,17 @@
                         .attr("src", Opts.config.imgDir.sdyz_ipa + "/" + sdyzIpaFounds[pat][j] + ".gif")
                         .css("height", "50px")
                         .attr("title", sdyzIpaFounds[pat][j]);
+            jqImg.get(0).addEventListener("click", function(evt) {
+              var jq_ipa_form = $("#phonetic_ipa");
+              var this_ipa = Opts.sdyzSounds._sound_table[ evt.target.getAttribute("title") ].ipa;
+              if (jq_ipa_form.val().length > 0) {
+                var new_text = jq_ipa_form.val() + "/" + this_ipa;
+              } else {
+                var new_text = this_ipa;
+              }
+              jq_ipa_form.val(new_text);
+            });
+
             jqImg.appendTo(jqLi);
           };
 
