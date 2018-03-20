@@ -355,6 +355,7 @@
                         .attr("title", sdyzIpaFounds[pat][j]);
             jqImg.get(0).addEventListener("click", function(evt) {
               var jq_ipa_form = $("#phonetic_ipa");
+              jq_ipa_form = $("#phonetic_ipa").focus();
               var this_ipa = Opts.sdyzSounds._sound_table[ evt.target.getAttribute("title") ].ipa;
               if (jq_ipa_form.val().length > 0) {
                 var new_text = jq_ipa_form.val() + "/" + this_ipa;
@@ -561,6 +562,17 @@
         Opts.showUcsGlyphs(ucsFounds);
       };
 
+      Opts.setTextFormsGrayExceptOfThis = function(elm) {
+        var this_id = elm.getAttribute("id"); 
+        $("input.query-text").get().forEach(function(elm){
+          if (elm.getAttribute("id") != this_id) {
+            $(elm).css("background-color", "gray");
+          } else {
+            $(elm).css("background-color", "white");
+          }
+        });
+      };
+
       Opts.funcQuery = function(elmTrigger, queryTextIsGrowing) {
         $(document.getElementById("howto-md")).hide();
 
@@ -570,9 +582,10 @@
           return;
         }
 
+        Opts.setTextFormsGrayExceptOfThis(elmTrigger);
+
         switch (elmTrigger.id) {
           case "phonetic_roman":
-            $("input.query-text:not(#phonetic_roman)").css("background-color", "gray");
             document.zResults.empty();
             if (!queryTextIsGrowing) {
               document.uResults.empty();
@@ -581,7 +594,6 @@
             Opts.queryForUcs( queryText, queryTextIsGrowing );
             break;
           case "phonetic_ipa":
-            $("input.query-text:not(#phonetic_ipa)").css("background-color", "gray");
             if (!queryTextIsGrowing) {
               document.uResults.empty();
             }
@@ -589,7 +601,6 @@
             break;
 
           case "meaning_han":
-            $("input.query-text:not(#meaning_han)").css("background-color", "gray");
             if (!queryTextIsGrowing) {
               document.uResults.empty();
             }
@@ -629,6 +640,9 @@
       };
 
       $("input.query-text").attr("timeLastEdit", Date.now() + 0);
+      $("input.query-text").focusin(function(evt){
+        Opts.setTextFormsGrayExceptOfThis(evt.target);
+      });
       $("input.query-text").focusout(function(evt){
         var noQueryTextFocused = true;
         $(":focus").get().forEach(function(elm){
