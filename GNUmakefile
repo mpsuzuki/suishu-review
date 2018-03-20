@@ -27,16 +27,28 @@ clean:
 DIST_SOURCES = \
 	lookup_U+1B300.html \
 	1x1.gif \
+	*.md \
 	*.css \
 	*/*.css \
 	*.js \
 	*.json \
-	*/*.json \
+	*/*.json
+
+DIST_SOURCES_EXTRA = \
 	gif-sdyz-ipa/*.gif \
-	gif-oe-n4922/*.gif 
+	gif-oe-n4922/U+*.gif 
+
+DIST_SOURCES_EXTRA_EXTRA = \
+	gif-oe-n4922/n4922*.gif 
 
 dist:
 	tar cvpf - $(DIST_SOURCES) | xz -9v > lookup_U+1B300.tar.xz
+
+dist-images:
+	tar cvpf - $(DIST_SOURCES) $(DIST_SOURCES_EXTRA) | xz -9v > lookup_U+1B300.tar.xz
+
+dist-whole:
+	tar cvpf - $(DIST_SOURCES) $(DIST_SOURCES_EXTRA) $(DIST_SOURCES_EXTRA_EXTRA) | xz -9v > lookup_U+1B300.tar.xz
 
 dist-zip:
 	zip -vr lookup_U+1B300.zip $(DIST_SOURCES)
