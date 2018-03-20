@@ -479,19 +479,19 @@
 
       Opts.showExtraContentAfterUcs = function(jqLi, ucs) {
         var jqSpan = $("<span>").addClass("sound").addClass("ucs-roman");
-        jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false));
-        jqSpan.appendTo(jqLi);
+        jqSpan.append(Opts.hex2sounds[ucs].getCharName("_", false, false))
+              .appendTo(jqLi);
 
         var jqSpan = $("<span>").addClass("sound").addClass("ucs-ipa");
-        jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "));
-        jqSpan.appendTo(jqLi);
+        jqSpan.append(Opts.hex2sounds[ucs].getIPA(" "))
+              .appendTo(jqLi);
 
         var n4758_attr = Opts.hex2sounds._n4758_attr ?  Opts.hex2sounds._n4758_attr[ucs] : null;
         if (!n4758_attr) return;
 
         var jqSpan = $("<span>").addClass("meaning");
-        jqSpan.append(n4758_attr.N4758_seq + ":" + n4758_attr.N4758_meaning);
-        jqSpan.appendTo(jqLi);
+        jqSpan.append(n4758_attr.N4758_seq + ":" + n4758_attr.N4758_meaning)
+              .appendTo(jqLi);
       };
 
       Opts.showUcsGlyphs = function(ucsFounds) {
